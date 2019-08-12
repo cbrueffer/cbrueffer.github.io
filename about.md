@@ -1,46 +1,32 @@
 ---
 title: About
 layout: page
+keywords: "Brueffer, Brüffer"
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I am a bioinformatician at [SAGA Diagnostics AB](http://sagadiagnostics.com) and a PhD student at the [Saal lab](https://med.lu.se/saalgroup)
+at [Lund University](http://www.lunduniversity.lu.se) in Sweden.  Both roles involve work on cancer diagnostics, cancer genomics, and
+liquid biopsies. By night I am a developer with several open source software projects, most notably the [FreeBSD](https://www.freebsd.org)
+operating system.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I can be found in other places around the web:
 
-<h2>Skills</h2>
+GitHub: [cbrueffer](https://github.com/cbrueffer)
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+Twitter: [cbrueffer](https://www.twitter.com/cbrueffer)
 
-<h2>Projects</h2>
+ORCID: [0000-0002-3826-0989](http://orcid.org/0000-0002-3826-0989)
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+ResearcherID: F-7557-2015
+
+[ResearchGate](https://www.researchgate.net/profile/Christian_Brueffer2)
+
+[Impactstory](https://impactstory.org/u/0000-0002-3826-0989)
+
+[OpenHub](https://www.openhub.net/accounts/brueffer)
+
+[Google Scholar](https://scholar.google.se/citations?user=BFnR7W8AAAAJ)
+
+[Lund University Research Portal](http://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html)
+
