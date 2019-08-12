@@ -58,7 +58,7 @@ email: christian@brueffer.io
 
 # if you don't have any scientific social links below, comment the line
 scholar: BFnR7W8AAAAJ
-# researchgate: myresearchgate
+researchgate: Christian_Brueffer2
 # mendeley: mymendeley
 # pubmed: mypubmed
 orcid: 0000-0002-3826-0989
@@ -66,7 +66,7 @@ orcid: 0000-0002-3826-0989
 # figshare: myfigshare
 
 # if desired, specify custom order of social links in the array below
-social-links-order: [github, twitter, linkedin, scholar, orcid, email]
+social-links-order: [github, twitter, linkedin, scholar, researchgate, orcid, email]
 
 authors:
     christianbrueffer:
