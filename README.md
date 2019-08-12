@@ -1,6 +1,6 @@
 # brueffer.io ![Build status][1]
 
-Source code for [brueffer.io]. Based on the [Indigo](https://github.com/sergiokopplin/indigo) theme.
+Source code for http://brueffer.io. Based on the [Indigo](https://github.com/sergiokopplin/indigo) theme.
 
 ## Author
 
