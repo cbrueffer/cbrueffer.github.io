@@ -10,7 +10,7 @@ permalink: /research/
 
 My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
 (also known as next generation sequencing) to improve breast cancer treatment and survival.
-Most of my projects are embedded in the [Sweden Cancerome Analysis Network--Breast (SCAN-B)](http://scan.bmc.lu.se/index.php/Main_Page) study.
+Most of my projects are embedded in the [Sweden Cancerome Analysis Network--Breast (SCAN-B)](https://www.med.lu.se/english/scan_b) study.
 Additionally I work on improving open source bioinformatics and reproducible research infrastructure
 by contributing to projects such as [conda-forge](https://conda-forge.org/), [Bioconda](http://bioconda.github.io/) and [Biopython](http://biopython.org/).
 
