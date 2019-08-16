@@ -16,9 +16,9 @@ GitHub: [cbrueffer](https://github.com/cbrueffer)
 
 Twitter: [cbrueffer](https://www.twitter.com/cbrueffer)
 
-ORCID: [0000-0002-3826-0989](http://orcid.org/0000-0002-3826-0989)
+ORCID: [0000-0002-3826-0989](https://orcid.org/0000-0002-3826-0989)
 
-ResearcherID: [F-7557-2015](www.researcherid.com/rid/F-7557-2015)
+ResearcherID: [F-7557-2015](https://www.researcherid.com/rid/F-7557-2015)
 
 [ResearchGate](https://www.researchgate.net/profile/Christian_Brueffer2)
 
@@ -28,5 +28,5 @@ ResearcherID: [F-7557-2015](www.researcherid.com/rid/F-7557-2015)
 
 [Google Scholar](https://scholar.google.se/citations?user=BFnR7W8AAAAJ)
 
-[Lund University Research Portal](http://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html)
+[Lund University Research Portal](https://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html)
 
