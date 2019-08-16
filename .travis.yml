@@ -11,5 +11,4 @@ env:
 
 branches:
   only:
-    - gh-pages
-    - next
+    - master
