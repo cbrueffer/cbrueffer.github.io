@@ -36,6 +36,8 @@ by contributing to projects such as [conda-forge](https://conda-forge.org/), [Bi
 
 ## Conference Contributions
 
+[Swedish Cancer Research Meeting 2019, Umeå, Sweden](https://cancerakademin.se/evenemang/the-5th-swedish-cancer-research-meeting-2019/) -- Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the Sweden Cancerome Analysis Network&ndash;Breast (SCAN-B) Project
+
 [Keystone Symposium on Precision Medicine in Cancer 2018, Stockholm, Sweden](http://www.keystonesymposia.org/index.cfm?e=web.Meeting.Program&meetingid=1520) -- RNA-seq-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers in the Population-Based Multicenter SCAN-B Study
 
 [Bioinformatics Open Source Conference (BOSC) 2017, Prague, Czech Republic](https://www.open-bio.org/wiki/BOSC_2017) -- Biopython Status Update 2017 [[abstract and PDF](https://f1000research.com/slides/6-1238)] [[video](https://www.youtube.com/watch?v=tYD9P0aE8tA&index=30&list=PLir-OOQiOhXZX_2zmUJz0fx8RLALi3tkK)]
