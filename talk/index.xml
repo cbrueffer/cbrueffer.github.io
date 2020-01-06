@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Christian Brueffer</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 04 Nov 2019 10:45:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the Sweden Cancerome Analysis Network–Breast (SCAN-B) Project</title>
+      <link>/talk/scrm_2019/</link>
+      <pubDate>Mon, 04 Nov 2019 10:45:00 +0000</pubDate>
+      <guid>/talk/scrm_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Better Breast Cancer Diagnostics: Large-scale Profiling of Tumor Transcriptomes</title>
+      <link>/talk/bioinformatics_in_diseases_2019/</link>
+      <pubDate>Thu, 23 May 2019 09:10:00 +0000</pubDate>
+      <guid>/talk/bioinformatics_in_diseases_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA-seq-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers in the Population-Based Multicenter SCAN-B Study</title>
+      <link>/talk/keystone_2018/</link>
+      <pubDate>Mon, 07 May 2018 16:15:00 +0000</pubDate>
+      <guid>/talk/keystone_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biopython Project Update 2017</title>
+      <link>/talk/bosc_2017/</link>
+      <pubDate>Sat, 22 Jul 2017 15:46:00 +0000</pubDate>
+      <guid>/talk/bosc_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biopython Project Update 2016</title>
+      <link>/talk/bosc_2016/</link>
+      <pubDate>Sat, 09 Jul 2016 14:00:00 +0000</pubDate>
+      <guid>/talk/bosc_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical Security Event Auditing with FreeBSD</title>
+      <link>/talk/nycbsdcon_2010/</link>
+      <pubDate>Sun, 14 Nov 2010 10:00:00 +0000</pubDate>
+      <guid>/talk/nycbsdcon_2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protecting your Privacy with FreeBSD and Tor</title>
+      <link>/talk/meetbsd_2007/</link>
+      <pubDate>Sat, 17 Nov 2007 15:00:00 +0000</pubDate>
+      <guid>/talk/meetbsd_2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeBSD im Überblick</title>
+      <link>/talk/froscon_2006/</link>
+      <pubDate>Sat, 24 Jun 2006 11:00:00 +0000</pubDate>
+      <guid>/talk/froscon_2006/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-11-04T10:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/scrm_2019/</loc>
+    <lastmod>2019-11-04T10:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-11-04T10:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/freebsd/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/freebsd/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/christian-brueffer/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/aaron-m.-wenger/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/andrew-carroll/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/azza-ahmed/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/christopher-m.-watson/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/christos-proukakis/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chun-shen-lim/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chunlin-xiao/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-blankenberg/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eric-dawson/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/garan-jones/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/giuseppe-narzisi/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/graeme-smith/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/justin-m.-zook/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/lesley-m-chapman/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/marc-salit/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/naoki-nariai/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/noah-alexander/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/noah-spies/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/patrick-pai/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/paul-wolujewicz/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/saadlee-shehreen/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sree-rohit-raj-kolora/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/svcurator/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/wayne-e.-clarke/</loc>
+    <lastmod>2019-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anthony-m.-george/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daniel-fornvik/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kristina-e.-aaltonen/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/lao-h.-saal/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/lisa-ryden/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/niklas-loman/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/robert-rigo/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yilun-chen/</loc>
+    <lastmod>2019-07-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/bioinformatics_in_diseases_2019/</loc>
+    <lastmod>2019-05-23T09:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/brueffer-c/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/batut-b/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/beauchamp-ka/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2018_bioconda/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/bretaudeau-a/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/caprez-a/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chapman-ba/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/cokelaer-t/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dale-r/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/gruning-b/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/haudgaard-m/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/hoogstrate-y/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/koster-j/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/le-corguille-g/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pedersen-bs/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/rowe-j/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ryan-d/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sjodin-a/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/tomkins-tinch-c/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/valieris-r/</loc>
+    <lastmod>2018-07-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/keystone_2018/</loc>
+    <lastmod>2018-05-07T16:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anna-ehinger/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/cecilia-hegardt/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/christer-larsson/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2018_scan-b_biomarker_prediction/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/dorthe-grabau/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/janne-malina/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jari-hakkinen/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/johan-vallon-christersson/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jonas-manjer/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/martin-malmberg/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/par-ola-bendahl/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ake-borg/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/bosc_2017/</loc>
+    <lastmod>2017-07-22T15:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/bosc_2016/</loc>
+    <lastmod>2016-07-09T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2016_tophat-recondition/</loc>
+    <lastmod>2016-05-04T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/christof-winter/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eleonor-olsson/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/emma-nimeus/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kun-wang/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/malin-dahlgren/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/man-hung-eric-tang/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/martin-sjostrom/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_primary_met_bc/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sofia-k.-gruvberger-saal/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/tamara-tjitrowirjo/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/therese-torngren/</loc>
+    <lastmod>2015-10-02T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_contralateral_bc/</loc>
+    <lastmod>2015-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/marten-ferno/</loc>
+    <lastmod>2015-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sara-alkner/</loc>
+    <lastmod>2015-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sara-baker/</loc>
+    <lastmod>2015-08-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anna-karlsson/</loc>
+    <lastmod>2015-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/christel-reutersward/</loc>
+    <lastmod>2015-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ralph-schulz/</loc>
+    <lastmod>2015-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_scan-b_pop/</loc>
+    <lastmod>2015-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/nycbsdcon_2010/</loc>
+    <lastmod>2010-11-14T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/4/</loc>
+    <lastmod>2009-04-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2009_bsd_magazine_auditing/</loc>
+    <lastmod>2009-04-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/meetbsd_2007/</loc>
+    <lastmod>2007-11-17T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/froscon_2006/</loc>
+    <lastmod>2006-06-24T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/cbrueffer/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+</urlset>

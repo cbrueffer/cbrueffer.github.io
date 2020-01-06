@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Christian Brueffer</title>
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
+    
+    <item>
+      <title>FreeBSD</title>
+      <link>/tags/freebsd/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

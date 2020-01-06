@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tamara Tjitrowirjo | Christian Brueffer</title>
+    <link>/authors/tamara-tjitrowirjo/</link>
+      <atom:link href="/authors/tamara-tjitrowirjo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tamara Tjitrowirjo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 02 Oct 2015 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Tamara Tjitrowirjo</title>
+      <link>/authors/tamara-tjitrowirjo/</link>
+    </image>
+    
+    <item>
+      <title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title>
+      <link>/publication/2015_primary_met_bc/</link>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0100</pubDate>
+      <guid>/publication/2015_primary_met_bc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

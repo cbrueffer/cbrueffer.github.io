@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hoogstrate Y | Christian Brueffer</title>
+    <link>/authors/hoogstrate-y/</link>
+      <atom:link href="/authors/hoogstrate-y/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hoogstrate Y</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 02 Jul 2018 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Hoogstrate Y</title>
+      <link>/authors/hoogstrate-y/</link>
+    </image>
+    
+    <item>
+      <title>Bioconda: sustainable and comprehensive software distribution for the life sciences</title>
+      <link>/publication/2018_bioconda/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0100</pubDate>
+      <guid>/publication/2018_bioconda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

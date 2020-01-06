@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Christian Brueffer</title>
+    <link>/publication_types/</link>
+      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Publication_types</title>
+      <link>/publication_types/</link>
+    </image>
+    
+    <item>
+      <title>2</title>
+      <link>/publication_types/2/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0100</pubDate>
+      <guid>/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>/publication_types/4/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0100</pubDate>
+      <guid>/publication_types/4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
