@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pär-Ola Bendahl | Christian Brueffer</title>
-    <link>/authors/par-ola-bendahl/</link>
-      <atom:link href="/authors/par-ola-bendahl/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.brueffer.io/authors/par-ola-bendahl/</link>
+      <atom:link href="https://www.brueffer.io/authors/par-ola-bendahl/index.xml" rel="self" type="application/rss+xml" />
     <description>Pär-Ola Bendahl</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Pär-Ola Bendahl</title>
-      <link>/authors/par-ola-bendahl/</link>
+      <link>https://www.brueffer.io/authors/par-ola-bendahl/</link>
     </image>
     
     <item>
       <title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title>
-      <link>/publication/2018_scan-b_biomarker_prediction/</link>
+      <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018_scan-b_biomarker_prediction/</guid>
+      <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title>
-      <link>/publication/2015_primary_met_bc/</link>
+      <link>https://www.brueffer.io/publication/2015_primary_met_bc/</link>
       <pubDate>Fri, 02 Oct 2015 00:00:00 +0100</pubDate>
-      <guid>/publication/2015_primary_met_bc/</guid>
+      <guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robert Rigo | Christian Brueffer</title>
-    <link>/authors/robert-rigo/</link>
-      <atom:link href="/authors/robert-rigo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.brueffer.io/authors/robert-rigo/</link>
+      <atom:link href="https://www.brueffer.io/authors/robert-rigo/index.xml" rel="self" type="application/rss+xml" />
     <description>Robert Rigo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Robert Rigo</title>
-      <link>/authors/robert-rigo/</link>
+      <link>https://www.brueffer.io/authors/robert-rigo/</link>
     </image>
     
     <item>
       <title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title>
-      <link>/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
+      <link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
+      <guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
       <description></description>
     </item>
     

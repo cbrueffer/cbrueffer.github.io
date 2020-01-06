@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anna Karlsson | Christian Brueffer</title>
-    <link>/authors/anna-karlsson/</link>
-      <atom:link href="/authors/anna-karlsson/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.brueffer.io/authors/anna-karlsson/</link>
+      <atom:link href="https://www.brueffer.io/authors/anna-karlsson/index.xml" rel="self" type="application/rss+xml" />
     <description>Anna Karlsson</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 02 Feb 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Anna Karlsson</title>
-      <link>/authors/anna-karlsson/</link>
+      <link>https://www.brueffer.io/authors/anna-karlsson/</link>
     </image>
     
     <item>
       <title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title>
-      <link>/publication/2015_scan-b_pop/</link>
+      <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/2015_scan-b_pop/</guid>
+      <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
       <description></description>
     </item>
     

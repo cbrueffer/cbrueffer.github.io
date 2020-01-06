@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>**Christian Brueffer** | Christian Brueffer</title>
-    <link>/authors/christian-brueffer/</link>
-      <atom:link href="/authors/christian-brueffer/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.brueffer.io/authors/christian-brueffer/</link>
+      <atom:link href="https://www.brueffer.io/authors/christian-brueffer/index.xml" rel="self" type="application/rss+xml" />
     <description>**Christian Brueffer**</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>**Christian Brueffer**</title>
-      <link>/authors/christian-brueffer/</link>
+      <link>https://www.brueffer.io/authors/christian-brueffer/</link>
     </image>
     
     <item>
       <title>SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome</title>
-      <link>/publication/svcurator/</link>
+      <link>https://www.brueffer.io/publication/svcurator/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/svcurator/</guid>
+      <guid>https://www.brueffer.io/publication/svcurator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title>
-      <link>/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
+      <link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
+      <guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title>
-      <link>/publication/2018_scan-b_biomarker_prediction/</link>
+      <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018_scan-b_biomarker_prediction/</guid>
+      <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TopHat-Recondition: A post-processor for TopHat unmapped reads</title>
-      <link>/publication/2016_tophat-recondition/</link>
+      <link>https://www.brueffer.io/publication/2016_tophat-recondition/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0100</pubDate>
-      <guid>/publication/2016_tophat-recondition/</guid>
+      <guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title>
-      <link>/publication/2015_primary_met_bc/</link>
+      <link>https://www.brueffer.io/publication/2015_primary_met_bc/</link>
       <pubDate>Fri, 02 Oct 2015 00:00:00 +0100</pubDate>
-      <guid>/publication/2015_primary_met_bc/</guid>
+      <guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contralateral breast cancer can represent a metastatic spread of the first primary tumor: determination of clonal relationship between contralateral breast cancers using next-generation whole genome sequencing</title>
-      <link>/publication/2015_contralateral_bc/</link>
+      <link>https://www.brueffer.io/publication/2015_contralateral_bc/</link>
       <pubDate>Wed, 05 Aug 2015 00:00:00 +0100</pubDate>
-      <guid>/publication/2015_contralateral_bc/</guid>
+      <guid>https://www.brueffer.io/publication/2015_contralateral_bc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title>
-      <link>/publication/2015_scan-b_pop/</link>
+      <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/2015_scan-b_pop/</guid>
+      <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FreeBSD Security Event Auditing</title>
-      <link>/publication/2009_bsd_magazine_auditing/</link>
+      <link>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</link>
       <pubDate>Wed, 01 Apr 2009 00:00:00 +0100</pubDate>
-      <guid>/publication/2009_bsd_magazine_auditing/</guid>
+      <guid>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cokelaer T | Christian Brueffer</title>
-    <link>/authors/cokelaer-t/</link>
-      <atom:link href="/authors/cokelaer-t/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.brueffer.io/authors/cokelaer-t/</link>
+      <atom:link href="https://www.brueffer.io/authors/cokelaer-t/index.xml" rel="self" type="application/rss+xml" />
     <description>Cokelaer T</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 02 Jul 2018 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Cokelaer T</title>
-      <link>/authors/cokelaer-t/</link>
+      <link>https://www.brueffer.io/authors/cokelaer-t/</link>
     </image>
     
     <item>
       <title>Bioconda: sustainable and comprehensive software distribution for the life sciences</title>
-      <link>/publication/2018_bioconda/</link>
+      <link>https://www.brueffer.io/publication/2018_bioconda/</link>
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0100</pubDate>
-      <guid>/publication/2018_bioconda/</guid>
+      <guid>https://www.brueffer.io/publication/2018_bioconda/</guid>
       <description></description>
     </item>
     
