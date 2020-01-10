@@ -37,7 +37,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Breast Cancer"]
 
 # Links (optional).
 url_pdf = "http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=download&path%5B%5D=5951&path%5B%5D=14288"

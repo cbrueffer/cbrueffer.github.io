@@ -37,7 +37,7 @@ projects = []
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Breast Cancer"]
 
 # Links (optional).
 url_pdf = "https://link.springer.com/content/pdf/10.1007/s10549-019-05326-5.pdf"

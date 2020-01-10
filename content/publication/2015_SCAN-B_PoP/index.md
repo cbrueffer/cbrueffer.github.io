@@ -33,11 +33,11 @@ featured = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = []
+projects = ["phd"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
+tags = ["Breast Cancer"]
 
 # Links (optional).
 url_pdf = "https://genomemedicine.biomedcentral.com/track/pdf/10.1186/s13073-015-0131-9"
