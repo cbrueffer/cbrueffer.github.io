@@ -24,7 +24,7 @@ bio: Bioinformatician and PhD candidate with research interests including cancer
 
 interests:
 - Bioinformatics
-- Cancer Research
+- Cancer Biology and Diagnostics
 - Open Source Software
 - Software Engineering
 
@@ -57,7 +57,7 @@ social:
   link: https://www.researchgate.net/profile/Christian_Brueffer2
 - icon: orcid
   icon_pack: ai
-  link: http://orcid.org/0000-0002-3826-0989
+  link: https://orcid.org/0000-0002-3826-0989
 - icon: github
   icon_pack: fab
   link: https://github.com/cbrueffer
