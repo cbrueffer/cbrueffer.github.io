@@ -5,12 +5,36 @@
     <link>https://www.brueffer.io/tags/</link>
       <atom:link href="https://www.brueffer.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
       <link>https://www.brueffer.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Breast Cancer</title>
+      <link>https://www.brueffer.io/tags/breast-cancer/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/tags/breast-cancer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD</title>
+      <link>https://www.brueffer.io/tags/phd/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/tags/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA Sequencing</title>
+      <link>https://www.brueffer.io/tags/rna-sequencing/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/tags/rna-sequencing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FreeBSD</title>

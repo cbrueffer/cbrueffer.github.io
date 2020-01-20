@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Christian Brueffer</title>
-    <link>https://www.brueffer.io/</link>
-      <atom:link href="https://www.brueffer.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Christian Brueffer</description>
+    <title>Breast Cancer | Christian Brueffer</title>
+    <link>https://www.brueffer.io/tags/breast-cancer/</link>
+      <atom:link href="https://www.brueffer.io/tags/breast-cancer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Breast Cancer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
-      <title>Christian Brueffer</title>
-      <link>https://www.brueffer.io/</link>
+      <title>Breast Cancer</title>
+      <link>https://www.brueffer.io/tags/breast-cancer/</link>
     </image>
     
     <item>
@@ -42,31 +42,6 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     </item>
     
     <item>
-      <title>FreeBSD</title>
-      <link>https://www.brueffer.io/project/freebsd/</link>
-      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/project/freebsd/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.freebsd.org&#34;&gt;FreeBSD&lt;/a&gt; is an open source Unix-like operating system that can be
-found (as a whole or in parts) in Apple macOS and iOS, Sony Playstation 4, Juniper routers
-and NetApp storage filers, to name a few. It also powers services such as Netflix and WhatsApp.
-I have been a developer with the project since 2003, and also contribute to related security-focused
-projects such as &lt;a href=&#34;http://www.trustedbsd.org&#34;&gt;TrustedBSD&lt;/a&gt; and &lt;a href=&#34;https://github.com/openbsm&#34;&gt;OpenBSM&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;commits&#34;&gt;Commits&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd/commits?author=cbrueffer&#34;&gt;to the source code repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd-doc/commits?author=cbrueffer&#34;&gt;to the documentation repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd-ports/commits?author=cbrueffer&#34;&gt;to the ports repository&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome</title>
-      <link>https://www.brueffer.io/publication/svcurator/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.brueffer.io/publication/svcurator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title>
       <link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
@@ -83,14 +58,6 @@ projects such as &lt;a href=&#34;http://www.trustedbsd.org&#34;&gt;TrustedBSD&lt
     </item>
     
     <item>
-      <title>Bioconda: sustainable and comprehensive software distribution for the life sciences</title>
-      <link>https://www.brueffer.io/publication/2018_bioconda/</link>
-      <pubDate>Mon, 02 Jul 2018 00:00:00 +0100</pubDate>
-      <guid>https://www.brueffer.io/publication/2018_bioconda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>RNA-seq-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers in the Population-Based Multicenter SCAN-B Study</title>
       <link>https://www.brueffer.io/talk/keystone_2018/</link>
       <pubDate>Mon, 07 May 2018 16:15:00 +0000</pubDate>
@@ -103,30 +70,6 @@ projects such as &lt;a href=&#34;http://www.trustedbsd.org&#34;&gt;TrustedBSD&lt
       <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biopython Project Update 2017</title>
-      <link>https://www.brueffer.io/talk/bosc_2017/</link>
-      <pubDate>Sat, 22 Jul 2017 15:46:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/talk/bosc_2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biopython Project Update 2016</title>
-      <link>https://www.brueffer.io/talk/bosc_2016/</link>
-      <pubDate>Sat, 09 Jul 2016 14:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/talk/bosc_2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TopHat-Recondition: A post-processor for TopHat unmapped reads</title>
-      <link>https://www.brueffer.io/publication/2016_tophat-recondition/</link>
-      <pubDate>Wed, 04 May 2016 00:00:00 +0100</pubDate>
-      <guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid>
       <description></description>
     </item>
     
@@ -151,38 +94,6 @@ projects such as &lt;a href=&#34;http://www.trustedbsd.org&#34;&gt;TrustedBSD&lt
       <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practical Security Event Auditing with FreeBSD</title>
-      <link>https://www.brueffer.io/talk/nycbsdcon_2010/</link>
-      <pubDate>Sun, 14 Nov 2010 10:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/talk/nycbsdcon_2010/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FreeBSD Security Event Auditing</title>
-      <link>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</link>
-      <pubDate>Wed, 01 Apr 2009 00:00:00 +0100</pubDate>
-      <guid>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protecting your Privacy with FreeBSD and Tor</title>
-      <link>https://www.brueffer.io/talk/meetbsd_2007/</link>
-      <pubDate>Sat, 17 Nov 2007 15:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/talk/meetbsd_2007/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FreeBSD im Überblick</title>
-      <link>https://www.brueffer.io/talk/froscon_2006/</link>
-      <pubDate>Sat, 24 Jun 2006 11:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/talk/froscon_2006/</guid>
       <description></description>
     </item>
     

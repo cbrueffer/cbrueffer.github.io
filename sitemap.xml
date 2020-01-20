@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.brueffer.io/tags/breast-cancer/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.brueffer.io/</loc>
-    <lastmod>2019-11-04T10:45:00+00:00</lastmod>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/phd/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/project/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/rna-sequencing/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/project/phd/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,16 +59,6 @@
   
   <url>
     <loc>https://www.brueffer.io/tags/open-source/</loc>
-    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/</loc>
-    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/</loc>
     <lastmod>2019-08-16T00:00:00+00:00</lastmod>
   </url>
   
