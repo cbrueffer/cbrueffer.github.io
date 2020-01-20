@@ -20,7 +20,7 @@ Most of these efforts focus on [DNA-based short-read high-throughput sequencing 
 
 [RNA sequencing (RNA-seq)][rna-seq] is a sister technology to DNA-seq that probes the current state of the cell's transcriptional machinery (the transcriptome)
 and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
-is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA.
+is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
 (e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
 that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.
 
