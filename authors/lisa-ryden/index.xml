@@ -5,12 +5,14 @@
     <link>https://www.brueffer.io/authors/lisa-ryden/</link>
       <atom:link href="https://www.brueffer.io/authors/lisa-ryden/index.xml" rel="self" type="application/rss+xml" />
     <description>Lisa Rydén</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
-    <image>
-      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
-      <title>Lisa Rydén</title>
-      <link>https://www.brueffer.io/authors/lisa-ryden/</link>
-    </image>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The Mutational Landscape of the SCAN-B Real-World Primary Breast Cancer Transcriptome</title>
+      <link>https://www.brueffer.io/publication/scanb_mutational_landscape_primary_bc/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/scanb_mutational_landscape_primary_bc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title>

@@ -5,12 +5,20 @@
     <link>https://www.brueffer.io/</link>
       <atom:link href="https://www.brueffer.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Christian Brueffer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Christian Brueffer</title>
       <link>https://www.brueffer.io/</link>
     </image>
+    
+    <item>
+      <title>The Mutational Landscape of the SCAN-B Real-World Primary Breast Cancer Transcriptome</title>
+      <link>https://www.brueffer.io/publication/scanb_mutational_landscape_primary_bc/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/scanb_mutational_landscape_primary_bc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RNA Sequencing for Breast Cancer Diagnostics</title>
@@ -20,7 +28,7 @@
       <description>&lt;p&gt;Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
 translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
 Most of these efforts focus on &lt;a href=&#34;https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_(Solexa)_sequencing&#34;&gt;DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34;&gt;RNA sequencing (RNA-seq)&lt;/a&gt; is a sister technology to DNA-seq that probes the current state of the cell&#39;s transcriptional machinery (the transcriptome)
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34;&gt;RNA sequencing (RNA-seq)&lt;/a&gt; is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
 and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
 is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
 (e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
