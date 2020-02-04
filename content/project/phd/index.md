@@ -25,7 +25,7 @@ is not accessible from DNA (gene/isoform expression), in addition to being able,
 that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.
 
 My ongoing PhD work is about exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
-[Sweden Cancerome Analysis Network--Breast (SCAN-B)](scanb) breast cancer project, and by developing diagnostic tools from the generated
+[Sweden Cancerome Analysis Network--Breast (SCAN-B)][scanb] breast cancer project, and by developing diagnostic tools from the generated
 data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
 are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.
 
