@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.brueffer.io/tags/breast-cancer/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/phd/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/project/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/rna-sequencing/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/project/mutationexplorer/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.brueffer.io/authors/christian-brueffer/</loc>
     <lastmod>2020-01-31T00:00:00+00:00</lastmod>
   </url>
@@ -34,11 +69,6 @@
   
   <url>
     <loc>https://www.brueffer.io/authors/christer-larsson/</loc>
-    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/</loc>
     <lastmod>2020-01-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,32 +138,7 @@
   </url>
   
   <url>
-    <loc>https://www.brueffer.io/tags/breast-cancer/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/phd/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/rna-sequencing/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.brueffer.io/project/phd/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   

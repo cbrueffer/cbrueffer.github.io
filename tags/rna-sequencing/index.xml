@@ -5,12 +5,25 @@
     <link>https://www.brueffer.io/tags/rna-sequencing/</link>
       <atom:link href="https://www.brueffer.io/tags/rna-sequencing/index.xml" rel="self" type="application/rss+xml" />
     <description>RNA Sequencing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>RNA Sequencing</title>
       <link>https://www.brueffer.io/tags/rna-sequencing/</link>
     </image>
+    
+    <item>
+      <title>SCAN-B MutationExplorer</title>
+      <link>https://www.brueffer.io/project/mutationexplorer/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/project/mutationexplorer/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://oncogenomics.bmc.lu.se/MutationExplorer&#34;&gt;https://oncogenomics.bmc.lu.se/MutationExplorer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/cbrueffer/MutationExplorer&#34;&gt;https://github.com/cbrueffer/MutationExplorer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Datasets are getting larger, within the &lt;a href=&#34;https://www.scan-b.lu.se/&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast&lt;/a&gt; we have generated a dataset of tens
+of thousands of mutations from the &lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34;&gt;rna-seq&lt;/a&gt; data of thousands of breast tumors. The web application SCAN-B MutationExplorer is a way to open this dataset
+up to the wider research community. The underlying software is available as open source software at &lt;a href=&#34;https://github.com/cbrueffer/MutationExplorer&#34;&gt;https://github.com/cbrueffer/MutationExplorer&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>RNA Sequencing for Breast Cancer Diagnostics</title>
@@ -26,7 +39,7 @@ is not accessible from DNA (gene/isoform expression), in addition to being able,
 (e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
 that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.&lt;/p&gt;
 &lt;p&gt;My ongoing PhD work is about exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
-&lt;a href=&#34;scanb&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a&gt; breast cancer project, and by developing diagnostic tools from the generated
+&lt;a href=&#34;https://www.scan-b.lu.se/&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a&gt; breast cancer project, and by developing diagnostic tools from the generated
 data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
 are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.&lt;/p&gt;
 &lt;p&gt;See below for a list of results generated from this work.&lt;/p&gt;
