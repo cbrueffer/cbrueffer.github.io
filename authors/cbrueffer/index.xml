@@ -6,5 +6,11 @@
       <atom:link href="https://www.brueffer.io/authors/cbrueffer/index.xml" rel="self" type="application/rss+xml" />
     <description>Christian Brueffer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright>
+    <image>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Christian Brueffer</title>
+      <link>https://www.brueffer.io/authors/cbrueffer/</link>
+    </image>
+    
   </channel>
 </rss>
