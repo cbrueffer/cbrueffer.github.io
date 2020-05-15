@@ -12,45 +12,5 @@
       <link>https://www.brueffer.io/tags/</link>
     </image>
     
-    <item>
-      <title>Breast Cancer</title>
-      <link>https://www.brueffer.io/tags/breast-cancer/</link>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/tags/breast-cancer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PhD</title>
-      <link>https://www.brueffer.io/tags/phd/</link>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/tags/phd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RNA Sequencing</title>
-      <link>https://www.brueffer.io/tags/rna-sequencing/</link>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/tags/rna-sequencing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FreeBSD</title>
-      <link>https://www.brueffer.io/tags/freebsd/</link>
-      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/tags/freebsd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>https://www.brueffer.io/tags/open-source/</link>
-      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
