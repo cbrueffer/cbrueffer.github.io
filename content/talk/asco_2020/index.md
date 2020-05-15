@@ -1,14 +1,14 @@
 ---
 title: "Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)"
 event: "ASCO Annual Meeting 2020"
-event_url: "https://meetings.asco.org/am/virtual-format"
+event_url: "https://meetinglibrary.asco.org/record/188474/abstract"
 
 location: "McCormick Place, Chicago, Illinois, USA (Virtual due to COVID-19)"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-05-29T00:08:00Z"
-date_end: "2020-05-29T00:11:00Z"
+date: "2020-05-29T08:00:00Z"
+date_end: "2020-05-29T11:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
