@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Christian Brueffer">
+  
 
   
   
@@ -51,7 +50,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -213,13 +212,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -229,7 +230,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -244,6 +245,9 @@
 
 
   
+  
+
+  
   <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="Christian Brueffer">
   
 
@@ -253,6 +257,8 @@
 
   <link rel="canonical" href="https://www.brueffer.io/publication/">
 
+  
+  
   
   
   
@@ -330,10 +336,15 @@
 
   
 
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
     
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Christian Brueffer</a>
@@ -520,8 +531,21 @@
       
 
       
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
       </li>
       
 
@@ -679,11 +703,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/sergii-gladchuk/">Sergii Gladchuk</a></span>, <span><a href="/authors/christof-winter/">Christof Winter</a></span>, <span><a href="/authors/johan-vallon-christersson/">Johan Vallon-Christersson</a></span>, <span><a href="/authors/cecilia-hegardt/">Cecilia Hegardt</a></span>, <span>Jari Häkkinen</span>, <span>Anthony M. George</span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span><a href="/authors/christer-larsson/">Christer Larsson</a></span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span><a href="/authors/martin-malmberg/">Martin Malmberg</a></span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
-
+  <span>**Christian Brueffer**</span>, <span>Sergii Gladchuk</span>, <span>Christof Winter</span>, <span>Johan Vallon-Christersson</span>, <span>Cecilia Hegardt</span>, <span>Jari Häkkinen</span>, <span>Anthony M. George</span>, <span>Yilun Chen</span>, <span>Anna Ehinger</span>, <span>Christer Larsson</span>, <span>Niklas Loman</span>, <span>Martin Malmberg</span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
   </span>
   (2020).
   <a href="/publication/scanb_mutational_landscape_primary_bc/">The Mutational Landscape of the SCAN-B Real-World Primary Breast Cancer Transcriptome</a>.
@@ -769,11 +790,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/lesley-m-chapman/">Lesley M Chapman</a></span>, <span><a href="/authors/noah-spies/">Noah Spies</a></span>, <span><a href="/authors/patrick-pai/">Patrick Pai</a></span>, <span><a href="/authors/chun-shen-lim/">Chun Shen Lim</a></span>, <span><a href="/authors/andrew-carroll/">Andrew Carroll</a></span>, <span><a href="/authors/giuseppe-narzisi/">Giuseppe Narzisi</a></span>, <span>Christopher M. Watson</span>, <span><a href="/authors/christos-proukakis/">Christos Proukakis</a></span>, <span>Wayne E. Clarke</span>, <span><a href="/authors/naoki-nariai/">Naoki Nariai</a></span>, <span><a href="/authors/eric-dawson/">Eric Dawson</a></span>, <span><a href="/authors/garan-jones/">Garan Jones</a></span>, <span><a href="/authors/daniel-blankenberg/">Daniel Blankenberg</a></span>, <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/chunlin-xiao/">Chunlin Xiao</a></span>, <span><a href="/authors/sree-rohit-raj-kolora/">Sree Rohit Raj Kolora</a></span>, <span><a href="/authors/noah-alexander/">Noah Alexander</a></span>, <span><a href="/authors/paul-wolujewicz/">Paul Wolujewicz</a></span>, <span><a href="/authors/azza-ahmed/">Azza Ahmed</a></span>, <span><a href="/authors/graeme-smith/">Graeme Smith</a></span>, <span><a href="/authors/saadlee-shehreen/">Saadlee Shehreen</a></span>, <span>Aaron M. Wenger</span>, <span><a href="/authors/marc-salit/">Marc Salit</a></span>, <span>Justin M. Zook</span>
-
+  <span>Lesley M Chapman</span>, <span>Noah Spies</span>, <span>Patrick Pai</span>, <span>Chun Shen Lim</span>, <span>Andrew Carroll</span>, <span>Giuseppe Narzisi</span>, <span>Christopher M. Watson</span>, <span>Christos Proukakis</span>, <span>Wayne E. Clarke</span>, <span>Naoki Nariai</span>, <span>Eric Dawson</span>, <span>Garan Jones</span>, <span>Daniel Blankenberg</span>, <span>**Christian Brueffer**</span>, <span>Chunlin Xiao</span>, <span>Sree Rohit Raj Kolora</span>, <span>Noah Alexander</span>, <span>Paul Wolujewicz</span>, <span>Azza Ahmed</span>, <span>Graeme Smith</span>, <span>Saadlee Shehreen</span>, <span>Aaron M. Wenger</span>, <span>Marc Salit</span>, <span>Justin M. Zook</span>
   </span>
   (2019).
   <a href="/publication/svcurator/">SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome</a>.
@@ -847,11 +865,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span>Daniel Förnvik</span>, <span>Kristina E. Aaltonen</span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span>Anthony M. George</span>, <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/robert-rigo/">Robert Rigo</a></span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span>Lao H. Saal</span>, <span>Lisa Rydén</span>
-
+  <span>Daniel Förnvik</span>, <span>Kristina E. Aaltonen</span>, <span>Yilun Chen</span>, <span>Anthony M. George</span>, <span>**Christian Brueffer**</span>, <span>Robert Rigo</span>, <span>Niklas Loman</span>, <span>Lao H. Saal</span>, <span>Lisa Rydén</span>
   </span>
   (2019).
   <a href="/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/">Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</a>.
@@ -926,11 +941,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span>Grüning B</span>, <span><a href="/authors/dale-r/">Dale R</a></span>, <span>Sjödin A</span>, <span><a href="/authors/chapman-ba/">Chapman BA</a></span>, <span><a href="/authors/rowe-j/">Rowe J</a></span>, <span><a href="/authors/tomkins-tinch-c/">Tomkins-Tinch C</a></span>, <span><a href="/authors/valieris-r/">Valieris R</a></span>, <span><a href="/authors/caprez-a/">Caprez A</a></span>, <span><a href="/authors/batut-b/">Batut B</a></span>, <span><a href="/authors/haudgaard-m/">Haudgaard M</a></span>, <span><a href="/authors/cokelaer-t/">Cokelaer T</a></span>, <span><a href="/authors/beauchamp-ka/">Beauchamp KA</a></span>, <span><a href="/authors/pedersen-bs/">Pedersen BS</a></span>, <span><a href="/authors/hoogstrate-y/">Hoogstrate Y</a></span>, <span><a href="/authors/ryan-d/">Ryan D</a></span>, <span><a href="/authors/bretaudeau-a/">Bretaudeau A</a></span>, <span>Le Corguillé G</span>, <span><a href="/authors/brueffer-c/"><strong>Brueffer C</strong></a></span>, <span>…</span>, <span>Köster J</span>
-
+  <span>Grüning B</span>, <span>Dale R</span>, <span>Sjödin A</span>, <span>Chapman BA</span>, <span>Rowe J</span>, <span>Tomkins-Tinch C</span>, <span>Valieris R</span>, <span>Caprez A</span>, <span>Batut B</span>, <span>Haudgaard M</span>, <span>Cokelaer T</span>, <span>Beauchamp KA</span>, <span>Pedersen BS</span>, <span>Hoogstrate Y</span>, <span>Ryan D</span>, <span>Bretaudeau A</span>, <span>Le Corguillé G</span>, <span>**Brueffer C**</span>, <span>…</span>, <span>Köster J</span>
   </span>
   (2018).
   <a href="/publication/2018_bioconda/">Bioconda: sustainable and comprehensive software distribution for the life sciences</a>.
@@ -1011,11 +1023,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/johan-vallon-christersson/">Johan Vallon-Christersson</a></span>, <span><a href="/authors/dorthe-grabau/">Dorthe Grabau</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span>Jari Häkkinen</span>, <span><a href="/authors/cecilia-hegardt/">Cecilia Hegardt</a></span>, <span><a href="/authors/janne-malina/">Janne Malina</a></span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span>Pär-Ola Bendahl</span>, <span><a href="/authors/jonas-manjer/">Jonas Manjer</a></span>, <span><a href="/authors/martin-malmberg/">Martin Malmberg</a></span>, <span><a href="/authors/christer-larsson/">Christer Larsson</a></span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
-
+  <span>**Christian Brueffer**</span>, <span>Johan Vallon-Christersson</span>, <span>Dorthe Grabau</span>, <span>Anna Ehinger</span>, <span>Jari Häkkinen</span>, <span>Cecilia Hegardt</span>, <span>Janne Malina</span>, <span>Yilun Chen</span>, <span>Pär-Ola Bendahl</span>, <span>Jonas Manjer</span>, <span>Martin Malmberg</span>, <span>Christer Larsson</span>, <span>Niklas Loman</span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
   </span>
   (2018).
   <a href="/publication/2018_scan-b_biomarker_prediction/">Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</a>.
@@ -1104,11 +1113,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span>Lao H. Saal</span>
-
+  <span>**Christian Brueffer**</span>, <span>Lao H. Saal</span>
   </span>
   (2016).
   <a href="/publication/2016_tophat-recondition/">TopHat-Recondition: A post-processor for TopHat unmapped reads</a>.
@@ -1197,11 +1203,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/man-hung-eric-tang/">Man-Hung Eric Tang</a></span>, <span><a href="/authors/malin-dahlgren/">Malin Dahlgren</a></span>, <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/tamara-tjitrowirjo/">Tamara Tjitrowirjo</a></span>, <span><a href="/authors/christof-winter/">Christof Winter</a></span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span><a href="/authors/eleonor-olsson/">Eleonor Olsson</a></span>, <span><a href="/authors/kun-wang/">Kun Wang</a></span>, <span>Therese Törngren</span>, <span>Martin Sjöström</span>, <span><a href="/authors/dorthe-grabau/">Dorthe Grabau</a></span>, <span>Pär-Ola Bendahl</span>, <span>Lisa Rydén</span>, <span>Emma Niméus</span>, <span>Lao H. Saal</span>, <span>Åke Borg</span>, <span>Sofia K. Gruvberger-Saal</span>
-
+  <span>Man-Hung Eric Tang</span>, <span>Malin Dahlgren</span>, <span>**Christian Brueffer**</span>, <span>Tamara Tjitrowirjo</span>, <span>Christof Winter</span>, <span>Yilun Chen</span>, <span>Eleonor Olsson</span>, <span>Kun Wang</span>, <span>Therese Törngren</span>, <span>Martin Sjöström</span>, <span>Dorthe Grabau</span>, <span>Pär-Ola Bendahl</span>, <span>Lisa Rydén</span>, <span>Emma Niméus</span>, <span>Lao H. Saal</span>, <span>Åke Borg</span>, <span>Sofia K. Gruvberger-Saal</span>
   </span>
   (2015).
   <a href="/publication/2015_primary_met_bc/">Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</a>.
@@ -1276,11 +1279,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/sara-alkner/">Sara Alkner</a></span>, <span><a href="/authors/man-hung-eric-tang/">Man-Hung Eric Tang</a></span>, <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/malin-dahlgren/">Malin Dahlgren</a></span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span><a href="/authors/eleonor-olsson/">Eleonor Olsson</a></span>, <span><a href="/authors/christof-winter/">Christof Winter</a></span>, <span><a href="/authors/sara-baker/">Sara Baker</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span>Lisa Rydén</span>, <span>Lao H. Saal</span>, <span>Mårten Fernö</span>, <span>Sofia K. Gruvberger-Saal</span>
-
+  <span>Sara Alkner</span>, <span>Man-Hung Eric Tang</span>, <span>**Christian Brueffer**</span>, <span>Malin Dahlgren</span>, <span>Yilun Chen</span>, <span>Eleonor Olsson</span>, <span>Christof Winter</span>, <span>Sara Baker</span>, <span>Anna Ehinger</span>, <span>Lisa Rydén</span>, <span>Lao H. Saal</span>, <span>Mårten Fernö</span>, <span>Sofia K. Gruvberger-Saal</span>
   </span>
   (2015).
   <a href="/publication/2015_contralateral_bc/">Contralateral breast cancer can represent a metastatic spread of the first primary tumor: determination of clonal relationship between contralateral breast cancers using next-generation whole genome sequencing</a>.
@@ -1355,11 +1355,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span>Lao H. Saal</span>, <span><a href="/authors/johan-vallon-christersson/">Johan Vallon-Christersson</a></span>, <span>Jari Häkkinen</span>, <span><a href="/authors/cecilia-hegardt/">Cecilia Hegardt</a></span>, <span><a href="/authors/dorthe-grabau/">Dorthe Grabau</a></span>, <span><a href="/authors/christof-winter/">Christof Winter</a></span>, <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/man-hung-eric-tang/">Man-Hung Eric Tang</a></span>, <span>Christel Reuterswärd</span>, <span><a href="/authors/ralph-schulz/">Ralph Schulz</a></span>, <span><a href="/authors/anna-karlsson/">Anna Karlsson</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span><a href="/authors/janne-malina/">Janne Malina</a></span>, <span><a href="/authors/jonas-manjer/">Jonas Manjer</a></span>, <span><a href="/authors/martin-malmberg/">Martin Malmberg</a></span>, <span><a href="/authors/christer-larsson/">Christer Larsson</a></span>, <span>Lisa Rydén</span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span>Åke Borg</span>
-
+  <span>Lao H. Saal</span>, <span>Johan Vallon-Christersson</span>, <span>Jari Häkkinen</span>, <span>Cecilia Hegardt</span>, <span>Dorthe Grabau</span>, <span>Christof Winter</span>, <span>**Christian Brueffer**</span>, <span>Man-Hung Eric Tang</span>, <span>Christel Reuterswärd</span>, <span>Ralph Schulz</span>, <span>Anna Karlsson</span>, <span>Anna Ehinger</span>, <span>Janne Malina</span>, <span>Jonas Manjer</span>, <span>Martin Malmberg</span>, <span>Christer Larsson</span>, <span>Lisa Rydén</span>, <span>Niklas Loman</span>, <span>Åke Borg</span>
   </span>
   (2015).
   <a href="/publication/2015_scan-b_pop/">The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</a>.
@@ -1448,11 +1445,8 @@
   <span class="article-metadata li-cite-author">
     
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>
-
+  <span>**Christian Brueffer**</span>
   </span>
   (2009).
   <a href="/publication/2009_bsd_magazine_auditing/">FreeBSD Security Event Auditing</a>.
@@ -1528,9 +1522,9 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
@@ -1542,6 +1536,11 @@
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1594,6 +1593,9 @@
 
     
     
+
+    
+    
     
     
     
@@ -1606,7 +1608,7 @@
     
     
     
-    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -1622,8 +1624,18 @@
   
 
   <p class="powered-by">
-    ©2019-2020 Christian Brueffer &middot; 
+    ©2019-2020 Christian Brueffer
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

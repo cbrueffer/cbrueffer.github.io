@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Christian Brueffer">
+  
 
   
   
@@ -51,7 +50,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -213,13 +212,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -229,7 +230,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -244,6 +245,9 @@
 
 
   
+  
+
+  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_32x32_fill_lanczos_center_2.png">
@@ -251,6 +255,8 @@
 
   <link rel="canonical" href="https://www.brueffer.io/project/phd/">
 
+  
+  
   
   
   
@@ -289,8 +295,6 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -308,17 +312,12 @@
   "datePublished": "2020-01-20T00:00:00Z",
   "dateModified": "2020-01-20T00:00:00Z",
   
-  "author": {
-    "@type": "Person",
-    "name": "Christian Brueffer"
-  },
-  
   "publisher": {
     "@type": "Organization",
     "name": "Christian Brueffer",
     "logo": {
       "@type": "ImageObject",
-      "url": "img/https://www.brueffer.io/"
+      "url": "https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "My PhD work in which I develop RNA sequencing-based diagnostic tools for breast cancer."
@@ -379,10 +378,15 @@
 
   
 
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
     
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Christian Brueffer</a>
@@ -569,8 +573,21 @@
       
 
       
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
       </li>
       
 
@@ -664,14 +681,17 @@
     <div class="article-style">
       <p>Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
 translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
-Most of these efforts focus on <a href="https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_(Solexa)_sequencing">DNA-based short-read high-throughput sequencing (DNA-seq)</a>.</p>
-<p><a href="https://en.wikipedia.org/wiki/RNA-Seq">RNA sequencing (RNA-seq)</a> is a sister technology to DNA-seq that probes the current state of the cell&rsquo;s transcriptional machinery (the transcriptome)
+Most of these efforts focus on 
+<a href="https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing" target="_blank" rel="noopener">DNA-based short-read high-throughput sequencing (DNA-seq)</a>.</p>
+<p>
+<a href="https://en.wikipedia.org/wiki/RNA-Seq" target="_blank" rel="noopener">RNA sequencing (RNA-seq)</a> is a sister technology to DNA-seq that probes the current state of the cell&rsquo;s transcriptional machinery (the transcriptome)
 and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
 is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
 (e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
 that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.</p>
 <p>My ongoing PhD work is about exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
-<a href="https://www.scan-b.lu.se/">Sweden Cancerome Analysis Network&ndash;Breast (SCAN-B)</a> breast cancer project, and by developing diagnostic tools from the generated
+
+<a href="https://www.scan-b.lu.se/" target="_blank" rel="noopener">Sweden Cancerome Analysis Network&ndash;Breast (SCAN-B)</a> breast cancer project, and by developing diagnostic tools from the generated
 data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
 are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.</p>
 <p>See below for a list of results generated from this work.</p>
@@ -686,9 +706,9 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/phd/">PhD</a>
-  
   <a class="badge badge-light" href="/tags/breast-cancer/">Breast Cancer</a>
+  
+  <a class="badge badge-light" href="/tags/phd/">PhD</a>
   
   <a class="badge badge-light" href="/tags/rna-sequencing/">RNA Sequencing</a>
   
@@ -792,29 +812,31 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
 
 
   
-
-
-
-
-
-
   
-  
+
+
+
+
+
   
     
-  
-  
-  <div class="media author-card content-widget-hr">
+    
     
       
-      <img class="portrait mr-3" src="/authors/cbrueffer/avatar_hu17f80c4ec327e7baf25f17a8159016b3_537581_250x250_fill_lanczos_center_2.png" alt="Avatar">
     
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/authors/cbrueffer/avatar_hu17f80c4ec327e7baf25f17a8159016b3_537581_270x270_fill_lanczos_center_2.png" alt="">
+      
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://www.brueffer.io/">Christian Brueffer</a></h5>
-      <h6 class="card-subtitle">Senior Bioinformatician / PhD Candidate</h6>
-      <p class="card-text">Bioinformatician and PhD candidate with research interests including cancer diagnostics and research, and open source bioinformatics.</p>
-      <ul class="network-icon" aria-hidden="true">
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://www.brueffer.io/"></a></h5>
+        <h6 class="card-subtitle">Senior Bioinformatician / PhD Candidate</h6>
+        <p class="card-text">Bioinformatician and PhD candidate with research interests including cancer diagnostics and research, and open source bioinformatics.</p>
+        <ul class="network-icon" aria-hidden="true">
   
     
     
@@ -946,8 +968,12 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
   
 </ul>
 
+      </div>
     </div>
-  </div>
+  
+
+
+
 
 
 
@@ -1027,11 +1053,8 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
       <div>
         
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/sergii-gladchuk/">Sergii Gladchuk</a></span>, <span><a href="/authors/christof-winter/">Christof Winter</a></span>, <span><a href="/authors/johan-vallon-christersson/">Johan Vallon-Christersson</a></span>, <span><a href="/authors/cecilia-hegardt/">Cecilia Hegardt</a></span>, <span>Jari Häkkinen</span>, <span>Anthony M. George</span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span><a href="/authors/christer-larsson/">Christer Larsson</a></span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span><a href="/authors/martin-malmberg/">Martin Malmberg</a></span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
-
+  <span>**Christian Brueffer**</span>, <span>Sergii Gladchuk</span>, <span>Christof Winter</span>, <span>Johan Vallon-Christersson</span>, <span>Cecilia Hegardt</span>, <span>Jari Häkkinen</span>, <span>Anthony M. George</span>, <span>Yilun Chen</span>, <span>Anna Ehinger</span>, <span>Christer Larsson</span>, <span>Niklas Loman</span>, <span>Martin Malmberg</span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
       </div>
       
     </div>
@@ -1145,11 +1168,8 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
       <div>
         
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/johan-vallon-christersson/">Johan Vallon-Christersson</a></span>, <span><a href="/authors/dorthe-grabau/">Dorthe Grabau</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span>Jari Häkkinen</span>, <span><a href="/authors/cecilia-hegardt/">Cecilia Hegardt</a></span>, <span><a href="/authors/janne-malina/">Janne Malina</a></span>, <span><a href="/authors/yilun-chen/">Yilun Chen</a></span>, <span>Pär-Ola Bendahl</span>, <span><a href="/authors/jonas-manjer/">Jonas Manjer</a></span>, <span><a href="/authors/martin-malmberg/">Martin Malmberg</a></span>, <span><a href="/authors/christer-larsson/">Christer Larsson</a></span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
-
+  <span>**Christian Brueffer**</span>, <span>Johan Vallon-Christersson</span>, <span>Dorthe Grabau</span>, <span>Anna Ehinger</span>, <span>Jari Häkkinen</span>, <span>Cecilia Hegardt</span>, <span>Janne Malina</span>, <span>Yilun Chen</span>, <span>Pär-Ola Bendahl</span>, <span>Jonas Manjer</span>, <span>Martin Malmberg</span>, <span>Christer Larsson</span>, <span>Niklas Loman</span>, <span>Lisa Rydén</span>, <span>Åke Borg</span>, <span>Lao H. Saal</span>
       </div>
       
     </div>
@@ -1266,11 +1286,8 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
       <div>
         
 
-
-
   
-  <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span>Lao H. Saal</span>
-
+  <span>**Christian Brueffer**</span>, <span>Lao H. Saal</span>
       </div>
       
     </div>
@@ -1387,11 +1404,8 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
       <div>
         
 
-
-
   
-  <span>Lao H. Saal</span>, <span><a href="/authors/johan-vallon-christersson/">Johan Vallon-Christersson</a></span>, <span>Jari Häkkinen</span>, <span><a href="/authors/cecilia-hegardt/">Cecilia Hegardt</a></span>, <span><a href="/authors/dorthe-grabau/">Dorthe Grabau</a></span>, <span><a href="/authors/christof-winter/">Christof Winter</a></span>, <span><a href="/authors/christian-brueffer/"><strong>Christian Brueffer</strong></a></span>, <span><a href="/authors/man-hung-eric-tang/">Man-Hung Eric Tang</a></span>, <span>Christel Reuterswärd</span>, <span><a href="/authors/ralph-schulz/">Ralph Schulz</a></span>, <span><a href="/authors/anna-karlsson/">Anna Karlsson</a></span>, <span><a href="/authors/anna-ehinger/">Anna Ehinger</a></span>, <span><a href="/authors/janne-malina/">Janne Malina</a></span>, <span><a href="/authors/jonas-manjer/">Jonas Manjer</a></span>, <span><a href="/authors/martin-malmberg/">Martin Malmberg</a></span>, <span><a href="/authors/christer-larsson/">Christer Larsson</a></span>, <span>Lisa Rydén</span>, <span><a href="/authors/niklas-loman/">Niklas Loman</a></span>, <span>Åke Borg</span>
-
+  <span>Lao H. Saal</span>, <span>Johan Vallon-Christersson</span>, <span>Jari Häkkinen</span>, <span>Cecilia Hegardt</span>, <span>Dorthe Grabau</span>, <span>Christof Winter</span>, <span>**Christian Brueffer**</span>, <span>Man-Hung Eric Tang</span>, <span>Christel Reuterswärd</span>, <span>Ralph Schulz</span>, <span>Anna Karlsson</span>, <span>Anna Ehinger</span>, <span>Janne Malina</span>, <span>Jonas Manjer</span>, <span>Martin Malmberg</span>, <span>Christer Larsson</span>, <span>Lisa Rydén</span>, <span>Niklas Loman</span>, <span>Åke Borg</span>
       </div>
       
     </div>
@@ -1479,6 +1493,99 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
       
       
         <h2>Talks</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/talk/asco_2020/" >Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          2020-05-29 08:00 &mdash; 11:00
+        </span>
+        
+        <span class="middot-divider"></span>
+        <span>McCormick Place, Chicago, Illinois, USA (Virtual due to COVID-19)</span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/phd/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+          
         
           
             
@@ -1778,9 +1885,9 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
@@ -1792,6 +1899,11 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1844,6 +1956,9 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
 
     
     
+
+    
+    
     
     
     
@@ -1856,7 +1971,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     
     
     
-    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -1872,8 +1987,18 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
   
 
   <p class="powered-by">
-    ©2019-2020 Christian Brueffer &middot; 
+    ©2019-2020 Christian Brueffer
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

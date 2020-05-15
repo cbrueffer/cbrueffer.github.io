@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Christian Brueffer">
+  
 
   
   
@@ -51,7 +50,7 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -213,13 +212,15 @@
       dataLayer.push(arguments);
   }
 
-  function trackOutboundLink(url) {
+  function trackOutboundLink(url, target) {
     gtag('event', 'click', {
          'event_category': 'outbound',
          'event_label': url,
          'transport_type': 'beacon',
          'event_callback': function () {
-           document.location = url;
+           if (target !== '_blank') {
+             document.location = url;
+           }
          }
     });
     console.debug("Outbound link clicked: " + url);
@@ -229,7 +230,7 @@
     if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
       return;
     }
-    trackOutboundLink(event.target);  
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
   }
 
   gtag('js', new Date());
@@ -242,6 +243,9 @@
 
   
 
+
+  
+  
 
   
   <link rel="alternate" href="/authors/cbrueffer/index.xml" type="application/rss+xml" title="Christian Brueffer">
@@ -258,6 +262,8 @@
   
   
   
+  
+  
     
     
   
@@ -269,9 +275,9 @@
   
   <meta property="og:site_name" content="Christian Brueffer">
   <meta property="og:url" content="https://www.brueffer.io/authors/cbrueffer/">
-  <meta property="og:title" content="Christian Brueffer | Christian Brueffer">
-  <meta property="og:description" content="Senior Bioinformatician / PhD Candidate"><meta property="og:image" content="https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content=" | Christian Brueffer">
+  <meta property="og:description" content="Senior Bioinformatician / PhD Candidate"><meta property="og:image" content="https://www.brueffer.io/authors/cbrueffer/avatar_hu17f80c4ec327e7baf25f17a8159016b3_537581_270x270_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://www.brueffer.io/authors/cbrueffer/avatar_hu17f80c4ec327e7baf25f17a8159016b3_537581_270x270_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -290,7 +296,7 @@
 
 
 
-  <title>Christian Brueffer | Christian Brueffer</title>
+  <title> | Christian Brueffer</title>
 
 </head>
 
@@ -330,10 +336,15 @@
 
   
 
+
+
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
-    
     
     <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Christian Brueffer</a>
@@ -520,8 +531,21 @@
       
 
       
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
       </li>
       
 
@@ -534,6 +558,8 @@
 
 
   
+
+
 
 
 <section id="profile-page" class="pt-5">
@@ -558,17 +584,18 @@
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="portrait" src="/authors/cbrueffer/avatar_hu17f80c4ec327e7baf25f17a8159016b3_537581_250x250_fill_lanczos_center_2.png" alt="Avatar">
+      <img class="avatar avatar-circle" src="/authors/cbrueffer/avatar_hu17f80c4ec327e7baf25f17a8159016b3_537581_270x270_fill_lanczos_center_2.png" alt="">
       
 
       <div class="portrait-title">
-        <h2>Christian Brueffer</h2>
+        <h2></h2>
         <h3>Senior Bioinformatician / PhD Candidate</h3>
 
         
@@ -725,15 +752,23 @@
     
     
 
-    <p>I work as a Senior Bioinformatician at the cancer diagnostics company <a href="http://sagadiagnostics.com/">SAGA Diagnostics</a> and am completing a PhD in
-cancer genomics at <a href="https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html">Lund University</a> in Sweden.</p>
+    <p>I work as a Senior Bioinformatician at the cancer diagnostics company 
+<a href="http://sagadiagnostics.com/" target="_blank" rel="noopener">SAGA Diagnostics</a> and am completing a PhD in
+cancer genomics at 
+<a href="https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html" target="_blank" rel="noopener">Lund University</a> in Sweden.</p>
 <p>My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
 (also known as next generation sequencing) to improve breast cancer treatment and survival.
-Most of my projects are embedded in the <a href="https://www.med.lu.se/english/scan_b">Sweden Cancerome Analysis Network&ndash;Breast (SCAN-B)</a> study.
+Most of my projects are embedded in the 
+<a href="https://www.med.lu.se/english/scan_b" target="_blank" rel="noopener">Sweden Cancerome Analysis Network&ndash;Breast (SCAN-B)</a> study.
 Additionally I work on improving open source bioinformatics and reproducible research infrastructure
-by contributing to projects such as <a href="https://conda-forge.org/">conda-forge</a>, <a href="http://bioconda.github.io/">Bioconda</a>, and <a href="http://biopython.org/">Biopython</a>.</p>
-<p>Over the past 20 years I have contributed to a number of open source software projects, most notably the <a href="https://www.freebsd.org/">FreeBSD</a> computer
-operating system. An overview can be <a href="https://www.openhub.net/accounts/brueffer">found on OpenHub</a>.</p>
+by contributing to projects such as 
+<a href="https://conda-forge.org/" target="_blank" rel="noopener">conda-forge</a>, 
+<a href="http://bioconda.github.io/" target="_blank" rel="noopener">Bioconda</a>, and 
+<a href="http://biopython.org/" target="_blank" rel="noopener">Biopython</a>.</p>
+<p>Over the past 20 years I have contributed to a number of open source software projects, most notably the 
+<a href="https://www.freebsd.org/" target="_blank" rel="noopener">FreeBSD</a> computer
+operating system. An overview can be 
+<a href="https://www.openhub.net/accounts/brueffer" target="_blank" rel="noopener">found on OpenHub</a>.</p>
 
 
     <div class="row">
@@ -806,9 +841,9 @@ operating system. An overview can be <a href="https://www.openhub.net/accounts/b
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
@@ -820,6 +855,11 @@ operating system. An overview can be <a href="https://www.openhub.net/accounts/b
     
     
     <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -872,6 +912,9 @@ operating system. An overview can be <a href="https://www.openhub.net/accounts/b
 
     
     
+
+    
+    
     
     
     
@@ -884,7 +927,7 @@ operating system. An overview can be <a href="https://www.openhub.net/accounts/b
     
     
     
-    <script src="/js/academic.min.a0d331bcd05dbe8b31e244f796710f08.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -900,8 +943,18 @@ operating system. An overview can be <a href="https://www.openhub.net/accounts/b
   
 
   <p class="powered-by">
-    ©2019-2020 Christian Brueffer &middot; 
+    ©2019-2020 Christian Brueffer
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
