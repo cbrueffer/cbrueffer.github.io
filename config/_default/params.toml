@@ -87,11 +87,11 @@ phone = ""
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 #address = {street = "", city = "Oxford", region = "", postcode = "", country = "United Kingdom", country_code = "UK"}
-address = {city = "Oxford", country = "United Kingdom", country_code = "UK"}
+address = {city = "Lund", country = "Sweden", country_code = "SE"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "51.755512", longitude = "-1.258575"}
+coordinates = {latitude = "55.713486", longitude = "13.218259"}
 
 # Directions for visitors to locate you.
 directions = ""
