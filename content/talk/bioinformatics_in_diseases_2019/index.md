@@ -48,6 +48,7 @@ url_video: ""
 #   Otherwise, set `projects = []`.
 projects:
 - phd
+- mutationexplorer
 
 # Enable math on this page?
 math: true
