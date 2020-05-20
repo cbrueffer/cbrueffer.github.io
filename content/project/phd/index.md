@@ -1,6 +1,6 @@
 ---
 title: RNA Sequencing for Breast Cancer Diagnostics
-summary: "My PhD work in which I develop RNA sequencing-based diagnostic tools for breast cancer."
+summary: "My PhD work in developing RNA sequencing-based diagnostic tools for breast cancer."
 tags:
 - PhD
 - Breast Cancer
