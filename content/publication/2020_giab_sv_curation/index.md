@@ -1,6 +1,6 @@
 +++
-title = "SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome"
-date = 2019-08-05
+title = "A crowdsourced set of curated structural variants for the human genome"
+date = 2020-06-19
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,7 +18,7 @@ authors = ["Lesley M Chapman", "Noah Spies", "Patrick Pai", "Chun Shen Lim", "An
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv Preprint"
+publication = "PLoS Computational Biology"
 #publication_short = ""
 
 # Abstract and optional shortened version.
@@ -40,9 +40,9 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://www.biorxiv.org/content/10.1101/581264v3.full.pdf"
+url_pdf = "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007933&type=printable"
 url_preprint = "https://www.biorxiv.org/content/10.1101/581264v3"
-#url_code = ""
+url_code = "https://github.com/lesleymaraina/svcurator"
 #url_dataset = ""
 #url_project = ""
 #url_slides = ""
@@ -55,7 +55,7 @@ url_preprint = "https://www.biorxiv.org/content/10.1101/581264v3"
 #url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = ""
+doi = "10.1371/journal.pcbi.1007933"
 
 # Does the content use math formatting?
 math = false
