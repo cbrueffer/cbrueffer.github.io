@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>A crowdsourced set of curated structural variants for the human genome</title>
+      <link>https://www.brueffer.io/publication/2020_giab_sv_curation/</link>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0100</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_giab_sv_curation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title>
       <link>https://www.brueffer.io/talk/asco_2020/</link>
       <pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate>
@@ -104,14 +112,6 @@ projects such as
 &lt;p&gt;
 &lt;a href=&#34;https://github.com/freebsd/freebsd-ports/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the ports repository&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome</title>
-      <link>https://www.brueffer.io/publication/svcurator/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.brueffer.io/publication/svcurator/</guid>
-      <description></description>
     </item>
     
     <item>
