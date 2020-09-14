@@ -5,7 +5,7 @@
     <link>https://www.brueffer.io/authors/christer-larsson/</link>
       <atom:link href="https://www.brueffer.io/authors/christer-larsson/index.xml" rel="self" type="application/rss+xml" />
     <description>Christer Larsson</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Christer Larsson</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>The Mutational Landscape of the SCAN-B Real-World Primary Breast Cancer Transcriptome</title>
-      <link>https://www.brueffer.io/publication/scanb_mutational_landscape_primary_bc/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/publication/scanb_mutational_landscape_primary_bc/</guid>
+      <title>The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome</title>
+      <link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0100</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid>
       <description></description>
     </item>
     
