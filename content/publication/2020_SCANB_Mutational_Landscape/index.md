@@ -1,6 +1,6 @@
 +++
-title = "The Mutational Landscape of the SCAN-B Real-World Primary Breast Cancer Transcriptome"
-date = 2020-01-31
+title = "The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome"
+date = 2020-09-14
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -15,10 +15,10 @@ authors = ["**Christian Brueffer**", "Sergii Gladchuk", "Christof Winter", "Joha
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "bioRxiv"
+publication = "EMBO Molecular Medicine"
 #publication_short = ""
 
 # Abstract and optional shortened version.
@@ -40,10 +40,10 @@ projects = ["phd"]
 tags = []
 
 # Links (optional).
-#url_pdf = ""
+url_pdf = "https://www.embopress.org/doi/epdf/10.15252/emmm.202012118"
 url_preprint = "https://doi.org/10.1101/2020.01.30.926733"
 url_code = "https://github.com/cbrueffer/MutationExplorer"
-#url_dataset = ""
+url_dataset = "https://oncogenomics.bmc.lu.se/MutationExplorer"
 url_project = "https://oncogenomics.bmc.lu.se/MutationExplorer"
 #url_slides = ""
 #url_video = ""
@@ -55,7 +55,7 @@ url_project = "https://oncogenomics.bmc.lu.se/MutationExplorer"
 #url_custom = [{name = "Custom Link", url = "http://example.org"}]
 
 # Digital Object Identifier (DOI)
-doi = "10.1101/2020.01.30.926733"
+doi = "10.15252/emmm.202012118"
 
 # Does the content use math formatting?
 math = false
