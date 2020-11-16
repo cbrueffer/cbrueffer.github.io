@@ -5,7 +5,7 @@
     <link>https://www.brueffer.io/publication_types/4/</link>
       <atom:link href="https://www.brueffer.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Wed, 01 Apr 2009 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>4</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>precisionFDA Truth Challenge V2: Calling variants from short- and long-reads in difficult-to-map regions</title>
+      <link>https://www.brueffer.io/publication/2020_precisionfda/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0100</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_precisionfda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>FreeBSD Security Event Auditing</title>
       <link>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</link>
-      <pubDate>Wed, 01 Apr 2009 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0200</pubDate>
       <guid>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</guid>
       <description></description>
     </item>

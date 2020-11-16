@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Duygu Kabakci-Zorlu | Christian Brueffer</title>
+    <link>https://www.brueffer.io/authors/duygu-kabakci-zorlu/</link>
+      <atom:link href="https://www.brueffer.io/authors/duygu-kabakci-zorlu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Duygu Kabakci-Zorlu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Duygu Kabakci-Zorlu</title>
+      <link>https://www.brueffer.io/authors/duygu-kabakci-zorlu/</link>
+    </image>
+    
+    <item>
+      <title>precisionFDA Truth Challenge V2: Calling variants from short- and long-reads in difficult-to-map regions</title>
+      <link>https://www.brueffer.io/publication/2020_precisionfda/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0100</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_precisionfda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
