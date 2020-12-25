@@ -1,15 +1,15 @@
 ---
-title: RNA Sequencing for Breast Cancer Diagnostics
+title: RNA Sequencing for Molecular Diagnostics in Breast Cancer
 summary: "My PhD work in developing RNA sequencing-based diagnostic tools for breast cancer."
 tags:
 - PhD
 - Breast Cancer
 - RNA Sequencing
-date: "2020-01-20T00:00:00Z"
+date: "2020-12-18T00:00:00Z"
 
 image:
   placement: 1
-  caption: "Pink ribbon for breast cancer awareness (Source: MesserWoland https://commons.wikimedia.org/w/index.php?curid=1681992)."
+  caption: "Book title of the PhD thesis."
   focal_point: Smart
   preview_only: true
 ---
@@ -24,8 +24,8 @@ is not accessible from DNA (gene/isoform expression), in addition to being able,
 (e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
 that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.
 
-My ongoing PhD work is about exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
-[Sweden Cancerome Analysis Network--Breast (SCAN-B)][scanb] breast cancer project, and by developing diagnostic tools from the generated
+The topic of my PhD thesis was exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
+[Sweden Cancerome Analysis Network--Breast (SCAN-B)][scanb] breast cancer project and by developing diagnostic tools from the generated
 data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
 are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.
 
