@@ -3,8 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.brueffer.io/tags/breast-cancer/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/phd/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/project/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/rna-sequencing/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/project/phd/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/tags/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.brueffer.io/authors/christian-brueffer/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/publication_types/5/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/authors/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/publication_types/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.brueffer.io/publication/2020_phd_thesis/</loc>
+    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
   </url>
   
   <url>
@@ -44,11 +94,6 @@
   
   <url>
     <loc>https://www.brueffer.io/authors/anish-g.-prasanna/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/</loc>
     <lastmod>2020-11-16T13:37:13+01:00</lastmod>
   </url>
   
@@ -289,11 +334,6 @@
   
   <url>
     <loc>https://www.brueffer.io/publication/2020_precisionfda/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication_types/</loc>
     <lastmod>2020-11-16T13:37:13+01:00</lastmod>
   </url>
   
@@ -608,43 +648,13 @@
   </url>
   
   <url>
-    <loc>https://www.brueffer.io/tags/breast-cancer/</loc>
-    <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.brueffer.io/talk/asco_2020/</loc>
     <lastmod>2020-05-16T16:43:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.brueffer.io/tags/</loc>
-    <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/phd/</loc>
-    <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/</loc>
-    <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/rna-sequencing/</loc>
-    <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.brueffer.io/project/mutationexplorer/</loc>
     <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/phd/</loc>
-    <lastmod>2020-05-20T17:09:43+01:00</lastmod>
   </url>
   
   <url>

@@ -5,12 +5,36 @@
     <link>https://www.brueffer.io/tags/rna-sequencing/</link>
       <atom:link href="https://www.brueffer.io/tags/rna-sequencing/index.xml" rel="self" type="application/rss+xml" />
     <description>RNA Sequencing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>RNA Sequencing</title>
       <link>https://www.brueffer.io/tags/rna-sequencing/</link>
     </image>
+    
+    <item>
+      <title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title>
+      <link>https://www.brueffer.io/project/phd/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/project/phd/</guid>
+      <description>&lt;p&gt;Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
+translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
+Most of these efforts focus on 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RNA sequencing (RNA-seq)&lt;/a&gt; is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
+and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
+is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
+(e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
+that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.&lt;/p&gt;
+&lt;p&gt;The topic of my PhD thesis was exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
+
+&lt;a href=&#34;https://www.scan-b.lu.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a&gt; breast cancer project and by developing diagnostic tools from the generated
+data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
+are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.&lt;/p&gt;
+&lt;p&gt;See below for a list of results generated from this work.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>SCAN-B MutationExplorer</title>
@@ -32,30 +56,6 @@ patient blood samples.&lt;/p&gt;
 &lt;p&gt;As part of this project we provide the web portal 
 &lt;a href=&#34;https://oncogenomics.bmc.lu.se/MutationExplorer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SCAN-B Mutationexplorer&lt;/a&gt; to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
 The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RNA Sequencing for Breast Cancer Diagnostics</title>
-      <link>https://www.brueffer.io/project/phd/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/project/phd/</guid>
-      <description>&lt;p&gt;Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
-translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
-Most of these efforts focus on 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RNA sequencing (RNA-seq)&lt;/a&gt; is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
-and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
-is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
-(e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
-that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.&lt;/p&gt;
-&lt;p&gt;My ongoing PhD work is about exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
-
-&lt;a href=&#34;https://www.scan-b.lu.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a&gt; breast cancer project, and by developing diagnostic tools from the generated
-data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
-are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.&lt;/p&gt;
-&lt;p&gt;See below for a list of results generated from this work.&lt;/p&gt;
 </description>
     </item>
     
