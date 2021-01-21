@@ -10,17 +10,17 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Bioinformatician / PhD Candidate
+role: Senior Bioinformatician
 
 # Organizations/Affiliations
 organizations:
 - name: SAGA Diagnostics
-  url: "http://sagadiagnostics.com/"
+  url: "https://sagadiagnostics.com/"
 - name: Lund University
   url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Bioinformatician and PhD candidate with research interests including cancer diagnostics and research, and open source bioinformatics.
+bio: Bioinformatician with research interests including cancer diagnostics and research, and open source bioinformatics.
 
 interests:
 - Bioinformatics
@@ -30,6 +30,8 @@ interests:
 
 education:
   courses:
+  - course: PhD in Cancer Genomics
+    institution: Lund University
   - course: MSc in Bioinformatics
     institution: Lund University
   - course: BSc in Scientific Programming
@@ -85,8 +87,8 @@ user_groups:
 - Visitors
 ---
 
-I work as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am completing a PhD in
-cancer genomics at [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html) in Sweden.
+I work as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am affiliated with
+[Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html) in Sweden.
 
 My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
 (also known as next generation sequencing) to improve breast cancer treatment and survival.
