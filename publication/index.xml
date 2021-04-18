@@ -5,20 +5,12 @@
     <link>https://www.brueffer.io/publication/</link>
       <atom:link href="https://www.brueffer.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>https://www.brueffer.io/publication/</link>
     </image>
-    
-    <item>
-      <title>Pre-existing somatic mutations of estrogen receptor alpha (ESR1) in early-stage primary breast cancer</title>
-      <link>https://www.brueffer.io/publication/2021_scanb_esr1/</link>
-      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.brueffer.io/publication/2021_scanb_esr1/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title>
@@ -33,7 +25,42 @@
       <link>https://www.brueffer.io/publication/2020_precisionfda/</link>
       <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_precisionfda/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1101/2020.11.13.380741&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1101/2020.11.13.380741&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +68,42 @@
       <link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.15252/emmm.202012118&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.15252/emmm.202012118&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -49,7 +111,42 @@
       <link>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1002/path.5532&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1002/path.5532&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -57,7 +154,42 @@
       <link>https://www.brueffer.io/publication/2020_giab_sv_curation/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_giab_sv_curation/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1371/journal.pcbi.1007933&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1371/journal.pcbi.1007933&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -65,7 +197,42 @@
       <link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1007/s10549-019-05326-5&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1007/s10549-019-05326-5&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -73,7 +240,42 @@
       <link>https://www.brueffer.io/publication/2018_bioconda/</link>
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2018_bioconda/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1038/s41592-018-0046-7&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1038/s41592-018-0046-7&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -81,7 +283,42 @@
       <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1200/PO.17.00135&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1200/PO.17.00135&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -89,7 +326,42 @@
       <link>https://www.brueffer.io/publication/2016_tophat-recondition/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1186/s12859-016-1058-x&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1186/s12859-016-1058-x&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -97,7 +369,42 @@
       <link>https://www.brueffer.io/publication/2015_primary_met_bc/</link>
       <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.18632/oncotarget.5951&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.18632/oncotarget.5951&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -105,7 +412,42 @@
       <link>https://www.brueffer.io/publication/2015_contralateral_bc/</link>
       <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_contralateral_bc/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1186/s13058-015-0608-x&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1186/s13058-015-0608-x&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
@@ -113,7 +455,42 @@
       <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
-      <description></description>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1186/s13073-015-0131-9&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1186/s13073-015-0131-9&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
     </item>
     
     <item>
