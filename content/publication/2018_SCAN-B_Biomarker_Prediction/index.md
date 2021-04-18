@@ -45,7 +45,7 @@ abstract: "In early breast cancer (BC), five conventional biomarkers—estrogen 
 tags:
 - Breast Cancer
 - SCAN-B
-featured: false
+featured: true
 
 # links:
 # - name: ""

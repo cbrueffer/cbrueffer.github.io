@@ -40,20 +40,20 @@ publication_types: ["2"]
 publication: "*Nature Methods, 2018. 15(7):475--476*"
 #publication_short: "NMeth"
 
-abstract: ""
+abstract: "We present Bioconda (https://bioconda.github.io), a distribution of bioinformatics software for the lightweight, multiplatform and language-agnostic package manager Conda. Currently, Bioconda offers a collection of over 3000 software packages, which is continuously maintained, updated, and extended by a growing global community of more than 200 contributors. Bioconda improves analysis reproducibility by allowing users to define isolated environments with defined software versions, all of which are easily installed and managed without administrative privileges."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Bioconda
-featured: true
+featured: false
 
 # links:
 # - name: ""
 #   url: ""
 url_pdf: ''
-url_preprint: "https://www.biorxiv.org/content/early/2017/10/21/207092"
+url_preprint: "https://www.biorxiv.org/content/10.1101/207092v2"
 url_code: ''
 url_dataset: ''
 url_poster: ''
