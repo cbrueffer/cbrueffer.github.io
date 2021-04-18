@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source | Christian Brueffer</title>
+    <link>https://www.brueffer.io/tag/open-source/</link>
+      <atom:link href="https://www.brueffer.io/tag/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <description>Open Source</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>Open Source</title>
+      <link>https://www.brueffer.io/tag/open-source/</link>
+    </image>
+    
+    <item>
+      <title>FreeBSD</title>
+      <link>https://www.brueffer.io/project/freebsd/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/project/freebsd/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.freebsd.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeBSD&lt;/a&gt; is an open source Unix-like operating system that can be
+found (as a whole or in parts) in Apple macOS and iOS, Sony Playstation 4, Juniper routers
+and NetApp storage filers, to name a few. It also powers services such as Netflix and WhatsApp.
+I have been a developer with the project since 2003, and also contribute to related security-focused
+projects such as &lt;a href=&#34;http://www.trustedbsd.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TrustedBSD&lt;/a&gt; and &lt;a href=&#34;https://github.com/openbsm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenBSM&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;commits&#34;&gt;Commits&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the source code repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd-doc/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the documentation repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd-ports/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the ports repository&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

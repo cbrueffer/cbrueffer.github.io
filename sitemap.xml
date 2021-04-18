@@ -1,989 +1,141 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://www.brueffer.io/tags/breast-cancer/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/phd/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/rna-sequencing/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/phd/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/christian-brueffer/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication_types/5/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication_types/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2020_phd_thesis/</loc>
-    <lastmod>2020-12-25T13:17:44+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication_types/4/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/adrian-munoz-barrera/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/alexey-dolgoborodov/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/alexey-kolesnikov/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/amit-jain/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/andigoni-malousi/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/andrew-carroll/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/anish-g.-prasanna/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/benedict-paten/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/bryan-lajoie/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/calvin-hung/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/carlos-flores/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/chirag-jain/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/chouxian-ma/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/cooper-roddey/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/david-jaspez/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/deniz-turgut/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/duygu-kabakci-zorlu/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/elaine-johanson/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/elif-arslan/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/emily-boja/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/ezekiel-j.-maier/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/fritz-j.-sedlazeck/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/gen-li/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/genis-parra/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/guillaume-bourque/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/gungor-budak/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/gunjan-baid/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/h.-serhat-tetikol/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/hanying-feng/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/howard-yang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/ivan-j.-johnson/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jean-remi-trotta/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jennifer-mcdaniel/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jordi-morata/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jose-m.-lorenzo-salazar/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/justin-m.-zook/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/justin-wagner/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/kai-wang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/kishwar-shafin/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/konstantinos-kyriakidis/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/kubra-narci/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/li-tai-fang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/linqi-tang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/luis-a.-rubio-rodriguez/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/luoqi-chen/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/marghoob-mohiyuddin/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/maria-nattestad/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/mathieu-bourgey/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/mike-ruehle/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/miten-jain/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/nathan-d.-olson/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/omar-serang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/ozem-kalay/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/pi-chuan-chang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2020_precisionfda/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/qian-liu/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/rami-mehio/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/raul-tonda/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/richard-brown/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/robert-eveleigh/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/samuel-t.-westreich/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sarah-h.-stephens/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sayed-mohammad-ebrahim-sahraeian/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/severine-catreux/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/shaowei-zhang/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sidharth-goel/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sinem-demirkaya-budak/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/trevor-pesout/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/umair-ahsan/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/varun-jain/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/vladimir-semenyuk/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/yuanping-du/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/zhipan-li/</loc>
-    <lastmod>2020-11-16T13:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication_types/2/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/anna-ehinger/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/anthony-m.-george/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/cecilia-hegardt/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/christer-larsson/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/christof-winter/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jari-hakkinen/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/johan-vallon-christersson/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/lao-h.-saal/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/lisa-ryden/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/martin-malmberg/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/niklas-loman/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sergii-gladchuk/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/yilun-chen/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/ake-borg/</loc>
-    <lastmod>2020-09-14T15:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/david-lindgren/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/helen-nilsson/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/hakan-axelson/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jaana-lundgren/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/martin-johansson/</loc>
-    <lastmod>2020-09-15T10:25:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2020_giab_sv_curation/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/aaron-m.-wenger/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/azza-ahmed/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/christopher-m.-watson/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/christos-proukakis/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/chun-shen-lim/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/chunlin-xiao/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/daniel-blankenberg/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/eric-dawson/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/garan-jones/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/giuseppe-narzisi/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/graeme-smith/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/lesley-m-chapman/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/marc-salit/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/naoki-nariai/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/noah-alexander/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/noah-spies/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/patrick-pai/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/paul-wolujewicz/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/saadlee-shehreen/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sree-rohit-raj-kolora/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/wayne-e.-clarke/</loc>
-    <lastmod>2020-06-22T15:33:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/asco_2020/</loc>
-    <lastmod>2020-05-16T16:43:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/mutationexplorer/</loc>
-    <lastmod>2020-08-03T14:36:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/scrm_2019/</loc>
-    <lastmod>2020-05-16T16:43:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/freebsd/</loc>
-    <lastmod>2020-05-20T17:09:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/project/freebsd/</loc>
-    <lastmod>2020-05-20T17:09:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/tags/open-source/</loc>
-    <lastmod>2020-05-20T17:09:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/daniel-fornvik/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/kristina-e.-aaltonen/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/robert-rigo/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/bioinformatics_in_diseases_2019/</loc>
-    <lastmod>2020-05-16T16:43:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/brueffer-c/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/batut-b/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/beauchamp-ka/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2018_bioconda/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/bretaudeau-a/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/caprez-a/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/chapman-ba/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/cokelaer-t/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/dale-r/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/gruning-b/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/haudgaard-m/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/hoogstrate-y/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/koster-j/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/le-corguille-g/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/pedersen-bs/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/rowe-j/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/ryan-d/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sjodin-a/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/tomkins-tinch-c/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/valieris-r/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/keystone_2018/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/dorthe-grabau/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/janne-malina/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/jonas-manjer/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/par-ola-bendahl/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/bosc_2017/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/bosc_2016/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2016_tophat-recondition/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/eleonor-olsson/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/emma-nimeus/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/kun-wang/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/malin-dahlgren/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/man-hung-eric-tang/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/martin-sjostrom/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2015_primary_met_bc/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sofia-k.-gruvberger-saal/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/tamara-tjitrowirjo/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/therese-torngren/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2015_contralateral_bc/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/marten-ferno/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sara-alkner/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/sara-baker/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/anna-karlsson/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/christel-reutersward/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/ralph-schulz/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2015_scan-b_pop/</loc>
-    <lastmod>2020-01-10T16:12:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/nycbsdcon_2010/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/meetbsd_2007/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/talk/froscon_2006/</loc>
-    <lastmod>2020-01-06T16:12:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/authors/cbrueffer/</loc>
-    <lastmod>2020-01-13T14:45:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/categories/</loc>
-  </url>
-  
-  <url>
+    <loc>https://www.brueffer.io/publication-type/7/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/breast-cancer/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.brueffer.io/</loc>
-    <lastmod>2019-03-17T20:39:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.brueffer.io/post/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/phd/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/project/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication_types/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.brueffer.io/publication/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/rna-sequencing/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/project/phd/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2020_phd_thesis/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/scan-b/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tags/</loc>
+    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication-type/3/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/genome-in-a-bottle/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2020_precisionfda/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication-type/2/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2020_giab_sv_curation/</loc>
+    <lastmod>2020-06-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/asco_2020/</loc>
+    <lastmod>2020-05-29T08:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.brueffer.io/talk/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+    <lastmod>2020-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/project/mutationexplorer/</loc>
+    <lastmod>2020-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/scrm_2019/</loc>
+    <lastmod>2019-11-04T10:45:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/freebsd/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/project/freebsd/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/open-source/</loc>
+    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/liquid-biopsy/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/bioinformatics_in_diseases_2019/</loc>
+    <lastmod>2019-05-23T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/bioconda/</loc>
+    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2018_bioconda/</loc>
+    <lastmod>2018-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/keystone_2018/</loc>
+    <lastmod>2018-05-07T16:15:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/bosc_2017/</loc>
+    <lastmod>2017-07-22T15:46:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/bosc_2016/</loc>
+    <lastmod>2016-07-09T14:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2016_tophat-recondition/</loc>
+    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2015_primary_met_bc/</loc>
+    <lastmod>2015-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2015_contralateral_bc/</loc>
+    <lastmod>2015-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2015_scan-b_pop/</loc>
+    <lastmod>2015-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/nycbsdcon_2010/</loc>
+    <lastmod>2010-11-14T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication-type/4/</loc>
+    <lastmod>2009-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</loc>
+    <lastmod>2009-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/meetbsd_2007/</loc>
+    <lastmod>2007-11-17T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/talk/froscon_2006/</loc>
+    <lastmod>2006-06-24T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/categories/</loc>
+  </url><url>
+    <loc>https://www.brueffer.io/post/</loc>
   </url>
-  
 </urlset>

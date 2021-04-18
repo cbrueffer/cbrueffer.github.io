@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SCAN-B | Christian Brueffer</title>
+    <link>https://www.brueffer.io/tag/scan-b/</link>
+      <atom:link href="https://www.brueffer.io/tag/scan-b/index.xml" rel="self" type="application/rss+xml" />
+    <description>SCAN-B</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>SCAN-B</title>
+      <link>https://www.brueffer.io/tag/scan-b/</link>
+    </image>
+    
+    <item>
+      <title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title>
+      <link>https://www.brueffer.io/publication/2020_phd_thesis/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome</title>
+      <link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title>
+      <link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title>
+      <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title>
+      <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

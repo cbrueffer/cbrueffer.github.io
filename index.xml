@@ -5,9 +5,9 @@
     <link>https://www.brueffer.io/</link>
       <atom:link href="https://www.brueffer.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Christian Brueffer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019-2020 Christian Brueffer</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.brueffer.io/images/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Christian Brueffer</title>
       <link>https://www.brueffer.io/</link>
     </image>
@@ -19,16 +19,13 @@
       <guid>https://www.brueffer.io/project/phd/</guid>
       <description>&lt;p&gt;Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
 translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
-Most of these efforts focus on 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RNA sequencing (RNA-seq)&lt;/a&gt; is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
+Most of these efforts focus on &lt;a href=&#34;https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RNA sequencing (RNA-seq)&lt;/a&gt; is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
 and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
 is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
 (e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
 that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.&lt;/p&gt;
 &lt;p&gt;The topic of my PhD thesis was exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
-
 &lt;a href=&#34;https://www.scan-b.lu.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a&gt; breast cancer project and by developing diagnostic tools from the generated
 data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
 are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.&lt;/p&gt;
@@ -39,7 +36,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     <item>
       <title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title>
       <link>https://www.brueffer.io/publication/2020_phd_thesis/</link>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_phd_thesis/</guid>
       <description></description>
     </item>
@@ -47,7 +44,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     <item>
       <title>precisionFDA Truth Challenge V2: Calling variants from short- and long-reads in difficult-to-map regions</title>
       <link>https://www.brueffer.io/publication/2020_precisionfda/</link>
-      <pubDate>Sun, 15 Nov 2020 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_precisionfda/</guid>
       <description></description>
     </item>
@@ -55,7 +52,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     <item>
       <title>The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome</title>
       <link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link>
-      <pubDate>Mon, 14 Sep 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid>
       <description></description>
     </item>
@@ -63,7 +60,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     <item>
       <title>Features of increased malignancy in eosinophilic clear cell renal cell carcinoma</title>
       <link>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</guid>
       <description></description>
     </item>
@@ -71,7 +68,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     <item>
       <title>A crowdsourced set of curated structural variants for the human genome</title>
       <link>https://www.brueffer.io/publication/2020_giab_sv_curation/</link>
-      <pubDate>Fri, 19 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_giab_sv_curation/</guid>
       <description></description>
     </item>
@@ -93,16 +90,11 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
 &lt;li&gt;URL: &lt;a href=&#34;https://oncogenomics.bmc.lu.se/MutationExplorer&#34;&gt;https://oncogenomics.bmc.lu.se/MutationExplorer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Source code: &lt;a href=&#34;https://github.com/cbrueffer/MutationExplorer&#34;&gt;https://github.com/cbrueffer/MutationExplorer&lt;/a&gt; (2-clause BSD license)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To facilitate research cancer datasets these days get ever larger. Within the 
-&lt;a href=&#34;https://www.scan-b.lu.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast&lt;/a&gt; thousands of
-breast tumors have already undergone 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RNA sequencing&lt;/a&gt;, and the number grows daily.  In a 
-&lt;a href=&#34;../../publication/scanb_mutational_landscape_primary_bc/&#34;&gt;recent research project&lt;/a&gt;
-we demonstrated that this data can be used to call somatic mutations, which can e.g. help guide patient treatment or be used as targets for detecting 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Circulating_tumor_DNA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;circulating tumor DNA&lt;/a&gt; in
+&lt;p&gt;To facilitate research cancer datasets these days get ever larger. Within the &lt;a href=&#34;https://www.scan-b.lu.se/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sweden Cancerome Analysis Network&amp;ndash;Breast&lt;/a&gt; thousands of
+breast tumors have already undergone &lt;a href=&#34;https://en.wikipedia.org/wiki/RNA-Seq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RNA sequencing&lt;/a&gt;, and the number grows daily.  In a &lt;a href=&#34;../../publication/scanb_mutational_landscape_primary_bc/&#34;&gt;recent research project&lt;/a&gt;
+we demonstrated that this data can be used to call somatic mutations, which can e.g. help guide patient treatment or be used as targets for detecting &lt;a href=&#34;https://en.wikipedia.org/wiki/Circulating_tumor_DNA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;circulating tumor DNA&lt;/a&gt; in
 patient blood samples.&lt;/p&gt;
-&lt;p&gt;As part of this project we provide the web portal 
-&lt;a href=&#34;https://oncogenomics.bmc.lu.se/MutationExplorer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SCAN-B Mutationexplorer&lt;/a&gt; to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
+&lt;p&gt;As part of this project we provide the web portal &lt;a href=&#34;https://oncogenomics.bmc.lu.se/MutationExplorer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SCAN-B Mutationexplorer&lt;/a&gt; to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
 The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p&gt;
 </description>
     </item>
@@ -120,28 +112,22 @@ The underlying software, MutationExplorer, is freely available on GitHub and can
       <link>https://www.brueffer.io/project/freebsd/</link>
       <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/project/freebsd/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://www.freebsd.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeBSD&lt;/a&gt; is an open source Unix-like operating system that can be
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.freebsd.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeBSD&lt;/a&gt; is an open source Unix-like operating system that can be
 found (as a whole or in parts) in Apple macOS and iOS, Sony Playstation 4, Juniper routers
 and NetApp storage filers, to name a few. It also powers services such as Netflix and WhatsApp.
 I have been a developer with the project since 2003, and also contribute to related security-focused
-projects such as 
-&lt;a href=&#34;http://www.trustedbsd.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TrustedBSD&lt;/a&gt; and 
-&lt;a href=&#34;https://github.com/openbsm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenBSM&lt;/a&gt;.&lt;/p&gt;
+projects such as &lt;a href=&#34;http://www.trustedbsd.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TrustedBSD&lt;/a&gt; and &lt;a href=&#34;https://github.com/openbsm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenBSM&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;commits&#34;&gt;Commits&lt;/h3&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/freebsd/freebsd/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the source code repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/freebsd/freebsd-doc/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the documentation repository&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/freebsd/freebsd-ports/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the ports repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the source code repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd-doc/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the documentation repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/freebsd/freebsd-ports/commits?author=cbrueffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;to the ports repository&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title>
       <link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid>
       <description></description>
     </item>
@@ -157,7 +143,7 @@ projects such as
     <item>
       <title>Bioconda: sustainable and comprehensive software distribution for the life sciences</title>
       <link>https://www.brueffer.io/publication/2018_bioconda/</link>
-      <pubDate>Mon, 02 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2018_bioconda/</guid>
       <description></description>
     </item>
@@ -173,7 +159,7 @@ projects such as
     <item>
       <title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title>
       <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
       <description></description>
     </item>
@@ -197,7 +183,7 @@ projects such as
     <item>
       <title>TopHat-Recondition: A post-processor for TopHat unmapped reads</title>
       <link>https://www.brueffer.io/publication/2016_tophat-recondition/</link>
-      <pubDate>Wed, 04 May 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid>
       <description></description>
     </item>
@@ -205,7 +191,7 @@ projects such as
     <item>
       <title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title>
       <link>https://www.brueffer.io/publication/2015_primary_met_bc/</link>
-      <pubDate>Fri, 02 Oct 2015 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid>
       <description></description>
     </item>
@@ -213,7 +199,7 @@ projects such as
     <item>
       <title>Contralateral breast cancer can represent a metastatic spread of the first primary tumor: determination of clonal relationship between contralateral breast cancers using next-generation whole genome sequencing</title>
       <link>https://www.brueffer.io/publication/2015_contralateral_bc/</link>
-      <pubDate>Wed, 05 Aug 2015 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_contralateral_bc/</guid>
       <description></description>
     </item>
@@ -221,7 +207,7 @@ projects such as
     <item>
       <title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title>
       <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
-      <pubDate>Mon, 02 Feb 2015 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
       <description></description>
     </item>
@@ -237,7 +223,7 @@ projects such as
     <item>
       <title>FreeBSD Security Event Auditing</title>
       <link>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</link>
-      <pubDate>Wed, 01 Apr 2009 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</guid>
       <description></description>
     </item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Christian Brueffer</title>
+    <link>https://www.brueffer.io/publication-type/3/</link>
+      <atom:link href="https://www.brueffer.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
+      <title>3</title>
+      <link>https://www.brueffer.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>precisionFDA Truth Challenge V2: Calling variants from short- and long-reads in difficult-to-map regions</title>
+      <link>https://www.brueffer.io/publication/2020_precisionfda/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_precisionfda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
