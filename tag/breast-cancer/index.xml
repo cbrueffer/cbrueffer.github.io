@@ -5,12 +5,20 @@
     <link>https://www.brueffer.io/tag/breast-cancer/</link>
       <atom:link href="https://www.brueffer.io/tag/breast-cancer/index.xml" rel="self" type="application/rss+xml" />
     <description>Breast Cancer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019-2021 Christian Brueffer</copyright><lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_2.png</url>
       <title>Breast Cancer</title>
       <link>https://www.brueffer.io/tag/breast-cancer/</link>
     </image>
+    
+    <item>
+      <title>Pre-existing somatic mutations of estrogen receptor alpha (ESR1) in early-stage primary breast cancer</title>
+      <link>https://www.brueffer.io/publication/2021_scanb_esr1/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2021_scanb_esr1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title>

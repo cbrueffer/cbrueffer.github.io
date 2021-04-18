@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.brueffer.io/publication-type/7/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <loc>https://www.brueffer.io/publication-type/2/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/tag/breast-cancer/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2021_scanb_esr1/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication_types/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/scan-b/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tags/</loc>
+    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication-type/7/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/tag/phd/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/project/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/publication_types/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/publication/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/tag/rna-sequencing/</loc>
@@ -32,12 +44,6 @@
     <loc>https://www.brueffer.io/publication/2020_phd_thesis/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.brueffer.io/tag/scan-b/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/tags/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.brueffer.io/publication-type/3/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,9 +52,6 @@
   </url><url>
     <loc>https://www.brueffer.io/publication/2020_precisionfda/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/publication-type/2/</loc>
-    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
