@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Christian Brueffer
+title: Christian Brueffer
 
 # Username (this should match the folder name)
 authors:
@@ -31,11 +31,11 @@ interests:
 education:
   courses:
   - course: PhD in Cancer Genomics
-    institution: Lund University
+    institution: Lund University, Sweden
   - course: MSc in Bioinformatics
-    institution: Lund University
+    institution: Lund University, Sweden
   - course: BSc in Scientific Programming
-    institution: Aachen University of Applied Sciences
+    institution: Aachen University of Applied Sciences, Germany
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -79,6 +79,9 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

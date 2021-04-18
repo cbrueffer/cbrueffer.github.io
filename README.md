@@ -4,4 +4,4 @@ Source code for http://brueffer.io. Based on Hugo and the [Academic](https://git
 
 ## Author
 
-* [Christian Brueffer](http://brueffer.io)
+* [Christian Brueffer](https://brueffer.io)

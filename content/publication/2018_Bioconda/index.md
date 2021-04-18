@@ -1,75 +1,85 @@
-+++
-title = "Bioconda: sustainable and comprehensive software distribution for the life sciences"
-date = 2018-07-02
-draft = false
+---
+title: "Bioconda: sustainable and comprehensive software distribution for the life sciences"
+authors:
+- Björn Grüning
+- Ryan Dale
+- Andreas Sjödin
+- Brad A. Chapman
+- Jillian Rowe
+- Christopher H. Tomkins-Tinch
+- Renan Valieris
+- Adam Caprez
+- Bérénice Batut
+- Mathias Haudgaard
+- Thomas Cokelaer
+- Kyle A. Beauchamp
+- Brent S. Pedersen
+- Youri Hoogstrate
+- Devon Ryan
+- Anthony Bretaudeau
+- Gildas Le Corguillé
+- cbrueffer
+- et al
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Grüning B", "Dale R", "Sjödin A", "Chapman BA", "Rowe J", "Tomkins-Tinch C", "Valieris R", "Caprez A", "Batut B", "Haudgaard M", "Cokelaer T", "Beauchamp KA", "Pedersen BS", "Hoogstrate Y", "Ryan D", "Bretaudeau A", "Le Corguillé G", "**Brueffer C**", "…", "Köster J"]
+date: 2018-07-02
+doi: "10.1038/s41592-018-0046-7"
+
+# Schedule page publish date (NOT publication's date).
+#publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference proceedings
-# 2 = Journal
-# 3 = Work in progress
-# 4 = Technical report
-# 5 = Book
-# 6 = Book chapter
-publication_types = ["2"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["2"]
 
-# Publication name and optional abbreviated version.
-publication = "Nature Methods"
-#publication_short = ""
+# Publication name and optional abbreviated publication name.
+publication: "Nature Methods"
+#publication_short: "NMeth"
 
-# Abstract and optional shortened version.
-abstract = ""
+abstract: ""
 
-# Featured image thumbnail (optional)
-image_preview = ""
+# Summary. An optional shortened abstract.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-# Is this a selected publication? (true/false)
-featured = false
+tags:
+- Bioconda
+featured: true
 
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = []
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-
-# Links (optional).
-#url_pdf = ""
-url_preprint = "https://www.biorxiv.org/content/early/2017/10/21/207092"
-#url_code = ""
-#url_dataset = ""
-url_project = "http://bioconda.github.io/"
-#url_slides = ""
-#url_video = ""
-#url_poster = ""
-#url_source = "https://github.com/bioconda"
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Custom Link", url = "http://example.org"}]
-
-# Digital Object Identifier (DOI)
-doi = "10.1038/s41592-018-0046-7"
-
-# Does the content use math formatting?
-math = false
-
-# Does the content use source code highlighting?
-highlight = false
+# links:
+# - name: ""
+#   url: ""
+url_pdf: ''
+url_preprint: "https://www.biorxiv.org/content/early/2017/10/21/207092"
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: "https://bioconda.github.io/"
+url_slides: ''
+url_source: "https://github.com/bioconda/bioconda-paper"
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
+image:
+  caption: ''
+  focal_point: "Center"
+  preview_only: false
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+#slides: example
+---
