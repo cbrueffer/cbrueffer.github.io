@@ -34,7 +34,7 @@ doi: "10.1200/PO.17.00135"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "JCO Precision Oncology"
+publication: "*JCO Precision Oncology, 2018. 2:1--18*"
 #publication_short: "JCO-PO"
 
 abstract: ""
@@ -81,3 +81,39 @@ projects: [phd]
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+<html>
+  <style>
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  </style>
+  <section>
+    <div id="inner">
+      <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+        <span style="float:left";
+          class="__dimensions_badge_embed__"
+          data-doi="10.1200/PO.17.00135"
+          data-hide-zero-citations="true"
+          data-legend="always">
+        </span>
+      <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+        <div  style="float:right";
+          data-link-target="_blank"
+          data-badge-details="right"
+          data-badge-type="medium-donut"
+          data-doi="10.1200/PO.17.00135"
+          data-condensed="true"
+          data-hide-no-mentions="true"
+          class="altmetric-embed">
+        </div>
+    </div>
+  </section>

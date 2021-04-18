@@ -17,7 +17,7 @@ doi: "10.1186/s12859-016-1058-x"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "BMC Bioinformatics"
+publication: "*BMC Bioinformatics, 2016. 17(1):199*"
 #publication_short: ""
 
 abstract: ""
@@ -63,3 +63,40 @@ projects: [phd]
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+<html>
+  <style>
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  </style>
+  <section>
+    <div id="inner">
+      <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+        <span style="float:left";
+          class="__dimensions_badge_embed__"
+          data-doi="10.1186/s12859-016-1058-x"
+          data-hide-zero-citations="true"
+          data-legend="always">
+        </span>
+      <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+        <div  style="float:right";
+          data-link-target="_blank"
+          data-badge-details="right"
+          data-badge-type="medium-donut"
+          data-doi="10.1186/s12859-016-1058-x"
+          data-condensed="true"
+          data-hide-no-mentions="true"
+          class="altmetric-embed">
+        </div>
+    </div>
+  </section>
+

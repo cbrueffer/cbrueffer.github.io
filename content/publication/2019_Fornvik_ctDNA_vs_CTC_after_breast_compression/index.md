@@ -24,7 +24,7 @@ doi: "10.1007/s10549-019-05326-5"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Breast Cancer Research and Treatment"
+publication: "*Breast Cancer Research and Treatment, 2019. 177(2):447--445*"
 #publication_short: "Breast Cancer Res Treat"
 
 abstract: ""
@@ -72,3 +72,39 @@ projects: []
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+<html>
+  <style>
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  </style>
+  <section>
+    <div id="inner">
+      <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+        <span style="float:left";
+          class="__dimensions_badge_embed__"
+          data-doi="10.1007/s10549-019-05326-5"
+          data-hide-zero-citations="true"
+          data-legend="always">
+        </span>
+      <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+        <div style="float:right";
+          data-link-target="_blank"
+          data-badge-details="right"
+          data-badge-type="medium-donut"
+          data-doi="10.1007/s10549-019-05326-5"
+          data-condensed="true"
+          data-hide-no-mentions="true"
+          class="altmetric-embed">
+        </div>
+    </div>
+  </section>
