@@ -1,5 +1,5 @@
 ---
-title: RNA Sequencing for Molecular Diagnostics in Breast Cancer
+title: "PhD Project: RNA Sequencing-based Tools for Breast Cancer Diagnostics"
 summary: "My PhD work in developing RNA sequencing-based diagnostic tools for breast cancer."
 tags:
 - PhD

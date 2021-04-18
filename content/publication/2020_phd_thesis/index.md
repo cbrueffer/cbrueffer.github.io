@@ -15,7 +15,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-#publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Lund University, Faculty of Medicine Doctoral Dissertation Series. 2021:2*"
 #publication_short: ""
 
 abstract: ""

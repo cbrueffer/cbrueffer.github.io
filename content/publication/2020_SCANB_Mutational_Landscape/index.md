@@ -33,7 +33,7 @@ publication_types: ["2"]
 publication: "*EMBO Molecular Medicine, 2020. 12(10):e12118*"
 #publication_short: ""
 
-abstract: ""
+abstract: "Breast cancer is a disease of genomic alterations, of which the panorama of somatic mutations and how these relate to subtypes and therapy response is incompletely understood. Within SCAN‐B (ClinicalTrials.gov: NCT02306096), a prospective study elucidating the transcriptomic profiles for thousands of breast cancers, we developed a RNA‐seq pipeline for detection of SNVs/indels and profiled a real‐world cohort of 3,217 breast tumors. We describe the mutational landscape of primary breast cancer viewed through the transcriptome of a large population‐based cohort and relate it to patient survival. We demonstrate that RNA‐seq can be used to call mutations in genes such as *PIK3CA*, *TP53*, and *ERBB2*, as well as the status of molecular pathways and mutational burden, and identify potentially druggable mutations in 86.8% of tumors. To make this rich dataset available for the research community, we developed an open source web application, the SCAN‐B MutationExplorer (http://oncogenomics.bmc.lu.se/MutationExplorer). These results add another dimension to the use of RNA‐seq as a clinical tool, where both gene expression‐ and mutation‐based biomarkers can be interrogated in real‐time within 1 week of tumor sampling."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -80,6 +80,7 @@ projects: [phd]
 ---
 
 <html>
+  <head>
   <style>
     section {
         background: white;
@@ -93,6 +94,7 @@ projects: [phd]
         align-items: center;
         justify-content: center }
   </style>
+  </head>
   <section>
     <div id="inner">
       <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
