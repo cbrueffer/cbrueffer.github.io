@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title>
+      <title>PhD Project: RNA Sequencing-based Tools for Breast Cancer Diagnostics</title>
       <link>https://www.brueffer.io/project/phd/</link>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/project/phd/</guid>
@@ -90,6 +90,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid>
       <description>&lt;html&gt;
+  &lt;head&gt;
   &lt;style&gt;
     section {
         background: white;
@@ -103,6 +104,7 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
         align-items: center;
         justify-content: center }
   &lt;/style&gt;
+  &lt;/head&gt;
   &lt;section&gt;
     &lt;div id=&#34;inner&#34;&gt;
       &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
