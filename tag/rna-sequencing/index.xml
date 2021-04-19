@@ -34,6 +34,94 @@ are being enrolled since 2010, and RNA-seq data is being generated from their tu
     </item>
     
     <item>
+      <title>The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome</title>
+      <link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid>
+      <description>&lt;html&gt;
+  &lt;head&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.15252/emmm.202012118&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.15252/emmm.202012118&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Features of increased malignancy in eosinophilic clear cell renal cell carcinoma</title>
+      <link>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</guid>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1002/path.5532&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1002/path.5532&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SCAN-B MutationExplorer</title>
       <link>https://www.brueffer.io/project/mutationexplorer/</link>
       <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
@@ -48,6 +136,135 @@ we demonstrated that this data can be used to call somatic mutations, which can 
 patient blood samples.&lt;/p&gt;
 &lt;p&gt;As part of this project we provide the web portal &lt;a href=&#34;https://oncogenomics.bmc.lu.se/MutationExplorer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SCAN-B Mutationexplorer&lt;/a&gt; to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
 The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title>
+      <link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1200/PO.17.00135&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1200/PO.17.00135&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TopHat-Recondition: A post-processor for TopHat unmapped reads</title>
+      <link>https://www.brueffer.io/publication/2016_tophat-recondition/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1186/s12859-016-1058-x&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1186/s12859-016-1058-x&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title>
+      <link>https://www.brueffer.io/publication/2015_scan-b_pop/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid>
+      <description>&lt;html&gt;
+  &lt;style&gt;
+    section {
+        background: white;
+        color: black;
+        border-radius: 1em;
+        padding: 1em;
+        left: 50% }
+    #inner {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center }
+  &lt;/style&gt;
+  &lt;section&gt;
+    &lt;div id=&#34;inner&#34;&gt;
+      &lt;script type=&#39;text/javascript&#39; src=&#39;https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js&#39;&gt;&lt;/script&gt;
+        &lt;span style=&#34;float:left&#34;;
+          class=&#34;__dimensions_badge_embed__&#34;
+          data-doi=&#34;10.1186/s13073-015-0131-9&#34;
+          data-hide-zero-citations=&#34;true&#34;
+          data-legend=&#34;always&#34;&gt;
+        &lt;/span&gt;
+      &lt;script async src=&#34;https://badge.dimensions.ai/badge.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+        &lt;div  style=&#34;float:right&#34;;
+          data-link-target=&#34;_blank&#34;
+          data-badge-details=&#34;right&#34;
+          data-badge-type=&#34;medium-donut&#34;
+          data-doi=&#34;10.1186/s13073-015-0131-9&#34;
+          data-condensed=&#34;true&#34;
+          data-hide-no-mentions=&#34;true&#34;
+          class=&#34;altmetric-embed&#34;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
 </description>
     </item>
     

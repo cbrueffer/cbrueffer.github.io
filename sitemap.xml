@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.brueffer.io/publication-type/3/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/covid-19/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2021_rando_covid19_therapeutics/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication_types/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/sars-cov-2/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tags/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/publication/2021_rando_covid19_pathogenesis/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.brueffer.io/publication-type/7/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/tag/breast-cancer/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/tag/phd/</loc>
@@ -20,12 +44,6 @@
     <loc>https://www.brueffer.io/project/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.brueffer.io/publication_types/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/publication/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.brueffer.io/tag/rna-sequencing/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -34,12 +52,6 @@
   </url><url>
     <loc>https://www.brueffer.io/tag/scan-b/</loc>
     <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/tags/</loc>
-    <lastmod>2020-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.brueffer.io/publication-type/3/</loc>
-    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/tag/genome-in-a-bottle/</loc>
     <lastmod>2020-11-15T00:00:00+00:00</lastmod>
@@ -50,10 +62,16 @@
     <loc>https://www.brueffer.io/publication-type/2/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.brueffer.io/tag/open-source-software/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</loc>
     <lastmod>2020-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</loc>
+    <lastmod>2020-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/kidney-cancer/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/publication/2020_giab_sv_curation/</loc>
@@ -77,9 +95,6 @@
     <loc>https://www.brueffer.io/project/freebsd/</loc>
     <lastmod>2019-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.brueffer.io/tag/open-source/</loc>
-    <lastmod>2019-08-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,6 +114,9 @@
     <lastmod>2018-05-07T16:15:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.brueffer.io/tag/machine-learning/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.brueffer.io/talk/bosc_2017/</loc>
