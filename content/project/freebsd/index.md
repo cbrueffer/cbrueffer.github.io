@@ -3,7 +3,7 @@ title: FreeBSD
 summary: "I have been a developer with the FreeBSD operating system project since 2003. This page collates some related links."
 tags:
 - FreeBSD
-- Open Source
+- Open Source Software
 date: "2019-08-16T00:00:00Z"
 
 image:

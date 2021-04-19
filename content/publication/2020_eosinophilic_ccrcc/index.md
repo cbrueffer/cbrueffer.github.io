@@ -31,6 +31,8 @@ abstract: "Clear cell renal cell carcinoma (ccRCC) is the most common form of re
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- Kidney Cancer
+- RNA Sequencing
 featured: false
 
 # links:

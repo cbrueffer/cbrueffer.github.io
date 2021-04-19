@@ -26,6 +26,9 @@ abstract: "TopHat is a popular spliced junction mapper for RNA sequencing data, 
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- RNA Sequencing
+- Open Source Software
+- PhD
 featured: false
 
 # links:

@@ -41,6 +41,9 @@ abstract: "Breast cancer is a disease of genomic alterations, of which the panor
 tags:
 - Breast Cancer
 - SCAN-B
+- RNA Sequencing
+- Open Source Software
+- PhD
 featured: true
 
 # links:

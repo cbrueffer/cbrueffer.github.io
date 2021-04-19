@@ -2,9 +2,10 @@
 title: SCAN-B MutationExplorer
 summary: "A web-based application for exploring tumor somatic mutations."
 tags:
-- PhD
 - Breast Cancer
 - RNA Sequencing
+- Open Source Software
+- PhD
 date: "2020-02-04T00:00:00Z"
 
 image:

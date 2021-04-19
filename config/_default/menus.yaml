@@ -13,9 +13,22 @@ main:
   - name: Talks
     url: '#talks'
     weight: 40
-  - name: Publications
+  - name: Research
+    identifier: research
     url: '#featured'
     weight: 50
+  - name: Popular Topics
+    url: '#tags'
+    parent: research
+    weight: 51
+  - name: Featured Publications
+    url: '#featured'
+    parent: research
+    weight: 53
+  - name: All Publications
+    url: 'publication/'
+    parent: research
+    weight: 55
   - name: Contact
     url: '#contact'
     weight: 70

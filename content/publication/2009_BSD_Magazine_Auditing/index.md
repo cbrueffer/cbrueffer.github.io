@@ -26,6 +26,7 @@ abstract: ""
 
 tags:
 - FreeBSD
+- Open Source Software
 featured: false
 
 # links:
