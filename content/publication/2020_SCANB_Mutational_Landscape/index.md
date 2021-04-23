@@ -58,7 +58,9 @@ url_project: "https://oncogenomics.bmc.lu.se/MutationExplorer"
 #url_video: ""
 #url_poster: ""
 #url_source: "https://github.com/cbrueffer/MutationExplorer"
-
+links:
+- name: Press Release
+  url: https://www.lunduniversity.lu.se/article/new-analytical-model-detects-mutations-breast-cancer
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

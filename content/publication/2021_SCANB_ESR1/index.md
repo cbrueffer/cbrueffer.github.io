@@ -56,6 +56,9 @@ url_dataset: "https://oncogenomics.bmc.lu.se/MutationExplorer"
 #url_video: ""
 #url_poster: ""
 #url_source: ""
+links:
+- name: Press Release
+  url: https://www.lunduniversity.lu.se/article/mutations-can-reduce-effect-hormonal-treatment-early-breast-cancer
 
 
 # Featured image
