@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Bioinformatician
+role: Genomic Data Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -20,17 +20,17 @@ organizations:
   url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Bioinformatician with research interests including cancer diagnostics and research, and open source bioinformatics.
+bio: Genomic Data Scientist with research interests including cancer diagnostics, cancer biology, and open source bioinformatics.
 
 interests:
-- Bioinformatics
+- Data Science and Bioinformatics
 - Cancer Biology and Diagnostics
 - Open Source Software
 - Software Engineering
 
 education:
   courses:
-  - course: PhD in Cancer Genomics
+  - course: PhD in Medical Science and Cancer Genomics
     institution: Lund University, Sweden
   - course: MSc in Bioinformatics
     institution: Lund University, Sweden
@@ -90,14 +90,14 @@ user_groups:
 - Visitors
 ---
 
-I work as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am affiliated with
+I am a Genomic Data Scientist currently working as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am affiliated with
 [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html) in Sweden.
 
 My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
-(also known as next generation sequencing) to improve breast cancer treatment and survival.
-Most of my projects are embedded in the [Sweden Cancerome Analysis Network--Breast (SCAN-B)](https://www.med.lu.se/english/scan_b) study.
+(also known as next generation sequencing) to improve treatment and survival of cancer patients.
+Most of my projects are embedded in the [Sweden Cancerome Analysis Network--Breast (SCAN-B)](https://www.scan-b.lu.se/) breast cancer study.
 Additionally I work on improving open source bioinformatics and reproducible research infrastructure
 by contributing to projects such as [conda-forge](https://conda-forge.org/), [Bioconda](http://bioconda.github.io/), and [Biopython](http://biopython.org/).
 
 Over the past 20 years I have contributed to a number of open source software projects, most notably the [FreeBSD](https://www.freebsd.org/) computer
-operating system. An overview can be [found on OpenHub](https://www.openhub.net/accounts/brueffer).
+operating system. A rough overview can be [found on OpenHub](https://www.openhub.net/accounts/brueffer).
