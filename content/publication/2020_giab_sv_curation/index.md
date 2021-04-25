@@ -49,6 +49,7 @@ abstract: "A high quality benchmark for small variants encompassing 88 to 90% of
 
 tags:
 - Genome in a Bottle
+- Open Source Software
 featured: false
 
 # links:
