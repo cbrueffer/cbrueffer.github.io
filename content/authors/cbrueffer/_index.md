@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Genomic Data Scientist
+role: Biomedical Data Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -20,7 +20,7 @@ organizations:
   url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Genomic Data Scientist with research interests including cancer diagnostics, cancer biology, and open source bioinformatics.
+bio: Biomedical Data Scientist with research interests including cancer diagnostics, cancer biology, and open source bioinformatics.
 
 interests:
 - Data Science and Bioinformatics
@@ -90,7 +90,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Genomic Data Scientist currently working as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am affiliated with
+I am a Biomedical Data Scientist currently working as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am affiliated with
 [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html) in Sweden.
 
 My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
