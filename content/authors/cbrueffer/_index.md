@@ -90,7 +90,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Biomedical Data Scientist currently working as a Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/) and am affiliated with
+I am a Biomedical Data Scientist currently working as Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/). Additionally I conduct research in affiliation with
 [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html) in Sweden.
 
 My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
