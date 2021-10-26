@@ -1,9 +1,10 @@
 ---
-title: "Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through analysis of Viral Genomics and Structure"
+title: "Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis of Viral Genomics and Structure"
 authors:
 - Halie M. Rando
 - Adam L. MacLean
 - Alexandra J. Lee
+- Ronan Lordan
 - Sandipan Ray
 - Vikas Bansal
 - Ashwin N. Skelly
@@ -18,14 +19,15 @@ authors:
 - Stephen Capone
 - Yanjun Qi
 - YoSon Park
-- Yuchen Sun
 - David Mai
+- Yuchen Sun
+- Joel Boerckel
 - cbrueffer
 - James Brian Byrd
+- Jeremy P. Kamil
 - Jinhui Wang
-- Ronan Lordan
 - Ryan Velazquez
-- Gregory L Szeto
+- Gregory L. Szeto
 - John P. Barton
 - Rishi Raj Goel
 - Serghei Mangul
@@ -34,8 +36,8 @@ authors:
 - Anthony Gitter
 - Casey S. Greene
 
-date: 2021-02-01
-doi: ""
+date: 2021-10-26
+doi: "10.1128/mSystems.00095-21"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
@@ -44,13 +46,13 @@ doi: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv*"
+publication: "*mSystems, 2021. 6(5): e00095-21*"
 #publication_short: ""
 
-abstract: "The novel coronavirus SARS-CoV-2, which emerged in late 2019, has since spread around the world infecting tens of millions of people with coronavirus disease 2019 (COVID-19). While this viral species was unknown prior to January 2020, its similarity to other coronaviruses that infect humans has allowed for rapid insight into the mechanisms that it uses to infect human hosts, as well as the ways in which the human immune system can respond. Here, we contextualize SARS-CoV-2 among other coronaviruses and identify what is known and what can be inferred about its behavior once inside a human host. Because the genomic content of coronaviruses, which specifies the virus's structure, is highly conserved, early genomic analysis provided a significant head start in predicting viral pathogenesis. The pathogenesis of the virus offers insights into symptomatology, transmission, and individual susceptibility. Additionally, prior research into interactions between the human immune system and coronaviruses has identified how these viruses can evade the immune system's protective mechanisms. We also explore systems-level research into the regulatory and proteomic effects of SARS-CoV-2 infection and the immune response. Understanding the structure and behavior of the virus serves to contextualize the many facets of the COVID-19 pandemic and can influence efforts to control the virus and treat the disease."
+abstract: "The novel coronavirus SARS-CoV-2, which emerged in late 2019, has since spread around the world and infected hundreds of millions of people with coronavirus disease 2019 (COVID-19). While this viral species was unknown prior to January 2020, its similarity to other coronaviruses that infect humans has allowed for rapid insight into the mechanisms that it uses to infect human hosts, as well as the ways in which the human immune system can respond. Here, we contextualize SARS-CoV-2 among other coronaviruses and identify what is known and what can be inferred about its behavior once inside a human host. Because the genomic content of coronaviruses, which specifies the virus’s structure, is highly conserved, early genomic analysis provided a significant head start in predicting viral pathogenesis and in understanding potential differences among variants. The pathogenesis of the virus offers insights into symptomatology, transmission, and individual susceptibility. Additionally, prior research into interactions between the human immune system and coronaviruses has identified how these viruses can evade the immune system’s protective mechanisms. We also explore systems-level research into the regulatory and proteomic effects of SARS-CoV-2 infection and the immune response. Understanding the structure and behavior of the virus serves to contextualize the many facets of the COVID-19 pandemic and can influence efforts to control the virus and treat the disease."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -63,7 +65,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: "https://arxiv.org/pdf/2102.01521"
+url_pdf: "https://journals.asm.org/doi/epub/10.1128/mSystems.00095-21"
 url_preprint: "https://arxiv.org/abs/2102.01521"
 #url_code: ""
 #url_dataset: ""
@@ -115,7 +117,7 @@ projects: []
       <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
         <span style="float:left";
           class="__dimensions_badge_embed__"
-          data-doi=""
+          data-doi="10.1128/mSystems.00095-21"
           data-hide-zero-citations="true"
           data-legend="always">
         </span>
@@ -124,7 +126,7 @@ projects: []
           data-link-target="_blank"
           data-badge-details="right"
           data-badge-type="medium-donut"
-          data-doi=""
+          data-doi="10.1128/mSystems.00095-21"
           data-condensed="true"
           data-hide-no-mentions="true"
           class="altmetric-embed">
