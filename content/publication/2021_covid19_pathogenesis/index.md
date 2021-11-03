@@ -65,7 +65,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: "https://journals.asm.org/doi/epub/10.1128/mSystems.00095-21"
+url_pdf: "https://journals.asm.org/doi/pdf/10.1128/mSystems.00095-21"
 url_preprint: "https://arxiv.org/abs/2102.01521"
 #url_code: ""
 #url_dataset: ""
