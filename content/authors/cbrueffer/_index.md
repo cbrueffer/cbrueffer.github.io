@@ -17,7 +17,7 @@ organizations:
 - name: SAGA Diagnostics
   url: "https://sagadiagnostics.com/"
 - name: Lund University
-  url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer(34807b93-a7ad-4694-82b7-2a665a620c14).html"
+  url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Biomedical Data Scientist with research interests including cancer diagnostics, cancer biology, and open source bioinformatics.
@@ -91,7 +91,7 @@ user_groups:
 ---
 
 I am a Biomedical Data Scientist currently working as Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/). Additionally I conduct research in affiliation with
-[Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer%2834807b93-a7ad-4694-82b7-2a665a620c14%29.html) in Sweden.
+[Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
 My research focuses on the development of diagnostics based on tumor DNA/RNA deep sequencing
 (also known as next generation sequencing) to improve treatment and survival of cancer patients.

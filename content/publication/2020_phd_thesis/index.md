@@ -41,7 +41,7 @@ url_pdf: https://portal.research.lu.se/portal/files/88190954/Brueffer_PhD_Thesis
 url_code: https://github.com/cbrueffer/phd_thesis
 url_dataset: ''
 url_poster: ''
-url_project: https://portal.research.lu.se/portal/en/publications/rna-sequencing-for-molecular-diagnostics-in-breast-cancer(dc68d793-3963-48ef-9c96-2dd3bdcb49ae).html
+url_project: https://portal.research.lu.se/portal/en/publications/rna-sequencing-for-molecular-diagnostics-in-breast-cancer
 url_slides: ''
 url_source: ''
 url_video: ''
