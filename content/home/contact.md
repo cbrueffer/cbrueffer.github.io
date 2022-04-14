@@ -1,6 +1,5 @@
 ---
 # An instance of the Contact widget.
-# Documentation: https://sourcethemes.com/academic/docs/page-builder/
 widget: contact
 
 # This file represents a page section.
@@ -15,16 +14,44 @@ subtitle:
 content:
   # Automatically link email and phone or display as text?
   autolink: true
-  
+
   # Email form provider
-  #form:
-  #  provider: formspree
-  #  formspree:
-  #    id: test
-  #  netlify:
-  #    # Enable CAPTCHA challenge to reduce spam?
-  #    captcha: false
-  
+  form:
+    provider: netlify
+    formspree:
+      id:
+    netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+      captcha: false
+
+  # Contact details (edit or remove options as required)
+  email: christian@brueffer.io
+  phone: ''
+  address:
+    street: ''
+    city: Lund
+    region: ''
+    postcode: '22381'
+    country: Sweden
+    country_code: SE
+  coordinates:
+    latitude: '55.713486'
+    longitude: '13.218259'
+  directions: ''
+  #office_hours:
+  #  - 'Monday 10:00 to 13:00'
+  #  - 'Wednesday 09:00 to 10:00'
+  #appointment_url: 'https://calendly.com'
+  contact_links:
+    - icon: twitter
+      icon_pack: fab
+      name: Connect on Twitter
+      link: 'https://twitter.com/cbrueffer'
+    - icon: linkedin
+      icon_pack: fab
+      name: Connect on LinkedIn
+      link: 'https://www.linkedin.com/in/cbrueffer'
+
 design:
   columns: '2'
 ---
