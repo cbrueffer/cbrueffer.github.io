@@ -1,20 +1,28 @@
 ---
-title: "Swedish Bioinformatics Workshop 2021: SAGA Diagnostics Sponsor Presentation"
-event: "Swedish Bioinformatics Workshop 2021"
-event_url: "https://sbw-lund.github.io/"
+title: 'Swedish Bioinformatics Workshop 2021: SAGA Diagnostics Sponsor Presentation'
 
-location: "Lund, Sweden"
+event: Swedish Bioinformatics Workshop 2021
+event_url: https://sbw-lund.github.io/
+
+location: LTH E-huset, Lund, Sweden
+address:
+  street: ''
+  city: ''
+  region: ''
+  postcode: ''
+  country: ''
+
+summary: SAGA Diagnostics sponsor presentation.
+#abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-10-20T12:00:00Z"
-date_end: "2021-10-20T12:30:00Z"
-#date: "2030-06-01T13:00:00Z"
-#date_end: "2030-06-01T15:00:00Z"
+date: '2021-10-20T12:00:00Z'
+date_end: '2021-10-20T12:30:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-#publishDate: "2017-01-01T00:00:00Z"
+#publishDate: '2017-01-01T00:00:00Z'
 
 authors: []
 tags: []
@@ -27,14 +35,14 @@ featured: false
 #  focal_point: Right
 
 #links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+#  - icon: twitter
+#    icon_pack: fab
+#    name: Follow
+#    url: https://twitter.com/georgecushen
+url_code: ''
+url_pdf: ''
+url_slides: ''
+url_video: ''
 links:
 - name: Swedish Bioinformatics Workshop 2021
   url: https://sbw-lund.github.io
@@ -54,8 +62,5 @@ links:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 #projects:
-#- internal-project
-
-# Enable math on this page?
-math: true
+#  - example
 ---
