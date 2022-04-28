@@ -1,5 +1,5 @@
 ---
-title: "precisionFDA Truth Challenge V2: Calling variants from short- and long-reads in difficult-to-map regions"
+title: "PrecisionFDA Truth Challenge V2: Calling variants from short and long reads in difficult-to-map regions"
 authors:
 - Nathan D. Olson
 - Justin Wagner
@@ -11,10 +11,10 @@ authors:
 - Emily Boja
 - Ezekiel J. Maier
 - Omar Serang
-- David Jaspez
-- Jose M. Lorenzo-Salazar
-- Adrian Munoz-Barrera
-- Luis A. Rubio-Rodriguez
+- David Jáspez
+- José M. Lorenzo-Salazar
+- Adrián Muñoz Barrera
+- Luis A. Rubio-Rodríguez
 - Carlos Flores
 - Konstantinos Kyriakidis
 - Andigoni Malousi
@@ -33,21 +33,21 @@ authors:
 - Mathieu Bourgey
 - Guillaume Bourque
 - Gen Li
-- ChouXian MA
+- ChouXian Ma
 - LinQi Tang
-- YuanPing DU
+- YuanPing Du
 - ShaoWei Zhang
 - Jordi Morata
-- Raul Tonda
-- Genis Parra
-- Jean-Remi Trotta
+- Raúl Tonda
+- Genís Parra
+- Jean-Rémi Trotta
 - cbrueffer
 - Sinem Demirkaya-Budak
 - Duygu Kabakci-Zorlu
 - Deniz Turgut
-- Ozem Kalay
+- Özem Kalay
 - Gungor Budak
-- Kubra Narci
+- Kübra Narcı
 - Elif Arslan
 - Richard Brown
 - Ivan J. Johnson
@@ -61,7 +61,7 @@ authors:
 - Cooper Roddey
 - Severine Catreux
 - Rami Mehio
-- Umair Ahsan
+- Mian Umair Ahsan
 - Qian Liu
 - Kai Wang
 - Sayed Mohammad Ebrahim Sahraeian
@@ -75,8 +75,8 @@ authors:
 - Fritz J. Sedlazeck
 - Justin M. Zook
 
-date: 2020-11-15
-doi: "10.1101/2020.11.13.380741"
+date: 2022-04-27
+doi: "10.1016/j.xgen.2022.100129"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
@@ -85,13 +85,22 @@ doi: "10.1101/2020.11.13.380741"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*bioRxiv, 2020*"
+publication: "*Cell Genomics, 2022. 2, 100129*"
 #publication_short: ""
 
-abstract: "The precisionFDA Truth Challenge V2 aimed to assess the state-of-the-art of variant calling in difficult-to-map regions and the Major Histocompatibility Complex (MHC). Starting with FASTQ files, 20 challenge participants applied their variant calling pipelines and submitted 64 variant callsets for one or more sequencing technologies (~35X Illumina, ~35X PacBio HiFi, and ~50X Oxford Nanopore Technologies). Submissions were evaluated following best practices for benchmarking small variants with the new GIAB benchmark sets and genome stratifications. Challenge submissions included a number of innovative methods for all three technologies, with graph-based and machine-learning methods scoring best for short-read and long-read datasets, respectively. New methods out-performed the 2016 Truth Challenge winners, and new machine-learning approaches combining multiple sequencing technologies performed particularly well. Recent developments in sequencing and variant calling have enabled benchmarking variants in challenging genomic regions, paving the way for the identification of previously unknown clinically relevant variants."
+abstract: "The precisionFDA Truth Challenge V2 aimed to assess the state of the art of variant calling in challenging
+genomic regions. Starting with FASTQs, 20 challenge participants applied their variant-calling pipelines
+and submitted 64 variant call sets for one or more sequencing technologies (Illumina, PacBio HiFi, and Oxford
+Nanopore Technologies). Submissions were evaluated following best practices for benchmarking small var-
+iants with updated Genome in a Bottle benchmark sets and genome stratifications. Challenge submissions
+included numerous innovative methods, with graph-based and machine learning methods scoring best for
+short-read and long-read datasets, respectively. With machine learning approaches, combining multiple
+sequencing technologies performed particularly well. Recent developments in sequencing and variant calling
+have enabled benchmarking variants in challenging genomic regions, paving the way for the identification of
+previously unknown clinically relevant variants."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -103,8 +112,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
-url_preprint: "https://www.biorxiv.org/content/10.1101/2020.11.13.380741v1"
+url_pdf: 'https://www.cell.com/action/showPdf?pii=S2666-979X%2822%2900058-1'
+url_preprint: "https://www.biorxiv.org/content/10.1101/2020.11.13.380741v4"
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -154,7 +163,7 @@ slides: example
       <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
         <span style="float:left";
           class="__dimensions_badge_embed__"
-          data-doi="10.1101/2020.11.13.380741"
+          data-doi="10.1016/j.xgen.2022.100129"
           data-hide-zero-citations="true"
           data-legend="always">
         </span>
@@ -163,7 +172,7 @@ slides: example
           data-link-target="_blank"
           data-badge-details="right"
           data-badge-type="medium-donut"
-          data-doi="10.1101/2020.11.13.380741"
+          data-doi="10.1016/j.xgen.2022.100129"
           data-condensed="true"
           data-hide-no-mentions="true"
           class="altmetric-embed">
