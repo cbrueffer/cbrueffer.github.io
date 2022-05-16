@@ -88,7 +88,7 @@ doi: "10.1016/j.xgen.2022.100129"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Cell Genomics, 2022. 2, 100129*"
+publication: "*Cell Genomics, 2022. 2(5): 100129*"
 #publication_short: ""
 
 abstract: "The precisionFDA Truth Challenge V2 aimed to assess the state of the art of variant calling in challenging
