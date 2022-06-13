@@ -25,6 +25,10 @@ main:
     url: '#featured'
     parent: research
     weight: 53
+  - name: Recent Publications
+    url: '#publications'
+    parent: research
+    weight: 54
   - name: All Publications
     url: 'publication/'
     parent: research

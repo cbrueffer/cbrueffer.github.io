@@ -48,7 +48,7 @@ abstract: "We present Bioconda (https://bioconda.github.io), a distribution of b
 tags:
 - Bioconda
 - Open Source Software
-featured: false
+featured: true
 
 # links:
 # - name: ""

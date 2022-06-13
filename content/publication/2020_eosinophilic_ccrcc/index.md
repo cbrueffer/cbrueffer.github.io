@@ -33,7 +33,7 @@ abstract: "Clear cell renal cell carcinoma (ccRCC) is the most common form of re
 tags:
 - Kidney Cancer
 - RNA Sequencing
-featured: true
+featured: false
 
 # links:
 # - name: ""

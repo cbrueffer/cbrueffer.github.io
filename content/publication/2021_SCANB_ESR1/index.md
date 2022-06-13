@@ -43,7 +43,7 @@ tags:
 - Breast Cancer
 - SCAN-B
 - RNA Sequencing
-featured: true
+featured: false
 
 # links:
 # - name: ""
