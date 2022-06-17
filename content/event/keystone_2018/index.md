@@ -2,7 +2,7 @@
 title: RNA-seq-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers in the Population-Based Multicenter SCAN-B Study
 
 event: Keystone Symposium on Precision Medicine in Cancer
-event_url: http://www.keystonesymposia.org/index.cfm?e=web.Meeting.Program&meetingid=1520
+event_url: https://tks.keystonesymposia.org/index.cfm?e=web.Meeting.Program&meetingid=1520
 
 location: Clarion Hotel Sign, Stockholm, Sweden
 address:
