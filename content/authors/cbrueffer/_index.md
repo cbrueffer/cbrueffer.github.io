@@ -30,7 +30,7 @@ interests:
 
 education:
   courses:
-  - course: PhD in Medical Science and Cancer Genomics
+  - course: PhD in Medical Science (Bioinformatics and Cancer Genomics)
     institution: Lund University, Sweden
   - course: MSc in Bioinformatics
     institution: Lund University, Sweden
