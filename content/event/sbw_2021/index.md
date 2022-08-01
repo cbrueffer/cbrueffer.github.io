@@ -39,15 +39,17 @@ featured: false
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 links:
-- name: Swedish Bioinformatics Workshop 2021
-  url: https://sbw-lund.github.io
-- name: SAGA Diagnostics Website
-  url: https://sagadiagnostics.com
+- name: 'Swedish Bioinformatics Workshop 2021'
+  url: 'https://sbw-lund.github.io'
+  icon: 'link'
+- name: 'SAGA Diagnostics Website'
+  url: 'https://sagadiagnostics.com'
+  icon: 'link'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

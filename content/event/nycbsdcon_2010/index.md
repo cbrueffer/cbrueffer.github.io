@@ -38,15 +38,18 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-#links:
+links:
+- name: 'PDF Slides'
+  url: 'http://www.nycbsdcon.org/2010/presentations/nycbsdcon-freebsd-audit.pdf'
+  icon: 'file-pdf'
 #  - icon: twitter
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: 'http://www.nycbsdcon.org/2010/presentations/nycbsdcon-freebsd-audit.pdf'
-url_video: ''
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

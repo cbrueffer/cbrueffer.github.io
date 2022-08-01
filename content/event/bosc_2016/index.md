@@ -35,14 +35,20 @@ featured: false
 #  focal_point: Right
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/OBF_BOSC
-url_code: ''
-url_pdf: ''
-url_slides: 'https://f1000research.com/slides/5-1712'
-url_video: 'https://youtu.be/JxOm1Bjyt9M'
+- name: 'PDF Slides'
+  url: 'https://f1000research.com/slides/5-1712'
+  icon: 'file-pdf'
+- name: 'Video'
+  url: 'https://youtu.be/JxOm1Bjyt9M'
+  icon: 'video'
+- name: 'Follow'
+  url: 'https://twitter.com/OBF_BOSC'
+  icon: 'twitter'
+  icon_pack: 'fab'
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

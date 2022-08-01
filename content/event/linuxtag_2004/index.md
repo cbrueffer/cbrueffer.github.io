@@ -34,10 +34,14 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-url_code: ''
-url_pdf: ''
-url_slides: 'https://people.freebsd.org/~brueffer/slides/linuxtag2004.pdf'
-url_video: ''
+links:
+- name: 'PDF Slides'
+  url: 'https://people.freebsd.org/~brueffer/slides/linuxtag2004.pdf'
+  icon: 'file-pdf'
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

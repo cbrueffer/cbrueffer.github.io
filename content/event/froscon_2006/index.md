@@ -35,14 +35,17 @@ featured: false
 #  focal_point: Right
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/froscon
-url_code: ''
-url_pdf: ''
-url_slides: 'https://people.freebsd.org/~brueffer/slides/FreeBSD_im_Ueberblick_FrOSCon06.pdf'
-url_video: ''
+- name: 'PDF Slides'
+  url: 'https://people.freebsd.org/~brueffer/slides/FreeBSD_im_Ueberblick_FrOSCon06.pdf'
+  icon: 'file-pdf'
+- name: 'Follow'
+  url: 'https://twitter.com/froscon'
+  icon: 'twitter'
+  icon_pack: 'fab'
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

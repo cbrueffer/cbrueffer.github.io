@@ -34,15 +34,21 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-#links:
-#  - icon: twitter
-#    icon_pack: fab
+links:
+- name: 'PDF Slides'
+  url: 'https://people.freebsd.org/~brueffer/slides/FreeBSD_Tor_MeetBSD07.pdf'
+  icon: 'file-pdf'
+- name: 'Video'
+  url: 'https://www.youtube.com/watch?v=OwBh8ro7xHQ'
+  icon: 'video'
+# - icon: twitter
+#   icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: 'https://people.freebsd.org/~brueffer/slides/FreeBSD_Tor_MeetBSD07.pdf'
-url_video: 'https://www.youtube.com/watch?v=OwBh8ro7xHQ'
+#url_code: ''
+#url_pdf: ''
+#url_slides: ''
+#url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
