@@ -44,7 +44,9 @@ abstract: "To better understand and characterize chromosomal structural variatio
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- Cancer
 - Breast Cancer
+- Structural Variants
 featured: false
 
 # links:

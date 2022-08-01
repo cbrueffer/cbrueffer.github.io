@@ -3,6 +3,7 @@ title: "PhD Project: RNA Sequencing-based Tools for Breast Cancer Diagnostics"
 summary: "My PhD work in developing RNA sequencing-based diagnostic tools for breast cancer."
 tags:
 - PhD
+- Cancer
 - Breast Cancer
 - RNA Sequencing
 date: "2020-12-18T00:00:00Z"

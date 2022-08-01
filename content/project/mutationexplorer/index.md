@@ -2,6 +2,7 @@
 title: SCAN-B MutationExplorer
 summary: "A web-based application for exploring tumor somatic mutations."
 tags:
+- Cancer
 - Breast Cancer
 - RNA Sequencing
 - Open Source Software

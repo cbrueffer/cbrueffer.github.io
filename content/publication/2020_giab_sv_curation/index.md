@@ -48,6 +48,7 @@ abstract: "A high quality benchmark for small variants encompassing 88 to 90% of
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- Structural Variants
 - Genome in a Bottle
 - Open Source Software
 featured: false

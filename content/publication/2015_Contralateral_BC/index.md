@@ -40,7 +40,9 @@ abstract: "By convention, a contralateral breast cancer (CBC) is treated as a ne
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- Cancer
 - Breast Cancer
+- Structural Variants
 featured: false
 
 # links:

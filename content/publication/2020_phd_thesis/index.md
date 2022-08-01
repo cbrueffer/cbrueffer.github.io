@@ -30,6 +30,7 @@ The hope is that, together, the diagnostic results made possible by the studies 
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- Cancer
 - Breast Cancer
 - SCAN-B
 featured: false

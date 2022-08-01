@@ -34,6 +34,7 @@ abstract: "It is not known if mammographic breast compression of a primary tumor
 
 tags:
 - Liquid Biopsy
+- Cancer
 - Breast Cancer
 - SCAN-B
 featured: false
