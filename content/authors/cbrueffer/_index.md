@@ -20,11 +20,11 @@ organizations:
   url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Biomedical Data Scientist with research interests including cancer diagnostics, cancer biology, and open source bioinformatics.
+bio: Biomedical Data Scientist with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
 
 interests:
 - Data Science and Bioinformatics
-- Cancer Biology and Diagnostics
+- Disease Biology and Diagnostics
 - Open Source Software
 - Software Engineering
 
@@ -90,13 +90,13 @@ user_groups:
 - Visitors
 ---
 
-I am a Biomedical Data Scientist currently working as Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/).
+I am a Biomedical Data Scientist currently working as Senior Bioinformatician within cancer diagnostics at [SAGA Diagnostics](https://sagadiagnostics.com/).
 Additionally I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
-My work focuses on the development of diagnostics based on tumor DNA and RNA sequencing to improve treatment and survival of cancer patients.
-Many of my projects, including my [doctoral thesis]({{< ref "/project/phd" >}}), have been embedded in the [Sweden Cancerome Analysis Network--Breast (SCAN-B)](https://www.scan-b.lu.se/) breast cancer study.
+My main interest is in using computational methods and biological/medical data to improve our understanding and treatment of diseases.
+Many of my projects, including my [doctoral thesis]({{< ref "/project/phd" >}}), have been focused on [cancer](tag/cancer) in humans.
 Additionally I work on improving open source bioinformatics and reproducible research infrastructure
-by contributing to projects such as [conda-forge](https://conda-forge.org/), [Bioconda](http://bioconda.github.io/), and [Biopython](http://biopython.org/).
+by contributing to projects such as [conda-forge](https://conda-forge.org/), [Bioconda](https://bioconda.github.io/), and [Biopython](https://biopython.org/).
 
 Over the past 20 years I have contributed to a number of open source software projects, most notably the [FreeBSD](https://www.freebsd.org/) computer operating system.
-A rough overview can be [found on OpenHub](https://www.openhub.net/accounts/brueffer) and [GitHub](https://github.com/cbrueffer).
+A rough overview can be [found on GitHub](https://github.com/cbrueffer) and [OpenHub](https://www.openhub.net/accounts/brueffer).
