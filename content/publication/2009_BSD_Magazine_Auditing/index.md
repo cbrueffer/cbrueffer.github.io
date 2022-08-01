@@ -29,10 +29,11 @@ tags:
 - Open Source Software
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://bsdmag.org/download/bsd-2009-archives/"
+links:
+- name: "PDF"
+  url: "https://bsdmag.org/download/bsd-2009-archives/"
+  icon: "file-pdf"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
 #url_dataset: ""

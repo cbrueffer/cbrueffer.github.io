@@ -53,12 +53,20 @@ tags:
 - Open Source Software
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007933&type=printable"
-url_preprint: "https://www.biorxiv.org/content/10.1101/581264v3"
-url_code: "https://github.com/lesleymaraina/svcurator"
+links:
+- name: "PDF"
+  url: "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007933&type=printable"
+  icon: "file-pdf"
+- name: "bioRxiv Preprint"
+  url: "https://www.biorxiv.org/content/10.1101/581264v3"
+  icon: "biorxiv"
+  icon_pack: "ai"
+- name: "Code"
+  url: "https://github.com/lesleymaraina/svcurator"
+  icon: "code"
+#url_pdf: ""
+#url_preprint: ""
+#url_code: ""
 #url_dataset: ""
 #url_project: ""
 #url_slides: ""

@@ -36,10 +36,11 @@ tags:
 - RNA Sequencing
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://onlinelibrary.wiley.com/doi/epdf/10.1002/path.5532"
+links:
+- name: "PDF"
+  url: "https://onlinelibrary.wiley.com/doi/epdf/10.1002/path.5532"
+  icon: "file-pdf"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
 #url_dataset: ""

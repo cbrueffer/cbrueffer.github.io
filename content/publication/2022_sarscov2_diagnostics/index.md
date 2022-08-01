@@ -41,14 +41,19 @@ tags:
 - COVID-19
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ""
-url_preprint: "https://arxiv.org/abs/2204.12598"
+links:
+- name: "arXiv Preprint"
+  url: "https://arxiv.org/abs/2204.12598"
+  icon: "arxiv"
+  icon_pack: "ai"
+- name: "Project"
+  url: "https://github.com/greenelab/covid19-review"
+  icon: "diagram-project"
+#url_pdf: ""
+#url_preprint: ""
 #url_code: ""
 #url_dataset: ""
-url_project: "https://github.com/greenelab/covid19-review"
+#url_project: ""
 #url_slides: ""
 #url_video: ""
 #url_poster: ""

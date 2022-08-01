@@ -50,18 +50,26 @@ tags:
 - Open Source Software
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ''
-url_preprint: "https://www.biorxiv.org/content/10.1101/207092v2"
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: "https://bioconda.github.io/"
-url_slides: ''
-url_source: "https://github.com/bioconda/bioconda-paper"
-url_video: ''
+links:
+- name: "bioRxiv Preprint"
+  url: "https://www.biorxiv.org/content/10.1101/207092v2"
+  icon: "biorxiv"
+  icon_pack: "ai"
+- name: "Project"
+  url: "https://bioconda.github.io/"
+  icon: "diagram-project"
+- name: "Code"
+  url: "https://github.com/bioconda/bioconda-paper"
+  icon: "code"
+#url_pdf: ''
+#url_preprint: ""
+#url_code: ''
+#url_dataset: ''
+#url_poster: ''
+#url_project: ""
+#url_slides: ''
+#url_source: ""
+#url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

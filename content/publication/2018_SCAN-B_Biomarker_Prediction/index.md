@@ -37,7 +37,17 @@ publication_types: ["2"]
 publication: "*JCO Precision Oncology, 2018. 2:1--18*"
 #publication_short: "JCO-PO"
 
-abstract: "In early breast cancer (BC), five conventional biomarkers—estrogen receptor (ER), progesterone receptor (PgR), human epidermal growth factor receptor 2 (HER2), Ki67, and Nottingham histologic grade (NHG)—are used to determine prognosis and treatment. We aimed to develop classifiers for these biomarkers that were based on tumor mRNA sequencing (RNA-seq), compare classification performance, and test whether such predictors could add value for risk stratification. In total, 3,678 patients with BC were studied. For 405 tumors, a comprehensive multi-rater histopathologic evaluation was performed. Using RNA-seq data, single-gene classifiers and multigene classifiers (MGCs) were trained on consensus histopathology labels. Trained classifiers were tested on a prospective population-based series of 3,273 BCs that included a median follow-up of 52 months (Sweden Cancerome Analysis Network—Breast [SCAN-B], ClinicalTrials.gov identifier: NCT02306096), and results were evaluated by agreement statistics and Kaplan-Meier and Cox survival analyses. Pathologist concordance was high for ER, PgR, and HER2 (average κ, 0.920, 0.891, and 0.899, respectively) but moderate for Ki67 and NHG (average κ, 0.734 and 0.581). Concordance between RNA-seq classifiers and histopathology for the independent cohort of 3,273 was similar to interpathologist concordance. Patients with discordant classifications, predicted as hormone responsive by histopathology but non–hormone responsive by MGC, had significantly inferior overall survival compared with patients who had concordant results. This extended to patients who received no adjuvant therapy (hazard ratio [HR], 3.19; 95% CI, 1.19 to 8.57), or endocrine therapy alone (HR, 2.64; 95% CI, 1.55 to 4.51). For cases identified as hormone responsive by histopathology and who received endocrine therapy alone, the MGC hormone-responsive classifier remained significant after multivariable adjustment (HR, 2.45; 95% CI, 1.39 to 4.34). Classification error rates for RNA-seq–based classifiers for the five key BC biomarkers generally were equivalent to conventional histopathology. However, RNA-seq classifiers provided added clinical value in particular for tumors determined by histopathology to be hormone responsive but by RNA-seq to be hormone insensitive."
+abstract: "**Purpose**<br />
+In early breast cancer (BC), five conventional biomarkers—estrogen receptor (ER), progesterone receptor (PgR), human epidermal growth factor receptor 2 (HER2), Ki67, and Nottingham histologic grade (NHG)—are used to determine prognosis and treatment. We aimed to develop classifiers for these biomarkers that were based on tumor mRNA sequencing (RNA-seq), compare classification performance, and test whether such predictors could add value for risk stratification.<br /><br />
+
+**Methods**<br />
+In total, 3,678 patients with BC were studied. For 405 tumors, a comprehensive multi-rater histopathologic evaluation was performed. Using RNA-seq data, single-gene classifiers and multigene classifiers (MGCs) were trained on consensus histopathology labels. Trained classifiers were tested on a prospective population-based series of 3,273 BCs that included a median follow-up of 52 months (Sweden Cancerome Analysis Network—Breast [SCAN-B], ClinicalTrials.gov identifier: NCT02306096), and results were evaluated by agreement statistics and Kaplan-Meier and Cox survival analyses.<br /><br />
+
+**Results**<br />
+Pathologist concordance was high for ER, PgR, and HER2 (average κ, 0.920, 0.891, and 0.899, respectively) but moderate for Ki67 and NHG (average κ, 0.734 and 0.581). Concordance between RNA-seq classifiers and histopathology for the independent cohort of 3,273 was similar to interpathologist concordance. Patients with discordant classifications, predicted as hormone responsive by histopathology but non–hormone responsive by MGC, had significantly inferior overall survival compared with patients who had concordant results. This extended to patients who received no adjuvant therapy (hazard ratio [HR], 3.19; 95% CI, 1.19 to 8.57), or endocrine therapy alone (HR, 2.64; 95% CI, 1.55 to 4.51). For cases identified as hormone responsive by histopathology and who received endocrine therapy alone, the MGC hormone-responsive classifier remained significant after multivariable adjustment (HR, 2.45; 95% CI, 1.39 to 4.34).<br /><br />
+
+**Conclusion**<br />
+Classification error rates for RNA-seq–based classifiers for the five key BC biomarkers generally were equivalent to conventional histopathology. However, RNA-seq classifiers provided added clinical value in particular for tumors determined by histopathology to be hormone responsive but by RNA-seq to be hormone insensitive."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -51,13 +61,17 @@ tags:
 - PhD
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://ascopubs.org/doi/pdfdirect/10.1200/PO.17.00135"
+links:
+- name: "PDF"
+  url: "https://ascopubs.org/doi/pdfdirect/10.1200/PO.17.00135"
+  icon: "file-pdf"
+- name: "Dataset"
+  url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81540"
+  icon: "database"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
-url_dataset: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81540"
+#url_dataset: ""
 #url_project: ""
 #url_slides: ""
 #url_video: ""

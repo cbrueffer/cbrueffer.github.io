@@ -49,10 +49,11 @@ tags:
 - Structural Variants
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=download&path%5B%5D=5951&path%5B%5D=14288"
+links:
+- name: "PDF"
+  url: "http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=download&path%5B%5D=5951&path%5B%5D=14288"
+  icon: "file-pdf"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
 #url_dataset: ""

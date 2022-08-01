@@ -109,18 +109,26 @@ tags:
 - Genome in a Bottle
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: 'https://www.cell.com/action/showPdf?pii=S2666-979X%2822%2900058-1'
-url_preprint: "https://www.biorxiv.org/content/10.1101/2020.11.13.380741v4"
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: "https://precision.fda.gov/challenges/10"
-url_slides: ''
-url_source: ''
-url_video: ''
+links:
+- name: "PDF"
+  url: "https://www.cell.com/action/showPdf?pii=S2666-979X%2822%2900058-1"
+  icon: "file-pdf"
+- name: "bioRxiv Preprint"
+  url: "https://www.biorxiv.org/content/10.1101/2020.11.13.380741v4"
+  icon: "biorxiv"
+  icon_pack: "ai"
+- name: "Project"
+  url: "https://precision.fda.gov/challenges/10"
+  icon: "diagram-project"
+#url_pdf: ''
+#url_preprint: ''
+#url_code: ''
+#url_dataset: ''
+#url_poster: ''
+#url_project: "https://precision.fda.gov/challenges/10"
+#url_slides: ''
+#url_source: ''
+#url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

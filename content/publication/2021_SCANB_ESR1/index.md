@@ -34,7 +34,17 @@ publication_types: ["2"]
 publication: "*JNCI Cancer Spectrum, 2021. 5(2): pkab028*"
 #publication_short: ""
 
-abstract: "More than three-quarters of primary breast cancers are positive for estrogen receptor alpha (ER; encoded by the gene *ESR1*), the most important factor for directing anti-estrogenic endocrine therapy (ET). Recently, mutations in *ESR1* were identified as acquired mechanisms of resistance to ET, found in 12% to 55% of metastatic breast cancers treated previously with ET. We analyzed 3217 population-based invasive primary (nonmetastatic) breast cancers (within the SCAN-B study, ClinicalTrials.gov NCT02306096), sampled from initial diagnosis prior to any treatment, for the presence of *ESR1* mutations using RNA sequencing. Mutations were verified by droplet digital polymerase chain reaction on tumor and normal DNA. Patient outcomes were analyzed using Kaplan-Meier estimation and a series of 2-factor Cox regression multivariable analyses. We identified *ESR1* resistance mutations in 30 tumors (0.9%), of which 29 were ER positive (1.1%). In ET-treated disease, presence of *ESR1* mutation was associated with poor relapse-free survival and overall survival (2-sided log-rank test P < .001 and P = .008, respectively), with hazard ratios of 3.00 (95% confidence interval = 1.56 to 5.88) and 2.51 (95% confidence interval = 1.24 to 5.07), respectively, which remained statistically significant when adjusted for other prognostic factors. These population-based results indicate that *ESR1* mutations at diagnosis of primary breast cancer occur in about 1% of women and identify for the first time in the adjuvant setting that such preexisting mutations are associated to eventual resistance to standard hormone therapy. If replicated, tumor *ESR1* screening should be considered in ER-positive primary breast cancer, and for patients with mutated disease, ER degraders such as fulvestrant or other therapeutic options may be considered as more appropriate."
+abstract: "**Background**<br />
+More than three-quarters of primary breast cancers are positive for estrogen receptor alpha (ER; encoded by the gene *ESR1*), the most important factor for directing anti-estrogenic endocrine therapy (ET). Recently, mutations in *ESR1* were identified as acquired mechanisms of resistance to ET, found in 12% to 55% of metastatic breast cancers treated previously with ET.<br /><br />
+
+**Methods**<br />
+We analyzed 3217 population-based invasive primary (nonmetastatic) breast cancers (within the SCAN-B study, ClinicalTrials.gov NCT02306096), sampled from initial diagnosis prior to any treatment, for the presence of *ESR1* mutations using RNA sequencing. Mutations were verified by droplet digital polymerase chain reaction on tumor and normal DNA. Patient outcomes were analyzed using Kaplan-Meier estimation and a series of 2-factor Cox regression multivariable analyses.<br /><br />
+
+**Results**<br />
+We identified *ESR1* resistance mutations in 30 tumors (0.9%), of which 29 were ER positive (1.1%). In ET-treated disease, presence of *ESR1* mutation was associated with poor relapse-free survival and overall survival (2-sided log-rank test P < .001 and P = .008, respectively), with hazard ratios of 3.00 (95% confidence interval = 1.56 to 5.88) and 2.51 (95% confidence interval = 1.24 to 5.07), respectively, which remained statistically significant when adjusted for other prognostic factors.<br /><br />
+
+**Conclusions**<br />
+These population-based results indicate that *ESR1* mutations at diagnosis of primary breast cancer occur in about 1% of women and identify for the first time in the adjuvant setting that such preexisting mutations are associated to eventual resistance to standard hormone therapy. If replicated, tumor *ESR1* screening should be considered in ER-positive primary breast cancer, and for patients with mutated disease, ER degraders such as fulvestrant or other therapeutic options may be considered as more appropriate."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -46,21 +56,25 @@ tags:
 - RNA Sequencing
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://academic.oup.com/jncics/article-pdf/5/2/pkab028/37233704/pkab028.pdf"
+links:
+- name: "PDF"
+  url: "https://academic.oup.com/jncics/article-pdf/5/2/pkab028/37233704/pkab028.pdf"
+  icon: "file-pdf"
+- name: "Dataset"
+  url: "https://oncogenomics.bmc.lu.se/MutationExplorer"
+  icon: "database"
+- name: "Press Release"
+  url: "https://www.lunduniversity.lu.se/article/mutations-can-reduce-effect-hormonal-treatment-early-breast-cancer"
+  icon: "bullhorn"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
-url_dataset: "https://oncogenomics.bmc.lu.se/MutationExplorer"
+#url_dataset: ""
 #url_project: ""
 #url_slides: ""
 #url_video: ""
 #url_poster: ""
 #url_source: ""
-links:
-- name: Press Release
-  url: https://www.lunduniversity.lu.se/article/mutations-can-reduce-effect-hormonal-treatment-early-breast-cancer
 
 
 # Featured image

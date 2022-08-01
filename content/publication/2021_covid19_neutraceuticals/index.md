@@ -72,14 +72,22 @@ tags:
 - COVID-19
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://journals.asm.org/doi/pdf/10.1128/mSystems.00122-21"
-url_preprint: "https://arxiv.org/abs/2102.02250"
+links:
+- name: "PDF"
+  url: "https://journals.asm.org/doi/pdf/10.1128/mSystems.00122-21"
+  icon: "file-pdf"
+- name: "arXiv Preprint"
+  url: "https://arxiv.org/abs/2102.02250"
+  icon: "arxiv"
+  icon_pack: "ai"
+- name: "Project"
+  url: "https://github.com/greenelab/covid19-review"
+  icon: "diagram-project"
+#url_pdf: ""
+#url_preprint: ""
 #url_code: ""
 #url_dataset: ""
-url_project: "https://github.com/greenelab/covid19-review"
+#url_project: ""
 #url_slides: ""
 #url_video: ""
 #url_poster: ""

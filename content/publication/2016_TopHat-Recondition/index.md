@@ -20,7 +20,14 @@ publication_types: ["2"]
 publication: "*BMC Bioinformatics, 2016. 17(1):199*"
 #publication_short: ""
 
-abstract: "TopHat is a popular spliced junction mapper for RNA sequencing data, and writes files in the BAM format – the binary version of the Sequence Alignment/Map (SAM) format. BAM is the standard exchange format for aligned sequencing reads, thus correct format implementation is paramount for software interoperability and correct analysis. However, TopHat writes its unmapped reads in a way that is not compatible with other software that implements the SAM/BAM format. We have developed TopHat-Recondition, a post-processor for TopHat unmapped reads that restores read information in the proper format. TopHat-Recondition thus enables downstream software to process the plethora of BAM files written by TopHat. TopHat-Recondition can repair unmapped read files written by TopHat and is freely available under a 2-clause BSD license on GitHub: https://github.com/cbrueffer/tophat-recondition."
+abstract: "**Background**<br />
+TopHat is a popular spliced junction mapper for RNA sequencing data, and writes files in the BAM format – the binary version of the Sequence Alignment/Map (SAM) format. BAM is the standard exchange format for aligned sequencing reads, thus correct format implementation is paramount for software interoperability and correct analysis. However, TopHat writes its unmapped reads in a way that is not compatible with other software that implements the SAM/BAM format.<br /><br />
+
+**Results**<br />
+We have developed TopHat-Recondition, a post-processor for TopHat unmapped reads that restores read information in the proper format. TopHat-Recondition thus enables downstream software to process the plethora of BAM files written by TopHat.<br /><br />
+
+**Conclusions**<br />
+TopHat-Recondition can repair unmapped read files written by TopHat and is freely available under a 2-clause BSD license on GitHub: https://github.com/cbrueffer/tophat-recondition."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -31,11 +38,19 @@ tags:
 - PhD
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-016-1058-x"
-url_preprint: "https://biorxiv.org/content/early/2015/12/02/033530"
+links:
+- name: "PDF"
+  url: "https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-016-1058-x"
+  icon: "file-pdf"
+- name: "bioRxiv Preprint"
+  url: "https://biorxiv.org/content/early/2015/12/02/033530"
+  icon: "biorxiv"
+  icon_pack: "ai"
+- name: "Code"
+  url: "https://github.com/cbrueffer/tophat-recondition"
+  icon: "code"
+#url_pdf: ""
+#url_preprint: ""
 #url_preprint: ""
 #url_code: ""
 #url_dataset: ""

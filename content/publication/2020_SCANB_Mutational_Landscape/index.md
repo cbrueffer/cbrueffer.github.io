@@ -46,21 +46,33 @@ tags:
 - PhD
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://www.embopress.org/doi/epdf/10.15252/emmm.202012118"
-url_preprint: "https://doi.org/10.1101/2020.01.30.926733"
-url_code: "https://github.com/cbrueffer/MutationExplorer"
-url_dataset: "https://oncogenomics.bmc.lu.se/MutationExplorer"
-url_project: "https://oncogenomics.bmc.lu.se/MutationExplorer"
+links:
+- name: "PDF"
+  url: "https://www.embopress.org/doi/epdf/10.15252/emmm.202012118"
+  icon: "file-pdf"
+- name: "bioRxiv Preprint"
+  url: "https://doi.org/10.1101/2020.01.30.926733"
+  icon: "biorxiv"
+  icon_pack: "ai"
+- name: "Code"
+  url: "https://github.com/cbrueffer/MutationExplorer"
+  icon: "code"
+- name: "Dataset"
+  url: "https://oncogenomics.bmc.lu.se/MutationExplorer"
+  icon: "database"
+- name: "Press Release"
+  url: "https://www.lunduniversity.lu.se/article/new-analytical-model-detects-mutations-breast-cancer"
+  icon: "bullhorn"
+#url_pdf: ""
+#url_preprint: ""
+#url_code: ""
+#url_dataset: ""
+#url_project: ""
 #url_slides: ""
 #url_video: ""
 #url_poster: ""
 #url_source: "https://github.com/cbrueffer/MutationExplorer"
-links:
-- name: Press Release
-  url: https://www.lunduniversity.lu.se/article/new-analytical-model-detects-mutations-breast-cancer
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

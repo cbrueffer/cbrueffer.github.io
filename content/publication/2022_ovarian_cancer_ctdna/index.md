@@ -50,11 +50,12 @@ tags:
 - Liquid Biopsy
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links:
+ - name: "PDF"
+   url: "https://www.researchsquare.com/article/rs-1770497/v1.pdf?c=1657923160000"
+   icon: "file-pdf"
 #url_pdf: ""
-url_preprint: "https://www.researchsquare.com/article/rs-1770497/v1"
+#url_preprint: "https://www.researchsquare.com/article/rs-1770497/v1"
 #url_code: ""
 #url_dataset: ""
 #url_project: ""

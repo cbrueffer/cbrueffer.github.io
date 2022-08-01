@@ -36,13 +36,17 @@ tags:
 - RNA Sequencing
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://www.nature.com/articles/s41598-022-08210-3.pdf"
+links:
+- name: "PDF"
+  url: "https://www.nature.com/articles/s41598-022-08210-3.pdf"
+  icon: "file-pdf"
+- name: "Dataset"
+  url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202203"
+  icon: "database"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
-url_dataset: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202203"
+#url_dataset: ""
 #url_project: ""
 #url_slides: ""
 #url_video: ""

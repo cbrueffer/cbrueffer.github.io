@@ -34,7 +34,17 @@ publication_types: ["2"]
 publication: "*Breast Cancer Research, 2015. 17:102*"
 #publication_short: "Breast Cancer Res"
 
-abstract: "By convention, a contralateral breast cancer (CBC) is treated as a new primary tumor, independent of the first cancer (BC1). Although there have been indications that the second tumor (BC2) sometimes may represent a metastatic spread of BC1, this has never been conclusively shown. We sought to apply next-generation sequencing to determine a “genetic barcode” for each tumor and reveal the clonal relationship of CBCs. Ten CBC patients with detailed clinical information and available fresh frozen tumor tissue were studied. Using low-coverage whole genome DNA-sequencing data for each tumor, chromosomal rearrangements were enumerated and copy number profiles were generated. Comparisons between tumors provided an estimate of clonal relatedness for tumor pairs within individual patients. Between 15–256 rearrangements were detected in each tumor (median 87). For one patient, 76 % (68 out of 90) of the rearrangements were shared between BC1 and BC2, highly consistent with what has been seen for true primary-metastasis pairs (>50 %) and thus confirming a common clonal origin of the two tumors. For most of the remaining cases, BC1 and BC2 had similarly low overlap as unmatched randomized pairs of tumors from different individuals, suggesting the CBC to represent a new independent primary tumor. Using rearrangement fingerprinting, we show for the first time with certainty that a contralateral BC2 can represent a metastatic spread of BC1. Given the poor prognosis of a generalized disease compared to a new primary tumor, these women need to be identified at diagnosis of CBC for appropriate determination of treatment. Our approach generates a promising new method to assess clonal relationship between tumors. Additional studies are required to confirm the frequency of CBCs representing metastatic events."
+abstract: "**Introduction**<br />
+By convention, a contralateral breast cancer (CBC) is treated as a new primary tumor, independent of the first cancer (BC1). Although there have been indications that the second tumor (BC2) sometimes may represent a metastatic spread of BC1, this has never been conclusively shown. We sought to apply next-generation sequencing to determine a “genetic barcode” for each tumor and reveal the clonal relationship of CBCs.<br /><br />
+
+**Methods**<br />
+Ten CBC patients with detailed clinical information and available fresh frozen tumor tissue were studied. Using low-coverage whole genome DNA-sequencing data for each tumor, chromosomal rearrangements were enumerated and copy number profiles were generated. Comparisons between tumors provided an estimate of clonal relatedness for tumor pairs within individual patients.<br /><br />
+
+**Results**<br />
+Between 15–256 rearrangements were detected in each tumor (median 87). For one patient, 76 % (68 out of 90) of the rearrangements were shared between BC1 and BC2, highly consistent with what has been seen for true primary-metastasis pairs (>50 %) and thus confirming a common clonal origin of the two tumors. For most of the remaining cases, BC1 and BC2 had similarly low overlap as unmatched randomized pairs of tumors from different individuals, suggesting the CBC to represent a new independent primary tumor.<br /><br />
+
+**Conclusion**<br />
+Using rearrangement fingerprinting, we show for the first time with certainty that a contralateral BC2 can represent a metastatic spread of BC1. Given the poor prognosis of a generalized disease compared to a new primary tumor, these women need to be identified at diagnosis of CBC for appropriate determination of treatment. Our approach generates a promising new method to assess clonal relationship between tumors. Additional studies are required to confirm the frequency of CBCs representing metastatic events."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -45,10 +55,11 @@ tags:
 - Structural Variants
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: "https://breast-cancer-research.biomedcentral.com/track/pdf/10.1186/s13058-015-0608-x"
+links:
+- name: "PDF"
+  url: "https://breast-cancer-research.biomedcentral.com/track/pdf/10.1186/s13058-015-0608-x"
+  icon: "file-pdf"
+#url_pdf: ""
 #url_preprint: ""
 #url_code: ""
 #url_dataset: ""
