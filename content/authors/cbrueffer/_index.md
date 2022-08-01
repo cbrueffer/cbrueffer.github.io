@@ -90,13 +90,13 @@ user_groups:
 - Visitors
 ---
 
-I am a Biomedical Data Scientist currently working as Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/). Additionally I conduct research in affiliation with
-[Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
+I am a Biomedical Data Scientist currently working as Senior Bioinformatician at the cancer diagnostics company [SAGA Diagnostics](http://sagadiagnostics.com/).
+Additionally I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
 My work focuses on the development of diagnostics based on tumor DNA and RNA sequencing to improve treatment and survival of cancer patients.
 Many of my projects, including my [doctoral thesis]({{< ref "/project/phd" >}}), have been embedded in the [Sweden Cancerome Analysis Network--Breast (SCAN-B)](https://www.scan-b.lu.se/) breast cancer study.
 Additionally I work on improving open source bioinformatics and reproducible research infrastructure
 by contributing to projects such as [conda-forge](https://conda-forge.org/), [Bioconda](http://bioconda.github.io/), and [Biopython](http://biopython.org/).
 
-Over the past 20 years I have contributed to a number of open source software projects, most notably the [FreeBSD](https://www.freebsd.org/) computer
-operating system. A rough overview can be [found on OpenHub](https://www.openhub.net/accounts/brueffer) and [GitHub](https://github.com/cbrueffer).
+Over the past 20 years I have contributed to a number of open source software projects, most notably the [FreeBSD](https://www.freebsd.org/) computer operating system.
+A rough overview can be [found on OpenHub](https://www.openhub.net/accounts/brueffer) and [GitHub](https://github.com/cbrueffer).
