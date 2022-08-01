@@ -25,7 +25,21 @@ publication_types: ["3"]
 publication: "*ResearchSquare, 2022 (Preprint)*"
 #publication_short: ""
 
-abstract: ""
+abstract: "**Background**<br />
+
+Circulating tumor DNA (ctDNA), which is shed from tumor cells into the blood, is a promising minimal-invasive method for cancer diagnostics and monitoring. The aim of this study was to evaluate preoperative ctDNA levels in the plasma of patients with ovarian cancer and correlate the levels to clinicopathological parameters and patient outcome.<br />
+
+**Methods**<br />
+
+Tumor DNA was extracted from ovarian tumor tissue from 41 patients. Targeted sequencing using a panel of 127 genes recurrently mutated in cancer was performed to identify candidate somatic mutations in the tumor DNA. SAGAsafe digital PCR (dPCR) assays targeting the candidate mutations were used to measure ctDNA levels in patient plasma samples, obtained prior to surgery, to evaluate ctDNA levels in terms of mutant copy number/mL and variant allele frequency.<br />
+
+**Results**<br />
+
+Somatic mutations were found in 24 tumors, of which seven were from patients with borderline, and 17 with invasive cancer diagnosis. TP53 was the most frequently mutated gene. Fifteen of 24 patients had detectable ctDNA levels in pre-operative plasma. Plasma ctDNA mutant concentration increased with higher stage (ptrend <0.001). Cancer patients with more than 10 ctDNA mutant copies/mL in plasma prior to surgery had significantly worse overall survival (p = 0.008).<br />
+
+**Conclusions**<br />
+
+Measuring ctDNA in pre-operative plasma may be useful as a predictive biomarker for tumor staging and prognosis in ovarian cancer patients."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
