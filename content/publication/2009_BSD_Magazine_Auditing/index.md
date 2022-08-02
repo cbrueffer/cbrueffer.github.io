@@ -33,6 +33,10 @@ links:
 - name: "PDF"
   url: "https://bsdmag.org/download/bsd-2009-archives/"
   icon: "file-pdf"
+- name: "FreeBSD"
+  url: "project/freebsd"
+  icon: "freebsd"
+  icon_pack: "fab"
 #url_pdf: ""
 #url_preprint: ""
 #url_code: ""
@@ -55,7 +59,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [freebsd]
+#projects: [freebsd]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

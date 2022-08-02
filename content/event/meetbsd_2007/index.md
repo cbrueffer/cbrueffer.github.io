@@ -41,6 +41,10 @@ links:
 - name: 'Video'
   url: 'https://www.youtube.com/watch?v=OwBh8ro7xHQ'
   icon: 'video'
+- name: "FreeBSD"
+  url: "project/freebsd"
+  icon: "freebsd"
+  icon_pack: "fab"
 # - icon: twitter
 #   icon_pack: fab
 #    name: Follow
@@ -62,6 +66,6 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-  - freebsd
+#projects:
+#  - freebsd
 ---

@@ -42,6 +42,9 @@ links:
 - name: "Code"
   url: "https://github.com/cbrueffer/phd_thesis"
   icon: "code"
+- name: "PhD Project"
+  url: "project/phd"
+  icon: "graduation-cap"
 - name: "LUCRIS Project"
   url: "https://portal.research.lu.se/portal/en/publications/rna-sequencing-for-molecular-diagnostics-in-breast-cancer"
   icon: "diagram-project"
@@ -67,7 +70,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: ["phd"]
+#projects: ["phd"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

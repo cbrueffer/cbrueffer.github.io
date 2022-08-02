@@ -57,6 +57,9 @@ links:
 - name: "Dataset"
   url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60789"
   icon: "database"
+- name: "PhD Project"
+  url: "project/phd"
+  icon: "graduation-cap"
 #url_pdf: ""
 #url_preprint: ""
 #url_code: ""
@@ -80,7 +83,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [phd]
+#projects: [phd]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

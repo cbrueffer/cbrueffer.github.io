@@ -38,6 +38,10 @@ links:
 - name: 'PDF Slides'
   url: 'https://people.freebsd.org/~brueffer/slides/linuxtag2004.pdf'
   icon: 'file-pdf'
+- name: "FreeBSD"
+  url: "project/freebsd"
+  icon: "freebsd"
+  icon_pack: "fab"
 #url_code: ''
 #url_pdf: ''
 #url_slides: ''

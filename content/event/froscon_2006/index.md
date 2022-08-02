@@ -38,6 +38,10 @@ links:
 - name: 'PDF Slides'
   url: 'https://people.freebsd.org/~brueffer/slides/FreeBSD_im_Ueberblick_FrOSCon06.pdf'
   icon: 'file-pdf'
+- name: "FreeBSD"
+  url: "project/freebsd"
+  icon: "freebsd"
+  icon_pack: "fab"
 - name: 'Follow'
   url: 'https://twitter.com/froscon'
   icon: 'twitter'
@@ -59,6 +63,6 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-  - freebsd
+#projects:
+#  - freebsd
 ---

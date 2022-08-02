@@ -63,6 +63,9 @@ links:
 - name: "Press Release"
   url: "https://www.lunduniversity.lu.se/article/new-analytical-model-detects-mutations-breast-cancer"
   icon: "bullhorn"
+- name: "PhD Project"
+  url: "project/phd"
+  icon: "graduation-cap"
 #url_pdf: ""
 #url_preprint: ""
 #url_code: ""
@@ -86,7 +89,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [phd]
+#projects: [phd]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
