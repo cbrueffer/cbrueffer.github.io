@@ -12,6 +12,8 @@ authors:
 date: 2022-07-15
 doi: "10.21203/rs.3.rs-1770497/v1"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -48,6 +50,7 @@ tags:
 - Cancer
 - Ovarian Cancer
 - Liquid Biopsy
+- Bioinformatics
 featured: false
 
 links:

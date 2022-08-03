@@ -7,6 +7,8 @@ authors:
 date: 2016-05-04
 doi: "10.1186/s12859-016-1058-x"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -36,6 +38,7 @@ tags:
 - RNA Sequencing
 - Open Source Software
 - PhD
+- Bioinformatics
 featured: false
 
 links:

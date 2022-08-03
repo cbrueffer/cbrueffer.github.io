@@ -21,6 +21,8 @@ authors:
 date: 2021-04-22
 doi: "10.1093/jncics/pkab028"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -54,6 +56,7 @@ tags:
 - Breast Cancer
 - SCAN-B
 - RNA Sequencing
+- Bioinformatics
 featured: false
 
 links:

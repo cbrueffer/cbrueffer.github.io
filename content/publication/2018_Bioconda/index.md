@@ -27,6 +27,8 @@ author_notes:
 date: 2018-07-02
 doi: "10.1038/s41592-018-0046-7"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -48,6 +50,7 @@ abstract: "We present Bioconda (https://bioconda.github.io), a distribution of b
 tags:
 - Bioconda
 - Open Source Software
+- Bioinformatics
 featured: true
 
 links:

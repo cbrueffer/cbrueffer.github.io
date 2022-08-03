@@ -24,6 +24,8 @@ author_notes:
 date: 2018-03-01
 doi: "10.1200/PO.17.00135"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -59,6 +61,7 @@ tags:
 - RNA Sequencing
 - Machine Learning
 - PhD
+- Bioinformatics
 featured: true
 
 links:

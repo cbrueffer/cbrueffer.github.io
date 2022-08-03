@@ -78,6 +78,8 @@ authors:
 date: 2022-04-27
 doi: "10.1016/j.xgen.2022.100129"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -107,6 +109,8 @@ previously unknown clinically relevant variants."
 
 tags:
 - Genome in a Bottle
+- Bioinformatics
+- Machine Learning
 featured: false
 
 links:

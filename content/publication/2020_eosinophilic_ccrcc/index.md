@@ -12,6 +12,8 @@ authors:
 date: 2020-08-20
 doi: "10.1002/path.5532"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -34,6 +36,7 @@ tags:
 - Cancer
 - Kidney Cancer
 - RNA Sequencing
+- Bioinformatics
 featured: false
 
 links:

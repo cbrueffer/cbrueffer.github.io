@@ -24,6 +24,8 @@ authors:
 date: 2015-02-02
 doi: "10.1186/s13073-015-0131-9"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -48,6 +50,7 @@ tags:
 - SCAN-B
 - RNA Sequencing
 - PhD
+- Bioinformatics
 featured: false
 
 links:

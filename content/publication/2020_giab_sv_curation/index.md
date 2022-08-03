@@ -29,6 +29,8 @@ authors:
 date: 2020-06-19
 doi: "10.1371/journal.pcbi.1007933"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -51,6 +53,7 @@ tags:
 - Structural Variants
 - Genome in a Bottle
 - Open Source Software
+- Bioinformatics
 featured: false
 
 links:

@@ -33,6 +33,7 @@ tags:
 - Cancer
 - Breast Cancer
 - SCAN-B
+- Bioinformatics
 featured: false
 
 links:

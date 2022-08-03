@@ -25,6 +25,8 @@ author_notes:
 date: 2015-10-02
 doi: "10.18632/oncotarget.5951"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -47,6 +49,7 @@ tags:
 - Cancer
 - Breast Cancer
 - Structural Variants
+- Bioinformatics
 featured: false
 
 links:

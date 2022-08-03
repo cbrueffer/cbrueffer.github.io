@@ -14,6 +14,8 @@ authors:
 date: 2019-07-01
 doi: "10.1007/s10549-019-05326-5"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -47,6 +49,7 @@ tags:
 - Cancer
 - Breast Cancer
 - SCAN-B
+- Bioinformatics
 featured: false
 
 links:

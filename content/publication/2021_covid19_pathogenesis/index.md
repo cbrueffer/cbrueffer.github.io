@@ -39,6 +39,8 @@ authors:
 date: 2021-10-26
 doi: "10.1128/mSystems.00095-21"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 

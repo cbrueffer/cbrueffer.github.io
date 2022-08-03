@@ -20,6 +20,8 @@ authors:
 date: 2020-09-14
 doi: "10.15252/emmm.202012118"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -44,6 +46,7 @@ tags:
 - RNA Sequencing
 - Open Source Software
 - PhD
+- Bioinformatics
 featured: true
 
 links:

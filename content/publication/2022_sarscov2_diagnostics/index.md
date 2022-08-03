@@ -18,6 +18,8 @@ authors:
 date: 2022-04-26
 doi: "10.48550/arXiv.2204.12598"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 

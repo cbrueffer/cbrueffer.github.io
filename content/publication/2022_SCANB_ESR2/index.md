@@ -11,6 +11,8 @@ authors:
 date: 2022-03-18
 doi: "10.1038/s41598-022-08210-3"
 
+add_badge: true
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
 
@@ -34,6 +36,7 @@ tags:
 - Breast Cancer
 - SCAN-B
 - RNA Sequencing
+- Bioinformatics
 featured: false
 
 links:
