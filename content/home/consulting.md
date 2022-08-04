@@ -26,9 +26,9 @@ I'm available for select consulting opportunities in industry and academia. With
 
 - Computational pipeline/workflow development
 - Data processing, cleaning, and visualization
-- Statistical analysis
+- Statistical analysis and modeling
 - Machine learning
-- Custom software development
+- Software development
 
 #### Contact
 
