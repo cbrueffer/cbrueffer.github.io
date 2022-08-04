@@ -30,8 +30,8 @@ content:
   address:
     street: ''
     city: Lund
-    region: ''
-    postcode: '22381'
+    region: 'Sweden'
+    postcode: ''
     country: Sweden
     country_code: SE
   coordinates:
