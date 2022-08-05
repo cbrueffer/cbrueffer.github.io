@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Biomedical Data Scientist
+role: Biomedical Data Scientist and Bioinformatician
 
 # Organizations/Affiliations
 organizations:
