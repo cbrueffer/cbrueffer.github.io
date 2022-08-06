@@ -44,7 +44,8 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  #link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:christian@brueffer.io'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/cbrueffer
@@ -53,7 +54,7 @@ social:
   link: https://www.linkedin.com/in/cbrueffer
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.se/citations?user=BFnR7W8AAAAJ
+  link: https://scholar.google.com/citations?user=BFnR7W8AAAAJ
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Christian_Brueffer2
