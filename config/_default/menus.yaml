@@ -7,6 +7,9 @@ main:
   - name: About Me
     url: ''
     weight: 10
+  - name: Collaboration
+    url: '#collaboration'
+    weight: 15
   - name: Projects
     url: '#projects'
     weight: 30
