@@ -1,6 +1,8 @@
 ---
-#title: 'Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)'
-title: 'Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the SCAN-B Project'
+title: 'Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)'
+
+# manually set the file name to avoid ecryptfs filename limitations
+slug: asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome
 
 event: ASCO Annual Meeting 2020
 event_url: https://meetinglibrary.asco.org/record/188474/abstract
