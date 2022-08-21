@@ -93,7 +93,7 @@ features:
   map:
     provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 5
 
 # Publications
 publications:
