@@ -50,6 +50,10 @@
         <span>
           {{ partial "functions/get_event_dates" $item }}
         </span>
+        {{ with $item.Params.event }}
+        <span class="middot-divider"></span>
+        <span>{{ . }}</span>
+        {{ end }}
         {{ with $item.Params.location }}
         <span class="middot-divider"></span>
         <span>{{ . }}</span>
