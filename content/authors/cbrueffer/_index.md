@@ -10,17 +10,19 @@ authors:
 superuser: true
 
 # Role/position
-role: Biomedical Data Scientist and Bioinformatician
+role: Bioinformatician and Data Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: SAGA Diagnostics
-  url: "https://sagadiagnostics.com/"
-- name: Lund University
-  url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
+#- name: SAGA Diagnostics
+#  url: "https://sagadiagnostics.com/"
+#- name: Lund University
+#  url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
+- name:
+  url:
 
 # Short bio (displayed in user profile at end of posts)
-bio: Biomedical Data Scientist with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
+bio: Bioinformatician and Data Scientist with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
 
 interests:
 - Data Science and Bioinformatics
@@ -38,7 +40,7 @@ education:
     institution: Aachen University of Applied Sciences, Germany
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
@@ -91,7 +93,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Biomedical Data Scientist currently working as Senior Bioinformatician within cancer diagnostics at [SAGA Diagnostics](https://sagadiagnostics.com/).
+I am a Bioinformatician and Data Scientist currently working in the cancer diagnostics industry, specifically within genomics and liquid biopsy.
 Additionally I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
 My main interest is in using computational methods and biological/medical data to improve our understanding and treatment of diseases.
