@@ -1,0 +1,22 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout master
+      uses: actions/checkout@v1
+      with:
+        submodules: true
+    - name: Hugo Deploy GitHub Pages
+      uses: benmatselby/hugo-deploy-gh-pages@main
+      env:
+        HUGO_VERSION: 0.101.0
+        TARGET_REPO: cbrueffer/cbrueffer.github.io
+        TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        CNAME: www.brueffer.io
