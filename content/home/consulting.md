@@ -4,13 +4,13 @@
 widget: blank
 
 # Activate this widget? true/false
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 130
+weight: 30
 
 title: Consulting
 
@@ -20,7 +20,7 @@ title: Consulting
 author: cbrueffer
 ---
 
-I'm available for select consulting opportunities in industry and academia. With a decade of experience in bioinformatics, biomedical data science, genomics, and diagnostics, as well as over two decades in IT to draw from I can help you overcome a variety of challenges. For more on my experience, please see [About Me]({{< ref "/" >}}) and my [publications]({{< ref "/publication" >}}) and [talks]({{< ref "#talks" >}}).
+I'm available for consulting opportunities in industry and academia. With a decade of experience in bioinformatics, biomedical data science, genomics, and diagnostics, as well as over two decades in IT to draw from I can help you overcome a variety of challenges. For more on my experience, please see [About Me]({{< ref "/" >}}) and my [publications]({{< ref "/publication" >}}) and [talks]({{< ref "/event" >}}).
 
 #### Areas I can help you with include, but are not limited to
 
@@ -30,6 +30,6 @@ I'm available for select consulting opportunities in industry and academia. With
 - Machine learning
 - Software development
 
-#### Contact
+#### Get in touch
 
 For consulting inquiries, please [contact me via email or LinkedIn]({{< ref "#contact" >}}).

@@ -14,12 +14,10 @@ role: Bioinformatician and Data Scientist
 
 # Organizations/Affiliations
 organizations:
-#- name: SAGA Diagnostics
-#  url: "https://sagadiagnostics.com/"
-#- name: Lund University
-#  url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
-- name:
+- name: InSilico Consulting AB
   url:
+- name: Lund University
+  url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Bioinformatician and Data Scientist with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
@@ -51,6 +49,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/cbrueffer
+- icon: mastodon
+  icon_pack: fab
+  link: https://mastodon.social/@cbrueffer
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/cbrueffer
@@ -66,9 +67,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/cbrueffer
-- icon: impactstory
-  icon_pack: ai
-  link: https://impactstory.org/u/0000-0002-3826-0989
 # openhub icon does yet in FontAwesome, see https://github.com/FortAwesome/Font-Awesome/issues/8347
 #- icon: openhub
 #  icon_pack: fab
@@ -93,8 +91,9 @@ user_groups:
 - Visitors
 ---
 
-I am a Bioinformatician and Data Scientist currently working in the cancer diagnostics industry, specifically within genomics and liquid biopsy.
-Additionally I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
+I am a Bioinformatician and Data Scientist providing [consulting]({{< ref "#consulting" >}}) services to clients in industry and academia to help them make sense of their data.
+Previously I worked for several years in the cancer diagnostics industry, specifically within precision medicine, genomics, and liquid biopsy.
+Additionally, I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
 My main interest is in using computational methods and biological/medical data to improve our understanding and treatment of diseases.
 Many of my projects, including my [doctoral thesis]({{< ref "/project/phd" >}}), have been focused on [cancer](tag/cancer) in humans.

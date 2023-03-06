@@ -7,8 +7,8 @@ main:
   - name: About Me
     url: ''
     weight: 10
-  - name: Collaboration
-    url: '#collaboration'
+  - name: Consulting
+    url: '#consulting'
     weight: 15
   - name: Projects
     url: '#projects'
@@ -39,9 +39,6 @@ main:
     url: 'publication/'
     parent: research
     weight: 55
-    #- name: Consulting
-    #url: '#consulting'
-    #weight: 60
   - name: Contact
     url: '#contact'
     weight: 70
