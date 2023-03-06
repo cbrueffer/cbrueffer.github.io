@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Christian Brueffer</title><link>https://www.brueffer.io/</link><atom:link href="https://www.brueffer.io/index.xml" rel="self" type="application/rss+xml"/><description>Christian Brueffer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>Christian Brueffer</title><link>https://www.brueffer.io/</link></image><item><title>Snakemake on AWS ParallelCluster using Slurm</title><link>https://www.brueffer.io/post/snakemake-aws-parallelcluster/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/post/snakemake-aws-parallelcluster/</guid><description>
+&lt;details class="toc-inpage d-print-none " open>
+&lt;summary class="font-weight-bold">Table of Contents&lt;/summary>
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#tldr">tl;dr&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#running-snakemake-on-aws-parallelcluster">Running Snakemake on AWS ParallelCluster&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#aws-parallelcluster">AWS ParallelCluster&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#pros-and-cons">Pros and Cons&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#setup">Setup&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#snakemake-on-parallelcluster-with-slurm">Snakemake on ParallelCluster with Slurm&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#peculiarities-of-parallelcluster-slurm-instances">Peculiarities of ParallelCluster Slurm Instances&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#snakemake-slurm-execution-profiles">Snakemake Slurm Execution Profiles&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#other-tidbits-and-lessons-learned">Other Tidbits and Lessons Learned&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#resources">Resources&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#edit-history">Edit History&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/details>
+&lt;h2 id="tldr">tl;dr&lt;/h2>
+&lt;ul>
+&lt;li>AWS ParallelCluster is a great way to run traditional HPC workflows in the cloud.&lt;/li>
+&lt;li>AWS ParallelCluster Slurm has a few peculiarities in the default configuration.&lt;/li>
+&lt;li>For running Snakemake an adapted profile is available at &lt;a href="https://github.com/cbrueffer/snakemake-aws-parallelcluster-slurm" target="_blank" rel="noopener">https://github.com/cbrueffer/snakemake-aws-parallelcluster-slurm&lt;/a> to make things work smoothly.&lt;/li>
+&lt;/ul>
+&lt;h2 id="running-snakemake-on-aws-parallelcluster">Running Snakemake on AWS ParallelCluster&lt;/h2>
+&lt;p>&lt;a href="https://snakemake.github.io/" target="_blank" rel="noopener">Snakemake&lt;/a> is a fantastic tool for orchestrating bioinformatics workflows and comes with &lt;a href="https://snakemake.readthedocs.io/en/stable/executing/cloud.html" target="_blank" rel="noopener">built-in support&lt;/a> for a variety of public cloud providers, such as Amazon AWS.
+However, running a workflow this way can be a challenge, not least since hands-on tutorials or more practical information are rare.
+An alternative that many bioinformaticians will be familiar with are high-performance computing (HPC) clusters using a job scheduler such as Slurm, since many universities and research facilities operate such systems on their own premises.&lt;/p>
+&lt;h2 id="aws-parallelcluster">AWS ParallelCluster&lt;/h2>
+&lt;p>&lt;a href="https://docs.aws.amazon.com/parallelcluster" target="_blank" rel="noopener">AWS ParallelCluster&lt;/a> makes it possible and relatively easy to replicate such a setting in the cloud.
+ParallelCluster is essentially a wrapper around more basic AWS services such as EC2 (running virtual machines), EFS and EBS (storage), and others.&lt;/p>
+&lt;h3 id="pros-and-cons">Pros and Cons&lt;/h3>
+&lt;p>Pros&lt;/p>
+&lt;ul>
+&lt;li>Feasible to set up for a single user or small company / research group without huge resources.&lt;/li>
+&lt;li>It scales dynamically: nodes are allocated when needed and decommissioned when unused.&lt;/li>
+&lt;li>Practically infinite resources: you can allocate as many nodes and use as much storage as you want.&lt;/li>
+&lt;li>It makes it easy to transfer a workflow from a traditional on-premise HPC setting into the cloud.&lt;/li>
+&lt;/ul>
+&lt;p>Cons&lt;/p>
+&lt;ul>
+&lt;li>In a university setting you can often get time on HPC systems for free, only requiring a short project description.
+Cloud-based HPC will cost you actual money.&lt;/li>
+&lt;li>Traditional HPC clusters have qualified systems and network administrators that keep things running smoothly.
+With ParallelCluster &lt;em>you&lt;/em> are the systems and network administrator, for better or worse.
+While many things are automated, Amazon AWS is nothing if not complex and it still requires knowledge to make things work.&lt;/li>
+&lt;/ul>
+&lt;h3 id="setup">Setup&lt;/h3>
+&lt;p>The first steps of using ParallelCluster are &lt;a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3.html" target="_blank" rel="noopener">pretty well documented&lt;/a>.
+All tasks are performed with the &lt;code>aws-parallelcluster&lt;/code> Python package.
+Note that there are currently two versions of the ParallelCluster software, v2 and v3.
+v3 is newer and has more features, but many guides and help you currently find online are based on v2.
+The most visual difference is the configuration format: v3 uses &lt;a href="https://en.wikipedia.org/wiki/YAML" target="_blank" rel="noopener">YAML&lt;/a> while v2 uses &lt;a href="https://en.wikipedia.org/wiki/INI_file" target="_blank" rel="noopener">INI&lt;/a> files.&lt;/p>
+&lt;ul>
+&lt;li>Configure an AWS user with the correct permissions.
+A basic policy is &lt;a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/iam-roles-in-parallelcluster-v3.html#iam-roles-in-parallelcluster-v3-example-user-policies" target="_blank" rel="noopener">provided in the AWS documentation&lt;/a>, but
+if you need access to services such as EFS more permissions will be needed.&lt;/li>
+&lt;li>&lt;a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html" target="_blank" rel="noopener">Set up the AWS user&amp;rsquo;s credentials&lt;/a> using &lt;code>aws configure&lt;/code>.&lt;/li>
+&lt;li>Either import an SSH public key in the EC2 settings, or generate a new key pair.&lt;/li>
+&lt;li>&lt;a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-parallelcluster.html" target="_blank" rel="noopener">Install the &lt;code>aws-parallelcluster&lt;/code>&lt;/a> Python package using &lt;code>pip&lt;/code> as documented.
+The package is also available through &lt;code>conda&lt;/code> via the conda-forge channel, but as of this writing it is v2 only.&lt;/li>
+&lt;li>&lt;a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/install-v3-configuring.html" target="_blank" rel="noopener">Set up a cluster configuration&lt;/a> using &lt;code>pcluster configure --config my-cluster-config.yaml&lt;/code>.
+This starts an interactive process that various settings of the cluster, i.e. which instance type to use for the head node, which scheduler to use (Slurm or AWS Batch), how many queues, number of nodes per queue, etc.
+In particular sets up the necessary virtual private cloud (VPC), network infrastructure, and security groups on AWS automatically, if you tell it to do so.&lt;/li>
+&lt;li>Start the cluster using &lt;code>pcluster create-cluster --cluster-name test-cluster --cluster-configuration my-cluster-config.yaml&lt;/code>.
+This will take a few minutes; you can check progress using &lt;code>pcluster describe-cluster --cluster-name test-cluster&lt;/code>.&lt;/li>
+&lt;li>Log in to the head node using &lt;code>pcluster ssh --cluster-name test-cluster&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="snakemake-on-parallelcluster-with-slurm">Snakemake on ParallelCluster with Slurm&lt;/h2>
+&lt;h3 id="peculiarities-of-parallelcluster-slurm-instances">Peculiarities of ParallelCluster Slurm Instances&lt;/h3>
+&lt;p>Generally using Snakemake on a ParallelCluster Slurm cluster works the same as with any other Slurm system.
+That said, there are some differences and drawbacks, and they are not well documented and as such, are learned through the usual cycle of trial, error, and searching the web.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>The &lt;code>sbatch&lt;/code> &lt;code>--mem&lt;/code> argument for specifying memory requirements for a job is not supported, and if used will send nodes into the &lt;code>DRAINED&lt;/code> state.
+The company Ronin has a good &lt;a href="https://blog.ronin.cloud/slurm-parallelcluster-troubleshooting/" target="_blank" rel="noopener">troubleshooting page&lt;/a> on this topic.
+If you are the sole user of your cluster the easiest workaround is probably to scale jobs using the number of CPUs (&lt;code>--cpus-per-task&lt;/code>).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>By default, a ParallelCluster comes without working job accounting, which means &lt;code>sacct&lt;/code> does not work.
+This is particularly noteworthy since many Snakemake Slurm profiles use &lt;code>sacct&lt;/code> for job monitoring.
+A guide for setting up Slurm accounting on ParallelCluster is &lt;a href="https://aws.amazon.com/blogs/compute/enabling-job-accounting-for-hpc-with-aws-parallelcluster-and-amazon-rds/" target="_blank" rel="noopener">available from Amazon&lt;/a>.
+If you are going to use ParallelCluster regularly it probably makes sense to set it up, since the underlying database will persist across cluster instances.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="snakemake-slurm-execution-profiles">Snakemake Slurm Execution Profiles&lt;/h3>
+&lt;p>The profile I use is freely available on Github at &lt;a href="https://github.com/cbrueffer/snakemake-aws-parallelcluster-slurm" target="_blank" rel="noopener">https://github.com/cbrueffer/snakemake-aws-parallelcluster-slurm&lt;/a> and accomodates the ParallelCluster peculiarities.
+It is heavily based on &lt;a href="https://github.com/jdblischak/smk-simple-slurm" target="_blank" rel="noopener">John Blischak&amp;rsquo;s smk-simple-slurm repository&lt;/a> and carries the same license.&lt;/p>
+&lt;p>Other profiles, such as the &lt;a href="https://github.com/Snakemake-Profiles/slurm" target="_blank" rel="noopener">standard Snakemake Slurm profile&lt;/a> do not currently work in this setting out of the box.&lt;/p>
+&lt;h2 id="other-tidbits-and-lessons-learned">Other Tidbits and Lessons Learned&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>There is a &lt;a href="https://github.com/aws-samples/pcluster-manager" target="_blank" rel="noopener">graphical frontend to ParallelCluster&lt;/a>!
+It is relatively new and not particularly well advertised in the documentation, but it looks useful and can help avoid potential configuration issues mentioned in this section.
+It also simplifies setting up Slurm accounting.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Shared storage&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>/home&lt;/code> is shared between the head node and the compute nodes.&lt;/li>
+&lt;li>&lt;code>/scratch&lt;/code> is the local storage of each node.&lt;/li>
+&lt;li>Other shared storage has to be explicity added to the configuration in ParallelCluster v3 (as opposed to v2 where &lt;code>/shared&lt;/code> is a shared EBS volume).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Head node instance type&lt;/p>
+&lt;p>Give some thought to which instance type to select for the head node to best balance cost and performance.
+Since it is the one cluster node that will run for as long as the cluster is up, the instance type should not be too expensive.
+On the other hand it needs to be performant enough for Snakemake, job scheduling and NFS server duties, so do not select an instance type that is too underpowered.
+For my applications &lt;code>t3.xlarge&lt;/code> was a good compromise.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check whether the instance types you select exist in your configured AWS region.
+Not all instance types are available in all regions, and &lt;code>pcluster&lt;/code> will not warn you about this.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Check your limits!&lt;/p>
+&lt;p>AWS services that ParallelCluster uses may have limits in place, including limits on concurrent EC2 instances and virtual CPUs.
+Again, &lt;code>pcluster&lt;/code> will not warn you about this.
+In practice this means you can configure and start a cluster that could scale up to hundreds of compute nodes, but when you start a job only a few
+nodes spin up while the rest of your jobs are stuck waiting for resources and you are left wondering why.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If things do not work, check the &lt;a href="https://docs.aws.amazon.com/parallelcluster/latest/ug/troubleshooting-v3.html" target="_blank" rel="noopener">troubleshooting documentation&lt;/a> and the logs.&lt;/p>
+&lt;p>On the head node:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">/var/log/cfn-init.log
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/chef-client.log
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/parallelcluster/slurm_resume.log
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/parallelcluster/slurm_suspend.log
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/parallelcluster/clustermgtd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/slurmctld.log
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>On compute nodes:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">/var/log/cloud-init-output.log
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/parallelcluster/computemgtd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/var/log/slurmd.log
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Ephemeral storage &lt;strong>is ephemeral&lt;/strong>!&lt;/p>
+&lt;p>All storage that is created during cluster creation will also be destroyed when the cluster is deleted.
+This includes additional EFS and EBS storage defined in the cluster config, unless you explicitly create them yourself first and then include them e.g. via their &lt;code>FileSystemId&lt;/code> for EFS file systems!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Multi-queue clusters&lt;/p>
+&lt;p>The &lt;code>pcluster config&lt;/code> wizard enables creating ParallelCluster Slurm clusters with multiple queues.
+Keep it mind that it is only possible to specify one instance type per queue.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="resources">Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/cbrueffer/snakemake-aws-parallelcluster-slurm" target="_blank" rel="noopener">Snakemake profile for AWS ParallelCluster with Slurm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.aws.amazon.com/parallelcluster" target="_blank" rel="noopener">ParallelCluster documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aws-parallelcluster.readthedocs.io" target="_blank" rel="noopener">pcluster package documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/aws-samples/pcluster-manager" target="_blank" rel="noopener">ParallelCluster graphical frontend&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hpc.news/techshorts" target="_blank" rel="noopener">Amazon HPC Tech Shorts Youtube channel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=PChP3FQWeJQ" target="_blank" rel="noopener">Amazon HPC Tech Shorts on pcluster manager GUI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=a-99esKLcls" target="_blank" rel="noopener">Amazon HPC Tech Shorts on pcluster v3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="edit-history">Edit History&lt;/h2>
+&lt;ul>
+&lt;li>2022-07-19 Initial version&lt;/li>
+&lt;/ul></description></item><item><title>Preoperative circulating tumor DNA level is associated to poor overall survival in patients with ovarian cancer</title><link>https://www.brueffer.io/publication/2022_ovarian_cancer_ctdna/</link><pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_ovarian_cancer_ctdna/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>PrecisionFDA Truth Challenge V2: Calling variants from short and long reads in difficult-to-map regions</title><link>https://www.brueffer.io/publication/2022_precisionfda/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_precisionfda/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1016/j.xgen.2022.100129"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1016/j.xgen.2022.100129"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Molecular and Serologic Diagnostic Technologies for SARS-CoV-2</title><link>https://www.brueffer.io/publication/2022_sarscov2_diagnostics/</link><pubDate>Tue, 26 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_sarscov2_diagnostics/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.48550/arXiv.2204.12598"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.48550/arXiv.2204.12598"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Clinical associations of ESR2 (estrogen receptor beta; ERβ) expression across thousands of primary breast tumors</title><link>https://www.brueffer.io/publication/2022_scanb_esr2/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_scanb_esr2/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1038/s41598-022-08210-3"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1038/s41598-022-08210-3"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Identification and Development of Therapeutics for COVID-19</title><link>https://www.brueffer.io/publication/2021_covid19_therapeutics/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2021_covid19_therapeutics/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1128/mSystems.00233-21"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1128/mSystems.00233-21"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Pathogenesis, Symptomatology, and Transmission of SARS-CoV-2 through Analysis of Viral Genomics and Structure</title><link>https://www.brueffer.io/publication/2021_covid19_pathogenesis/</link><pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2021_covid19_pathogenesis/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1128/mSystems.00095-21"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1128/mSystems.00095-21"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Swedish Bioinformatics Workshop 2021: SAGA Diagnostics Sponsor Presentation</title><link>https://www.brueffer.io/talk/swedish-bioinformatics-workshop-2021-saga-diagnostics-sponsor-presentation/</link><pubDate>Wed, 20 Oct 2021 12:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/swedish-bioinformatics-workshop-2021-saga-diagnostics-sponsor-presentation/</guid><description/></item><item><title>Dietary Supplements and Nutraceuticals under Investigation for COVID-19 Prevention and Treatment</title><link>https://www.brueffer.io/publication/2021_covid19_neutraceuticals/</link><pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2021_covid19_neutraceuticals/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1128/mSystems.00122-21"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1128/mSystems.00122-21"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Preexisting Somatic Mutations of Estrogen Receptor Alpha (ESR1) in Early-Stage Primary Breast Cancer</title><link>https://www.brueffer.io/publication/2021_scanb_esr1/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2021_scanb_esr1/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1093/jncics/pkab028"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1093/jncics/pkab028"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>PhD Project: RNA Sequencing-based Tools for Breast Cancer Diagnostics</title><link>https://www.brueffer.io/project/phd/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/phd/</guid><description>&lt;p>Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
+translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
+Most of these efforts focus on &lt;a href="https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing" target="_blank" rel="noopener">DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/RNA-Seq" target="_blank" rel="noopener">RNA sequencing (RNA-seq)&lt;/a> is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
+and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
+is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
+(e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
+that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.&lt;/p>
+&lt;p>The topic of my PhD thesis was exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
+&lt;a href="https://www.scan-b.lu.se/" target="_blank" rel="noopener">Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a> breast cancer project and by developing diagnostic tools from the generated
+data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
+are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.&lt;/p>
+&lt;p>See below for a list of results generated from this work.&lt;/p></description></item><item><title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title><link>https://www.brueffer.io/publication/2020_phd_thesis/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_phd_thesis/</guid><description/></item><item><title>The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome</title><link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link><pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid><description>&lt;html>
+&lt;head>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;/head>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.15252/emmm.202012118"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.15252/emmm.202012118"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Features of increased malignancy in eosinophilic clear cell renal cell carcinoma</title><link>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_eosinophilic_ccrcc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1002/path.5532"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1002/path.5532"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>A crowdsourced set of curated structural variants for the human genome</title><link>https://www.brueffer.io/publication/2020_giab_sv_curation/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_giab_sv_curation/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1371/journal.pcbi.1007933"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1371/journal.pcbi.1007933"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title><link>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</link><pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</guid><description/></item><item><title>SCAN-B MutationExplorer</title><link>https://www.brueffer.io/project/mutationexplorer/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/mutationexplorer/</guid><description>&lt;ul>
+&lt;li>URL: &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">https://oncogenomics.bmc.lu.se/MutationExplorer&lt;/a>&lt;/li>
+&lt;li>Source code: &lt;a href="https://github.com/cbrueffer/MutationExplorer" target="_blank" rel="noopener">https://github.com/cbrueffer/MutationExplorer&lt;/a> (2-clause BSD license)&lt;/li>
+&lt;/ul>
+&lt;p>To facilitate research cancer datasets these days get ever larger. Within the &lt;a href="https://www.scan-b.lu.se/" target="_blank" rel="noopener">Sweden Cancerome Analysis Network&amp;ndash;Breast&lt;/a> thousands of
+breast tumors have already undergone &lt;a href="https://en.wikipedia.org/wiki/RNA-Seq" target="_blank" rel="noopener">RNA sequencing&lt;/a>, and the number grows daily. In a &lt;a href="../../publication/scanb_mutational_landscape_primary_bc/">recent research project&lt;/a>
+we demonstrated that this data can be used to call somatic mutations, which can e.g. help guide patient treatment or be used as targets for detecting &lt;a href="https://en.wikipedia.org/wiki/Circulating_tumor_DNA" target="_blank" rel="noopener">circulating tumor DNA&lt;/a> in
+patient blood samples.&lt;/p>
+&lt;p>As part of this project we provide the web portal &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">SCAN-B Mutationexplorer&lt;/a> to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
+The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p></description></item><item><title>Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the SCAN-B Project</title><link>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</link><pubDate>Mon, 04 Nov 2019 10:45:00 +0000</pubDate><guid>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</guid><description/></item><item><title>FreeBSD</title><link>https://www.brueffer.io/project/freebsd/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/freebsd/</guid><description>&lt;p>&lt;a href="https://www.freebsd.org" target="_blank" rel="noopener">FreeBSD&lt;/a> is an open source Unix-like operating system that can be
+found (as a whole or in parts) in Apple macOS and iOS, Sony Playstation 4, Juniper routers
+and NetApp storage filers, to name a few. It also powers services such as Netflix and WhatsApp.
+I have been a developer with the project since 2003, and also contribute to related security-focused
+projects such as &lt;a href="http://www.trustedbsd.org" target="_blank" rel="noopener">TrustedBSD&lt;/a> and &lt;a href="https://github.com/openbsm" target="_blank" rel="noopener">OpenBSM&lt;/a>.&lt;/p>
+&lt;h3 id="commits">Commits&lt;/h3>
+&lt;p>&lt;a href="https://github.com/freebsd/freebsd/commits?author=cbrueffer" target="_blank" rel="noopener">to the source code repository&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/freebsd/freebsd-doc/commits?author=cbrueffer" target="_blank" rel="noopener">to the documentation repository&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/freebsd/freebsd-ports/commits?author=cbrueffer" target="_blank" rel="noopener">to the ports repository&lt;/a>&lt;/p></description></item><item><title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title><link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1007/s10549-019-05326-5"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1007/s10549-019-05326-5"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Towards Better Breast Cancer Diagnostics: Large-scale Profiling of Tumor Transcriptomes</title><link>https://www.brueffer.io/talk/towards-better-breast-cancer-diagnostics-large-scale-profiling-of-tumor-transcriptomes/</link><pubDate>Thu, 23 May 2019 09:10:00 +0000</pubDate><guid>https://www.brueffer.io/talk/towards-better-breast-cancer-diagnostics-large-scale-profiling-of-tumor-transcriptomes/</guid><description/></item><item><title>Bioconda: sustainable and comprehensive software distribution for the life sciences</title><link>https://www.brueffer.io/publication/2018_bioconda/</link><pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_bioconda/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1038/s41592-018-0046-7"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1038/s41592-018-0046-7"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>RNA-seq-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers in the Population-Based Multicenter SCAN-B Study</title><link>https://www.brueffer.io/talk/rna-seq-based-classifiers-for-prediction-of-the-five-conventional-breast-cancer-biomarkers-in-the-population-based-multicenter-scan-b-study/</link><pubDate>Mon, 07 May 2018 16:15:00 +0000</pubDate><guid>https://www.brueffer.io/talk/rna-seq-based-classifiers-for-prediction-of-the-five-conventional-breast-cancer-biomarkers-in-the-population-based-multicenter-scan-b-study/</guid><description/></item><item><title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title><link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link><pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1200/PO.17.00135"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1200/PO.17.00135"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Biopython Project Update 2017</title><link>https://www.brueffer.io/talk/biopython-project-update-2017/</link><pubDate>Sat, 22 Jul 2017 15:46:00 +0000</pubDate><guid>https://www.brueffer.io/talk/biopython-project-update-2017/</guid><description/></item><item><title>Biopython Project Update 2016</title><link>https://www.brueffer.io/talk/biopython-project-update-2016/</link><pubDate>Sat, 09 Jul 2016 14:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/biopython-project-update-2016/</guid><description/></item><item><title>TopHat-Recondition: A post-processor for TopHat unmapped reads</title><link>https://www.brueffer.io/publication/2016_tophat-recondition/</link><pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1186/s12859-016-1058-x"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1186/s12859-016-1058-x"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title><link>https://www.brueffer.io/publication/2015_primary_met_bc/</link><pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.18632/oncotarget.5951"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.18632/oncotarget.5951"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Contralateral breast cancer can represent a metastatic spread of the first primary tumor: determination of clonal relationship between contralateral breast cancers using next-generation whole genome sequencing</title><link>https://www.brueffer.io/publication/2015_contralateral_bc/</link><pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_contralateral_bc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1186/s13058-015-0608-x"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1186/s13058-015-0608-x"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title><link>https://www.brueffer.io/publication/2015_scan-b_pop/</link><pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1186/s13073-015-0131-9"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1186/s13073-015-0131-9"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Practical Security Event Auditing with FreeBSD</title><link>https://www.brueffer.io/talk/practical-security-event-auditing-with-freebsd/</link><pubDate>Sun, 14 Nov 2010 10:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/practical-security-event-auditing-with-freebsd/</guid><description/></item><item><title>FreeBSD Security Event Auditing</title><link>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</link><pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2009_bsd_magazine_auditing/</guid><description/></item><item><title>Protecting your Privacy with FreeBSD and Tor</title><link>https://www.brueffer.io/talk/protecting-your-privacy-with-freebsd-and-tor/</link><pubDate>Sat, 17 Nov 2007 15:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/protecting-your-privacy-with-freebsd-and-tor/</guid><description/></item><item><title>FreeBSD im Überblick</title><link>https://www.brueffer.io/talk/freebsd-im-uberblick/</link><pubDate>Sat, 24 Jun 2006 11:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/freebsd-im-uberblick/</guid><description/></item><item><title>What is FreeBSD?</title><link>https://www.brueffer.io/talk/what-is-freebsd/</link><pubDate>Fri, 25 Jun 2004 13:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/what-is-freebsd/</guid><description/></item></channel></rss>

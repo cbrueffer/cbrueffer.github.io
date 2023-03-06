@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Breast Cancer | Christian Brueffer</title><link>https://www.brueffer.io/tag/breast-cancer/</link><atom:link href="https://www.brueffer.io/tag/breast-cancer/index.xml" rel="self" type="application/rss+xml"/><description>Breast Cancer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>Breast Cancer</title><link>https://www.brueffer.io/tag/breast-cancer/</link></image><item><title>Clinical associations of ESR2 (estrogen receptor beta; ERβ) expression across thousands of primary breast tumors</title><link>https://www.brueffer.io/publication/2022_scanb_esr2/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_scanb_esr2/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1038/s41598-022-08210-3"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1038/s41598-022-08210-3"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Preexisting Somatic Mutations of Estrogen Receptor Alpha (ESR1) in Early-Stage Primary Breast Cancer</title><link>https://www.brueffer.io/publication/2021_scanb_esr1/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2021_scanb_esr1/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1093/jncics/pkab028"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1093/jncics/pkab028"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>PhD Project: RNA Sequencing-based Tools for Breast Cancer Diagnostics</title><link>https://www.brueffer.io/project/phd/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/phd/</guid><description>&lt;p>Insights into the molecular markup of tumors have transformed cancer research in recent years. Many people worldwide work on
+translating these insights into the clinic to improve diagnostic areas such as patient risk stratification and treatment selection.
+Most of these efforts focus on &lt;a href="https://en.wikipedia.org/wiki/DNA_sequencing#Illumina_%28Solexa%29_sequencing" target="_blank" rel="noopener">DNA-based short-read high-throughput sequencing (DNA-seq)&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/RNA-Seq" target="_blank" rel="noopener">RNA sequencing (RNA-seq)&lt;/a> is a sister technology to DNA-seq that probes the current state of the cell&amp;rsquo;s transcriptional machinery (the transcriptome)
+and is commonly used for research, but is underused as a diagnostic tool. RNA-seq is inexpensive and can provide a wealth of information that
+is not accessible from DNA (gene/isoform expression), in addition to being able, to some degree, to detect features commonly determined from DNA
+(e.g., point mutations, short insertions and deletions, copy number, structural variants). As such it is possible to develop a variety of diagnostics
+that can be derived from a single sequencing dataset, making RNA-seq a potentially powerful diagnostic tool.&lt;/p>
+&lt;p>The topic of my PhD thesis was exploring the diagnostic power of RNA-seq by developing and evaluating computational resources for the
+&lt;a href="https://www.scan-b.lu.se/" target="_blank" rel="noopener">Sweden Cancerome Analysis Network&amp;ndash;Breast (SCAN-B)&lt;/a> breast cancer project and by developing diagnostic tools from the generated
+data. Within SCAN-B the vast majority of breast cancer patients from the participating hospital regions
+are being enrolled since 2010, and RNA-seq data is being generated from their tumors within one week from surgery.&lt;/p>
+&lt;p>See below for a list of results generated from this work.&lt;/p></description></item><item><title>RNA Sequencing for Molecular Diagnostics in Breast Cancer</title><link>https://www.brueffer.io/publication/2020_phd_thesis/</link><pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_phd_thesis/</guid><description/></item><item><title>The mutational landscape of the SCAN-B real-world primary breast cancer transcriptome</title><link>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</link><pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_scanb_mutational_landscape/</guid><description>&lt;html>
+&lt;head>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;/head>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.15252/emmm.202012118"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.15252/emmm.202012118"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title><link>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</link><pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</guid><description/></item><item><title>SCAN-B MutationExplorer</title><link>https://www.brueffer.io/project/mutationexplorer/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/mutationexplorer/</guid><description>&lt;ul>
+&lt;li>URL: &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">https://oncogenomics.bmc.lu.se/MutationExplorer&lt;/a>&lt;/li>
+&lt;li>Source code: &lt;a href="https://github.com/cbrueffer/MutationExplorer" target="_blank" rel="noopener">https://github.com/cbrueffer/MutationExplorer&lt;/a> (2-clause BSD license)&lt;/li>
+&lt;/ul>
+&lt;p>To facilitate research cancer datasets these days get ever larger. Within the &lt;a href="https://www.scan-b.lu.se/" target="_blank" rel="noopener">Sweden Cancerome Analysis Network&amp;ndash;Breast&lt;/a> thousands of
+breast tumors have already undergone &lt;a href="https://en.wikipedia.org/wiki/RNA-Seq" target="_blank" rel="noopener">RNA sequencing&lt;/a>, and the number grows daily. In a &lt;a href="../../publication/scanb_mutational_landscape_primary_bc/">recent research project&lt;/a>
+we demonstrated that this data can be used to call somatic mutations, which can e.g. help guide patient treatment or be used as targets for detecting &lt;a href="https://en.wikipedia.org/wiki/Circulating_tumor_DNA" target="_blank" rel="noopener">circulating tumor DNA&lt;/a> in
+patient blood samples.&lt;/p>
+&lt;p>As part of this project we provide the web portal &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">SCAN-B Mutationexplorer&lt;/a> to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
+The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p></description></item><item><title>Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the SCAN-B Project</title><link>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</link><pubDate>Mon, 04 Nov 2019 10:45:00 +0000</pubDate><guid>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</guid><description/></item><item><title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title><link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1007/s10549-019-05326-5"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1007/s10549-019-05326-5"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Towards Better Breast Cancer Diagnostics: Large-scale Profiling of Tumor Transcriptomes</title><link>https://www.brueffer.io/talk/towards-better-breast-cancer-diagnostics-large-scale-profiling-of-tumor-transcriptomes/</link><pubDate>Thu, 23 May 2019 09:10:00 +0000</pubDate><guid>https://www.brueffer.io/talk/towards-better-breast-cancer-diagnostics-large-scale-profiling-of-tumor-transcriptomes/</guid><description/></item><item><title>RNA-seq-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers in the Population-Based Multicenter SCAN-B Study</title><link>https://www.brueffer.io/talk/rna-seq-based-classifiers-for-prediction-of-the-five-conventional-breast-cancer-biomarkers-in-the-population-based-multicenter-scan-b-study/</link><pubDate>Mon, 07 May 2018 16:15:00 +0000</pubDate><guid>https://www.brueffer.io/talk/rna-seq-based-classifiers-for-prediction-of-the-five-conventional-breast-cancer-biomarkers-in-the-population-based-multicenter-scan-b-study/</guid><description/></item><item><title>Clinical Value of RNA Sequencing-Based Classifiers for Prediction of the Five Conventional Breast Cancer Biomarkers: A Report From the Population-Based Multicenter Sweden Cancerome Analysis Network–Breast Initiative</title><link>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</link><pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_scan-b_biomarker_prediction/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1200/PO.17.00135"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1200/PO.17.00135"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title><link>https://www.brueffer.io/publication/2015_primary_met_bc/</link><pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.18632/oncotarget.5951"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.18632/oncotarget.5951"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Contralateral breast cancer can represent a metastatic spread of the first primary tumor: determination of clonal relationship between contralateral breast cancers using next-generation whole genome sequencing</title><link>https://www.brueffer.io/publication/2015_contralateral_bc/</link><pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_contralateral_bc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1186/s13058-015-0608-x"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1186/s13058-015-0608-x"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>The Sweden Cancerome Analysis Network-Breast (SCAN-B) Initiative: a large-scale multicenter infrastructure towards implementation of breast cancer genomic analyses in the clinical routine</title><link>https://www.brueffer.io/publication/2015_scan-b_pop/</link><pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_scan-b_pop/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1186/s13073-015-0131-9"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1186/s13073-015-0131-9"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item></channel></rss>

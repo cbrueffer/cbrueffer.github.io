@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Structural Variants | Christian Brueffer</title><link>https://www.brueffer.io/tag/structural-variants/</link><atom:link href="https://www.brueffer.io/tag/structural-variants/index.xml" rel="self" type="application/rss+xml"/><description>Structural Variants</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>Structural Variants</title><link>https://www.brueffer.io/tag/structural-variants/</link></image><item><title>A crowdsourced set of curated structural variants for the human genome</title><link>https://www.brueffer.io/publication/2020_giab_sv_curation/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_giab_sv_curation/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1371/journal.pcbi.1007933"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1371/journal.pcbi.1007933"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title><link>https://www.brueffer.io/publication/2015_primary_met_bc/</link><pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.18632/oncotarget.5951"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.18632/oncotarget.5951"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Contralateral breast cancer can represent a metastatic spread of the first primary tumor: determination of clonal relationship between contralateral breast cancers using next-generation whole genome sequencing</title><link>https://www.brueffer.io/publication/2015_contralateral_bc/</link><pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_contralateral_bc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1186/s13058-015-0608-x"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1186/s13058-015-0608-x"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item></channel></rss>
