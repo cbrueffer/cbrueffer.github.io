@@ -1,6 +1,6 @@
 # Source for brueffer.io
 
-Source code for http://brueffer.io. Based on Hugo and the [Academic](https://github.com/sourcethemes/academic-kickstart) theme.
+Source code for http://brueffer.io. Based on Hugo and the [Wowchemy Academic](https://github.com/wowchemy/wowchemy-hugo-themes/) theme.
 
 ## Author
 
