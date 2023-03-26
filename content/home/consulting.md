@@ -20,7 +20,9 @@ title: Consulting
 author: cbrueffer
 ---
 
-I'm available for consulting opportunities in industry and academia. With a decade of experience in bioinformatics, biomedical data science, genomics, and diagnostics, as well as over two decades in IT to draw from I can help you overcome a variety of challenges. For more on my experience, please see [About Me]({{< ref "/" >}}) and my [publications]({{< ref "/publication" >}}) and [talks]({{< ref "/event" >}}).
+I'm available for consulting opportunities in industry and academia.
+With a decade of experience in bioinformatics, biomedical data science, genomics, and diagnostics, as well as over two decades in IT to draw from I can help you make sense of your data.
+For more details on my experience, please see [About Me]({{< ref "/" >}}) and my [publications]({{< ref "/publication" >}}) and [public talks]({{< ref "/event" >}}).
 
 #### Areas I can help you with include, but are not limited to
 
