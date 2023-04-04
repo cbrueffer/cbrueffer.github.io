@@ -26,9 +26,9 @@ For more details on my experience, please see [About Me]({{< ref "/" >}}) and my
 
 #### Areas I can help you with include, but are not limited to
 
+- Genomics and clinical data analysis
 - Computational pipeline/workflow development
-- Data processing, cleaning, and visualization
-- Statistical analysis and modeling
+- Data processing, cleaning, integration, and visualization
 - Machine learning
 - Software development
 
