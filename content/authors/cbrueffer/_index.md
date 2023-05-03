@@ -23,7 +23,7 @@ organizations:
 bio: Freelance Bioinformatician and Data Scientist with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
 
 interests:
-- Data Science and Bioinformatics
+- Bioinformatics and Data Science
 - Disease Biology and Diagnostics
 - Open Source Software
 - Software Engineering
