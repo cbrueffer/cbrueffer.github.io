@@ -26,7 +26,8 @@ For more details on my experience, please see [About Me]({{< ref "/" >}}) and my
 
 #### Areas I can help you with include, but are not limited to
 
-- Omics and clinical data analysis
+- Genomics, Transcriptomics, and other Omics analyses
+- Clinical data analysis
 - Cancer/oncology-related applications, such as liquid biopsy
 - Computational pipeline/workflow development
 - Data processing, cleaning, integration, and visualization
