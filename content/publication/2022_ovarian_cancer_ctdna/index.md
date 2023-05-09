@@ -50,6 +50,8 @@ tags:
 - Cancer
 - Ovarian Cancer
 - Liquid Biopsy
+- Targeted Sequencing
+- Digital PCR
 - Bioinformatics
 featured: false
 
