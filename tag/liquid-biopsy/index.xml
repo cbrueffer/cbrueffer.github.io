@@ -100,6 +100,40 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
+&lt;/section></description></item><item><title>Plasma circulating tumor DNA as a genomic biomarker for ovarian cancer</title><link>https://www.brueffer.io/publication/2019_ehgc/</link><pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2019_ehgc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi=""
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi=""
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
 &lt;/section></description></item><item><title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title><link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid><description>&lt;html>
 &lt;style>
 section {
@@ -129,6 +163,74 @@ data-link-target="_blank"
 data-badge-details="right"
 data-badge-type="medium-donut"
 data-doi="10.1007/s10549-019-05326-5"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Abstract P2-02-09: Breast cancer subtype distribution and circulating tumor DNA in response to neoadjuvant chemotherapy: Experiences from a preoperative cohort within SCAN-B</title><link>https://www.brueffer.io/publication/2018_sabcs_subtypes/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_subtypes/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Abstract P4-09-03: On the development and clinical value of RNA-sequencing-based classifiers for prediction of the five conventional breast cancer biomarkers: A report from the population-based multicenter SCAN-B study</title><link>https://www.brueffer.io/publication/2018_sabcs_classifiers/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_classifiers/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.SABCS17-P4-09-03"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.SABCS17-P4-09-03"
 data-condensed="true"
 data-hide-no-mentions="true"
 class="altmetric-embed">

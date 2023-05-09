@@ -587,6 +587,40 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
+&lt;/section></description></item><item><title>Abstract CT074: Pre-existing ESR1 mutations in early-stage primary breast cancer predict failure of endocrine therapy and poor survival</title><link>https://www.brueffer.io/publication/2020_aacr/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_aacr/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.AM2020-CT074"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.AM2020-CT074"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
 &lt;/section></description></item><item><title>A crowdsourced set of curated structural variants for the human genome</title><link>https://www.brueffer.io/publication/2020_giab_sv_curation/</link><pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_giab_sv_curation/</guid><description>&lt;html>
 &lt;style>
 section {
@@ -621,7 +655,41 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
-&lt;/section></description></item><item><title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title><link>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</link><pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</guid><description/></item><item><title>SCAN-B MutationExplorer</title><link>https://www.brueffer.io/project/mutationexplorer/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/mutationexplorer/</guid><description>&lt;ul>
+&lt;/section></description></item><item><title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title><link>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</link><pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</guid><description/></item><item><title>Defining the mutational landscape of 3,217 primary breast cancer transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492).</title><link>https://www.brueffer.io/publication/2020_asco/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_asco/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1200/JCO.2020.38.15_suppl.518"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1200/JCO.2020.38.15_suppl.518"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>SCAN-B MutationExplorer</title><link>https://www.brueffer.io/project/mutationexplorer/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/mutationexplorer/</guid><description>&lt;ul>
 &lt;li>URL: &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">https://oncogenomics.bmc.lu.se/MutationExplorer&lt;/a>&lt;/li>
 &lt;li>Source code: &lt;a href="https://github.com/cbrueffer/MutationExplorer" target="_blank" rel="noopener">https://github.com/cbrueffer/MutationExplorer&lt;/a> (2-clause BSD license)&lt;/li>
 &lt;/ul>
@@ -630,7 +698,41 @@ breast tumors have already undergone &lt;a href="https://en.wikipedia.org/wiki/R
 we demonstrated that this data can be used to call somatic mutations, which can e.g. help guide patient treatment or be used as targets for detecting &lt;a href="https://en.wikipedia.org/wiki/Circulating_tumor_DNA" target="_blank" rel="noopener">circulating tumor DNA&lt;/a> in
 patient blood samples.&lt;/p>
 &lt;p>As part of this project we provide the web portal &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">SCAN-B Mutationexplorer&lt;/a> to enable the exploration of mutations from 3,217 primary breast tumor transcriptomes.
-The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p></description></item><item><title>Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the SCAN-B Project</title><link>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</link><pubDate>Mon, 04 Nov 2019 10:45:00 +0000</pubDate><guid>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</guid><description/></item><item><title>FreeBSD</title><link>https://www.brueffer.io/project/freebsd/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/freebsd/</guid><description>&lt;p>&lt;a href="https://www.freebsd.org" target="_blank" rel="noopener">FreeBSD&lt;/a> is an open source Unix-like operating system that can be
+The underlying software, MutationExplorer, is freely available on GitHub and can be adapted to other datasets.&lt;/p></description></item><item><title>Defining the Mutational Landscape of the Primary Breast Cancer Transcriptome through large-scale RNA-seq in the SCAN-B Project</title><link>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</link><pubDate>Mon, 04 Nov 2019 10:45:00 +0000</pubDate><guid>https://www.brueffer.io/talk/defining-the-mutational-landscape-of-the-primary-breast-cancer-transcriptome-through-large-scale-rna-seq-in-the-scan-b-project/</guid><description/></item><item><title>Plasma circulating tumor DNA as a genomic biomarker for ovarian cancer</title><link>https://www.brueffer.io/publication/2019_ehgc/</link><pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2019_ehgc/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi=""
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi=""
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>FreeBSD</title><link>https://www.brueffer.io/project/freebsd/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/freebsd/</guid><description>&lt;p>&lt;a href="https://www.freebsd.org" target="_blank" rel="noopener">FreeBSD&lt;/a> is an open source Unix-like operating system that can be
 found (as a whole or in parts) in Apple macOS and iOS, Sony Playstation 4, Juniper routers
 and NetApp storage filers, to name a few. It also powers services such as Netflix and WhatsApp.
 I have been a developer with the project since 2003, and also contribute to related security-focused
@@ -740,6 +842,74 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
+&lt;/section></description></item><item><title>Abstract P2-02-09: Breast cancer subtype distribution and circulating tumor DNA in response to neoadjuvant chemotherapy: Experiences from a preoperative cohort within SCAN-B</title><link>https://www.brueffer.io/publication/2018_sabcs_subtypes/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_subtypes/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Abstract P4-09-03: On the development and clinical value of RNA-sequencing-based classifiers for prediction of the five conventional breast cancer biomarkers: A report from the population-based multicenter SCAN-B study</title><link>https://www.brueffer.io/publication/2018_sabcs_classifiers/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_classifiers/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.SABCS17-P4-09-03"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.SABCS17-P4-09-03"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
 &lt;/section></description></item><item><title>Biopython Project Update 2017</title><link>https://www.brueffer.io/talk/biopython-project-update-2017/</link><pubDate>Sat, 22 Jul 2017 15:46:00 +0000</pubDate><guid>https://www.brueffer.io/talk/biopython-project-update-2017/</guid><description/></item><item><title>Biopython Project Update 2016</title><link>https://www.brueffer.io/talk/biopython-project-update-2016/</link><pubDate>Sat, 09 Jul 2016 14:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/biopython-project-update-2016/</guid><description/></item><item><title>TopHat-Recondition: A post-processor for TopHat unmapped reads</title><link>https://www.brueffer.io/publication/2016_tophat-recondition/</link><pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2016_tophat-recondition/</guid><description>&lt;html>
 &lt;style>
 section {
@@ -837,6 +1007,40 @@ data-link-target="_blank"
 data-badge-details="right"
 data-badge-type="medium-donut"
 data-doi="10.1186/s13058-015-0608-x"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Abstract 4805: Whole genome sequencing of primary breast cancers and matched distant metastases</title><link>https://www.brueffer.io/publication/2015_aacr/</link><pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_aacr/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.AM2015-4805"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.AM2015-4805"
 data-condensed="true"
 data-hide-no-mentions="true"
 class="altmetric-embed">

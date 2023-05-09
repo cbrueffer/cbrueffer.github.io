@@ -114,7 +114,75 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
-&lt;/section></description></item><item><title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title><link>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</link><pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</guid><description/></item><item><title>SCAN-B MutationExplorer</title><link>https://www.brueffer.io/project/mutationexplorer/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/mutationexplorer/</guid><description>&lt;ul>
+&lt;/section></description></item><item><title>Abstract CT074: Pre-existing ESR1 mutations in early-stage primary breast cancer predict failure of endocrine therapy and poor survival</title><link>https://www.brueffer.io/publication/2020_aacr/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_aacr/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.AM2020-CT074"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.AM2020-CT074"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Defining the Mutational Landscape of 3,217 Primary Breast Cancer Transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)</title><link>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</link><pubDate>Fri, 29 May 2020 08:00:00 +0000</pubDate><guid>https://www.brueffer.io/talk/asco-2020-mutational-landscape-of-the-primary-breast-cancer-transcriptome/</guid><description/></item><item><title>Defining the mutational landscape of 3,217 primary breast cancer transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492).</title><link>https://www.brueffer.io/publication/2020_asco/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_asco/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1200/JCO.2020.38.15_suppl.518"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1200/JCO.2020.38.15_suppl.518"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>SCAN-B MutationExplorer</title><link>https://www.brueffer.io/project/mutationexplorer/</link><pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/project/mutationexplorer/</guid><description>&lt;ul>
 &lt;li>URL: &lt;a href="https://oncogenomics.bmc.lu.se/MutationExplorer" target="_blank" rel="noopener">https://oncogenomics.bmc.lu.se/MutationExplorer&lt;/a>&lt;/li>
 &lt;li>Source code: &lt;a href="https://github.com/cbrueffer/MutationExplorer" target="_blank" rel="noopener">https://github.com/cbrueffer/MutationExplorer&lt;/a> (2-clause BSD license)&lt;/li>
 &lt;/ul>
@@ -191,6 +259,40 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
+&lt;/section></description></item><item><title>Abstract P2-02-09: Breast cancer subtype distribution and circulating tumor DNA in response to neoadjuvant chemotherapy: Experiences from a preoperative cohort within SCAN-B</title><link>https://www.brueffer.io/publication/2018_sabcs_subtypes/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_subtypes/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
 &lt;/section></description></item><item><title>Remarkable similarities of chromosomal rearrangements between primary human breast cancers and matched distant metastases as revealed by whole-genome sequencing</title><link>https://www.brueffer.io/publication/2015_primary_met_bc/</link><pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_primary_met_bc/</guid><description>&lt;html>
 &lt;style>
 section {
@@ -254,6 +356,40 @@ data-link-target="_blank"
 data-badge-details="right"
 data-badge-type="medium-donut"
 data-doi="10.1186/s13058-015-0608-x"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>Abstract 4805: Whole genome sequencing of primary breast cancers and matched distant metastases</title><link>https://www.brueffer.io/publication/2015_aacr/</link><pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_aacr/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="10.1158/1538-7445.AM2015-4805"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="10.1158/1538-7445.AM2015-4805"
 data-condensed="true"
 data-hide-no-mentions="true"
 class="altmetric-embed">
