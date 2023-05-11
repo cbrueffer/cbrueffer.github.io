@@ -15,7 +15,7 @@ role: Bioinformatician and Data Scientist
 # Organizations/Affiliations
 organizations:
 - name: InSilico Consulting AB
-  url:
+  url: https://insilico.consulting
 - name: Lund University
   url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
 
