@@ -38,6 +38,7 @@ tags:
 - Multiple Myeloma
 - Bioinformatics
 - Whole Genome Sequencing
+- Structural Variants
 - Liquid Biopsy
 - Digital PCR
 featured: false
