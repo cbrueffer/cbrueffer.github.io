@@ -36,4 +36,4 @@ For more details on my experience, please see [About Me]({{< ref "/" >}}) and my
 
 #### Get in touch
 
-For consulting inquiries, please [contact me via email or LinkedIn]({{< ref "#contact" >}}).
+For consulting inquiries, please [contact me via email or LinkedIn](https://insilico.consulting/#contact).
