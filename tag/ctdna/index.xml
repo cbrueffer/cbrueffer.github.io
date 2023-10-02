@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1 | Christian Brueffer</title><link>https://www.brueffer.io/publication-type/1/</link><atom:link href="https://www.brueffer.io/publication-type/1/index.xml" rel="self" type="application/rss+xml"/><description>1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>1</title><link>https://www.brueffer.io/publication-type/1/</link></image><item><title>#898 Tumor-informed ctDNA detection as a marker for postoperative residual disease in epithelial ovarian cancer – results of a feasibility study</title><link>https://www.brueffer.io/publication/2023_esgo/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2023_esgo/</guid><description>&lt;html>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ctDNA | Christian Brueffer</title><link>https://www.brueffer.io/tag/ctdna/</link><atom:link href="https://www.brueffer.io/tag/ctdna/index.xml" rel="self" type="application/rss+xml"/><description>ctDNA</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>ctDNA</title><link>https://www.brueffer.io/tag/ctdna/</link></image><item><title>#898 Tumor-informed ctDNA detection as a marker for postoperative residual disease in epithelial ovarian cancer – results of a feasibility study</title><link>https://www.brueffer.io/publication/2023_esgo/</link><pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2023_esgo/</guid><description>&lt;html>
 &lt;style>
 section {
 background: white;
@@ -100,7 +100,7 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
-&lt;/section></description></item><item><title>Abstract CT074: Pre-existing ESR1 mutations in early-stage primary breast cancer predict failure of endocrine therapy and poor survival</title><link>https://www.brueffer.io/publication/2020_aacr/</link><pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_aacr/</guid><description>&lt;html>
+&lt;/section></description></item><item><title>Preoperative circulating tumor DNA level is associated to poor overall survival in patients with ovarian cancer</title><link>https://www.brueffer.io/publication/2022_ovarian_cancer_ctdna/</link><pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_ovarian_cancer_ctdna/</guid><description>&lt;html>
 &lt;style>
 section {
 background: white;
@@ -119,7 +119,7 @@ justify-content: center }
 &lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
 &lt;span style="float:left";
 class="__dimensions_badge_embed__"
-data-doi="10.1158/1538-7445.AM2020-CT074"
+data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
 data-hide-zero-citations="true"
 data-legend="always">
 &lt;/span>
@@ -128,41 +128,7 @@ data-legend="always">
 data-link-target="_blank"
 data-badge-details="right"
 data-badge-type="medium-donut"
-data-doi="10.1158/1538-7445.AM2020-CT074"
-data-condensed="true"
-data-hide-no-mentions="true"
-class="altmetric-embed">
-&lt;/div>
-&lt;/div>
-&lt;/section></description></item><item><title>Defining the mutational landscape of 3,217 primary breast cancer transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492).</title><link>https://www.brueffer.io/publication/2020_asco/</link><pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2020_asco/</guid><description>&lt;html>
-&lt;style>
-section {
-background: white;
-color: black;
-border-radius: 1em;
-padding: 1em;
-left: 50% }
-#inner {
-display: inline-block;
-display: flex;
-align-items: center;
-justify-content: center }
-&lt;/style>
-&lt;section>
-&lt;div id="inner">
-&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
-&lt;span style="float:left";
-class="__dimensions_badge_embed__"
-data-doi="10.1200/JCO.2020.38.15_suppl.518"
-data-hide-zero-citations="true"
-data-legend="always">
-&lt;/span>
-&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
-&lt;div style="float:right";
-data-link-target="_blank"
-data-badge-details="right"
-data-badge-type="medium-donut"
-data-doi="10.1200/JCO.2020.38.15_suppl.518"
+data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
 data-condensed="true"
 data-hide-no-mentions="true"
 class="altmetric-embed">
@@ -202,7 +168,7 @@ data-hide-no-mentions="true"
 class="altmetric-embed">
 &lt;/div>
 &lt;/div>
-&lt;/section></description></item><item><title>Abstract P2-02-09: Breast cancer subtype distribution and circulating tumor DNA in response to neoadjuvant chemotherapy: Experiences from a preoperative cohort within SCAN-B</title><link>https://www.brueffer.io/publication/2018_sabcs_subtypes/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_subtypes/</guid><description>&lt;html>
+&lt;/section></description></item><item><title>Detection of circulating tumor cells and circulating tumor DNA before and after mammographic breast compression in a cohort of breast cancer patients scheduled for neoadjuvant treatment</title><link>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</link><pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2019_fornvik_ctdna_vs_ctc_after_breast_compression/</guid><description>&lt;html>
 &lt;style>
 section {
 background: white;
@@ -221,7 +187,7 @@ justify-content: center }
 &lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
 &lt;span style="float:left";
 class="__dimensions_badge_embed__"
-data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
+data-doi="10.1007/s10549-019-05326-5"
 data-hide-zero-citations="true"
 data-legend="always">
 &lt;/span>
@@ -230,75 +196,7 @@ data-legend="always">
 data-link-target="_blank"
 data-badge-details="right"
 data-badge-type="medium-donut"
-data-doi="10.1158/1538-7445.SABCS17-P2-02-09"
-data-condensed="true"
-data-hide-no-mentions="true"
-class="altmetric-embed">
-&lt;/div>
-&lt;/div>
-&lt;/section></description></item><item><title>Abstract P4-09-03: On the development and clinical value of RNA-sequencing-based classifiers for prediction of the five conventional breast cancer biomarkers: A report from the population-based multicenter SCAN-B study</title><link>https://www.brueffer.io/publication/2018_sabcs_classifiers/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2018_sabcs_classifiers/</guid><description>&lt;html>
-&lt;style>
-section {
-background: white;
-color: black;
-border-radius: 1em;
-padding: 1em;
-left: 50% }
-#inner {
-display: inline-block;
-display: flex;
-align-items: center;
-justify-content: center }
-&lt;/style>
-&lt;section>
-&lt;div id="inner">
-&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
-&lt;span style="float:left";
-class="__dimensions_badge_embed__"
-data-doi="10.1158/1538-7445.SABCS17-P4-09-03"
-data-hide-zero-citations="true"
-data-legend="always">
-&lt;/span>
-&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
-&lt;div style="float:right";
-data-link-target="_blank"
-data-badge-details="right"
-data-badge-type="medium-donut"
-data-doi="10.1158/1538-7445.SABCS17-P4-09-03"
-data-condensed="true"
-data-hide-no-mentions="true"
-class="altmetric-embed">
-&lt;/div>
-&lt;/div>
-&lt;/section></description></item><item><title>Abstract 4805: Whole genome sequencing of primary breast cancers and matched distant metastases</title><link>https://www.brueffer.io/publication/2015_aacr/</link><pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2015_aacr/</guid><description>&lt;html>
-&lt;style>
-section {
-background: white;
-color: black;
-border-radius: 1em;
-padding: 1em;
-left: 50% }
-#inner {
-display: inline-block;
-display: flex;
-align-items: center;
-justify-content: center }
-&lt;/style>
-&lt;section>
-&lt;div id="inner">
-&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
-&lt;span style="float:left";
-class="__dimensions_badge_embed__"
-data-doi="10.1158/1538-7445.AM2015-4805"
-data-hide-zero-citations="true"
-data-legend="always">
-&lt;/span>
-&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
-&lt;div style="float:right";
-data-link-target="_blank"
-data-badge-details="right"
-data-badge-type="medium-donut"
-data-doi="10.1158/1538-7445.AM2015-4805"
+data-doi="10.1007/s10549-019-05326-5"
 data-condensed="true"
 data-hide-no-mentions="true"
 class="altmetric-embed">
