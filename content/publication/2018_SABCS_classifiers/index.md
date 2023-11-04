@@ -60,7 +60,7 @@ RNA-seq-based classifiers for the five key early breast cancer biomarkers were g
 
 tags:
 - Cancer
-- Multiple Myeloma
+- Breast Cancer
 - Bioinformatics
 - Whole Genome Sequencing
 - Liquid Biopsy
