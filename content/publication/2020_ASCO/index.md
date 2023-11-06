@@ -1,5 +1,5 @@
 ---
-title: "Defining the mutational landscape of 3,217 primary breast cancer transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)."
+title: "Defining the mutational landscape of 3,217 primary breast cancer transcriptomes through large-scale RNA-seq within the Sweden Cancerome Analysis Network: Breast Project (SCAN-B; NCT03430492)"
 authors:
 - cbrueffer
 - Sergii Gladchuk
