@@ -1,16 +1,15 @@
 ---
-title: "Preoperative circulating tumor DNA level is associated to poor overall survival in patients with ovarian cancer"
+title: "Preoperative ctDNA Levels are Associated with Poor Overall Survival in Patients with Ovarian Cancer"
 authors:
 - Arturas Dobilas
 - Yilun Chen
-- Miguel Alcaide
 - cbrueffer
 - Pia Leandersson
 - Lao H. Saal
 - Christer Borgfeldt
 
-date: 2022-07-15
-doi: "10.21203/rs.3.rs-1770497/v1"
+date: 2023-11-30
+doi: "10.21873/cgp.20423"
 
 add_badge: true
 
@@ -21,27 +20,27 @@ add_badge: true
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*ResearchSquare, 2022 (Preprint)*"
+publication: "*Cancer Genomics & Proteomics, 2023. 20(6suppl):763-770*"
 #publication_short: ""
 
-abstract: "**Background**<br />
+abstract: "**Background/Aim**<br />
 
-Circulating tumor DNA (ctDNA), which is shed from tumor cells into the blood, is a promising minimal-invasive method for cancer diagnostics and monitoring. The aim of this study was to evaluate preoperative ctDNA levels in the plasma of patients with ovarian cancer and correlate the levels to clinicopathological parameters and patient outcome.<br />
+Circulating tumor DNA (ctDNA), which is shed from cancer cells into the bloodstream, offers a potential minimally invasive approach for cancer diagnosis and monitoring. This research aimed to assess the preoperative ctDNA levels in ovarian tumors patients’ plasma and establish correlations with clinicopathological parameters and patient prognosis.<br />
 
-**Methods**<br />
+**Patients and Methods**<br />
 
-Tumor DNA was extracted from ovarian tumor tissue from 41 patients. Targeted sequencing using a panel of 127 genes recurrently mutated in cancer was performed to identify candidate somatic mutations in the tumor DNA. SAGAsafe digital PCR (dPCR) assays targeting the candidate mutations were used to measure ctDNA levels in patient plasma samples, obtained prior to surgery, to evaluate ctDNA levels in terms of mutant copy number/mL and variant allele frequency.<br />
+Tumor DNA was extracted from ovarian tumor tissue from 41 patients. Targeted sequencing using a panel of 127 genes recurrently mutated in cancer was performed to identify candidate somatic mutations in the tumor DNA. SAGAsafe digital PCR (dPCR) assays targeting the candidate mutations were used to measure ctDNA levels in patient plasma samples, obtained prior to surgery, to evaluate ctDNA levels in terms of mutant copy number/ml and variant allele frequency.<br />
 
 **Results**<br />
 
-Somatic mutations were found in 24 tumors, of which seven were from patients with borderline, and 17 with invasive cancer diagnosis. TP53 was the most frequently mutated gene. Fifteen of 24 patients had detectable ctDNA levels in pre-operative plasma. Plasma ctDNA mutant concentration increased with higher stage (p<sub>trend</sub> <0.001). Cancer patients with more than 10 ctDNA mutant copies/mL in plasma prior to surgery had significantly worse overall survival (p = 0.008).<br />
+Somatic mutations were found in 24 tumor samples, 17 of which were from ovarian cancer patients. The most frequently mutated gene was TP53. Preoperative plasma ctDNA levels were detected in 14 of the 24 patients. With higher stage, plasma ctDNA mutant concentration increased (p for trend <0.001). The overall survival of cancer patients with more than 10 ctDNA mutant copies/ml in plasma was significantly worse (p=0.008).<br />
 
 **Conclusions**<br />
 
-Measuring ctDNA in pre-operative plasma may be useful as a predictive biomarker for tumor staging and prognosis in ovarian cancer patients."
+Pre-operative ctDNA measurement in ovarian cancer patients’ plasma holds promise as a predictive biomarker for tumor staging and prognosis."
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -58,7 +57,7 @@ featured: false
 
 links:
  - name: "PDF"
-   url: "https://www.researchsquare.com/article/rs-1770497/v1.pdf?c=1657923160000"
+   url: "https://cgp.iiarjournals.org/content/cgp/20/6suppl/763.full.pdf"
    icon: "file-pdf"
 #url_pdf: ""
 #url_preprint: "https://www.researchsquare.com/article/rs-1770497/v1"
@@ -112,7 +111,7 @@ projects: []
       <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
         <span style="float:left";
           class="__dimensions_badge_embed__"
-          data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
+          data-doi="https://doi.org/10.21873/cgp.20423"
           data-hide-zero-citations="true"
           data-legend="always">
         </span>
@@ -121,7 +120,7 @@ projects: []
           data-link-target="_blank"
           data-badge-details="right"
           data-badge-type="medium-donut"
-          data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
+          data-doi="https://doi.org/10.21873/cgp.20423"
           data-condensed="true"
           data-hide-no-mentions="true"
           class="altmetric-embed">
