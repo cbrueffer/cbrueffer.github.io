@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Christian Brueffer</title><link>https://www.brueffer.io/</link><atom:link href="https://www.brueffer.io/index.xml" rel="self" type="application/rss+xml"/><description>Christian Brueffer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>Christian Brueffer</title><link>https://www.brueffer.io/</link></image><item><title>805P Tumor-informed ctDNA detection as a predictive marker for postoperative residual disease in epithelial ovarian cancer: A feasibility study</title><link>https://www.brueffer.io/publication/2023_esmo/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2023_esmo/</guid><description>&lt;html>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Christian Brueffer</title><link>https://www.brueffer.io/</link><atom:link href="https://www.brueffer.io/index.xml" rel="self" type="application/rss+xml"/><description>Christian Brueffer</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate><image><url>https://www.brueffer.io/media/icon_hu7422bdd1ad1d5b8840d6088d6ba7ed4c_15338_512x512_fill_lanczos_center_3.png</url><title>Christian Brueffer</title><link>https://www.brueffer.io/</link></image><item><title>Preoperative ctDNA Levels are Associated with Poor Overall Survival in Patients with Ovarian Cancer</title><link>https://www.brueffer.io/publication/2023_ovarian_cancer_ctdna/</link><pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2023_ovarian_cancer_ctdna/</guid><description>&lt;html>
+&lt;style>
+section {
+background: white;
+color: black;
+border-radius: 1em;
+padding: 1em;
+left: 50% }
+#inner {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center }
+&lt;/style>
+&lt;section>
+&lt;div id="inner">
+&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
+&lt;span style="float:left";
+class="__dimensions_badge_embed__"
+data-doi="https://doi.org/10.21873/cgp.20423"
+data-hide-zero-citations="true"
+data-legend="always">
+&lt;/span>
+&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
+&lt;div style="float:right";
+data-link-target="_blank"
+data-badge-details="right"
+data-badge-type="medium-donut"
+data-doi="https://doi.org/10.21873/cgp.20423"
+data-condensed="true"
+data-hide-no-mentions="true"
+class="altmetric-embed">
+&lt;/div>
+&lt;/div>
+&lt;/section></description></item><item><title>805P Tumor-informed ctDNA detection as a predictive marker for postoperative residual disease in epithelial ovarian cancer: A feasibility study</title><link>https://www.brueffer.io/publication/2023_esmo/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2023_esmo/</guid><description>&lt;html>
 &lt;style>
 section {
 background: white;
@@ -301,41 +335,7 @@ Keep it mind that it is only possible to specify one instance type per queue.&lt
 &lt;h2 id="edit-history">Edit History&lt;/h2>
 &lt;ul>
 &lt;li>2022-07-19 Initial version&lt;/li>
-&lt;/ul></description></item><item><title>Preoperative circulating tumor DNA level is associated to poor overall survival in patients with ovarian cancer</title><link>https://www.brueffer.io/publication/2022_ovarian_cancer_ctdna/</link><pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_ovarian_cancer_ctdna/</guid><description>&lt;html>
-&lt;style>
-section {
-background: white;
-color: black;
-border-radius: 1em;
-padding: 1em;
-left: 50% }
-#inner {
-display: inline-block;
-display: flex;
-align-items: center;
-justify-content: center }
-&lt;/style>
-&lt;section>
-&lt;div id="inner">
-&lt;script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'>&lt;/script>
-&lt;span style="float:left";
-class="__dimensions_badge_embed__"
-data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
-data-hide-zero-citations="true"
-data-legend="always">
-&lt;/span>
-&lt;script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">&lt;/script>
-&lt;div style="float:right";
-data-link-target="_blank"
-data-badge-details="right"
-data-badge-type="medium-donut"
-data-doi="https://doi.org/10.21203/rs.3.rs-1770497/v1"
-data-condensed="true"
-data-hide-no-mentions="true"
-class="altmetric-embed">
-&lt;/div>
-&lt;/div>
-&lt;/section></description></item><item><title>PrecisionFDA Truth Challenge V2: Calling variants from short and long reads in difficult-to-map regions</title><link>https://www.brueffer.io/publication/2022_precisionfda/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_precisionfda/</guid><description>&lt;html>
+&lt;/ul></description></item><item><title>PrecisionFDA Truth Challenge V2: Calling variants from short and long reads in difficult-to-map regions</title><link>https://www.brueffer.io/publication/2022_precisionfda/</link><pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.brueffer.io/publication/2022_precisionfda/</guid><description>&lt;html>
 &lt;style>
 section {
 background: white;
