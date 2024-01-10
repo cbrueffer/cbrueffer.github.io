@@ -92,7 +92,7 @@ user_groups:
 ---
 
 I am a freelance Bioinformatician and Data Scientist providing [consulting]({{< ref "#consulting" >}}) services to clients in industry and academia to help them make sense of their data.
-Previously I lead bioinformatics, data science, and IT for several years at a cancer diagnostics company, working on precision medicine, genomics, and liquid biopsies.
+Previously, I lead the bioinformatics and data science team at SAGA Diagnostics, a company developing personalized cancer diagnostics based on genomics and liquid biopsy.
 Additionally, I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
 My main interest is in using computational methods and biological/medical data to improve our understanding and treatment of diseases.
