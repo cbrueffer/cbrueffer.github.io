@@ -20,7 +20,7 @@ title: Consulting
 author: cbrueffer
 ---
 
-I'm available for consulting opportunities in industry and academia through my company [InSilico Consulting AB](https://insilico.consulting).
+I provide bioinformatics and data science consulting services to clients in industry and academia through my company [InSilico Consulting AB](https://insilico.consulting).
 With a decade of experience in bioinformatics, biomedical data science, genomics, and diagnostics, as well as over two decades in IT to draw from I can help you make sense of your data.
 For more details on my experience, please see [About Me]({{< ref "/" >}}) and my [publications]({{< ref "/publication" >}}) and [public talks]({{< ref "/event" >}}).
 
@@ -28,11 +28,13 @@ For more details on my experience, please see [About Me]({{< ref "/" >}}) and my
 
 - Genomics, Transcriptomics, and other Omics analyses
 - Clinical data analysis
-- Cancer/oncology-related applications, such as liquid biopsy
+- Cancer/oncology-related applications, such as somatic mutation profiling and liquid biopsy
 - Computational pipeline/workflow development
 - Data processing, cleaning, integration, and visualization
 - Machine learning
 - Software development
+
+See [https://insilico.consulting](https://insilico.consulting) for more details.
 
 #### Get in touch
 
