@@ -1,0 +1,8 @@
+User-agent: *
+
+disallow: /author
+disallow: /authors
+disallow: /event
+disallow: /publication
+
+Sitemap: {{ "sitemap.xml" | absURL }}
