@@ -48,7 +48,7 @@ A high burden of SVs was detected (median 90 SVs, range 24-287) and dPCR assays 
 
 **Conclusions**<br />
 
-The present tumor-informed dPCR SV fingerprint ctDNA approach demonstrated feasibility with remarkably high detection rates pre- and postoperatively. Postoperative ctDNA levels differed substantially based on postoperative tumor residuals. These findings suggest that this personalized approach could be used to develop a dPCR SV detection assay and may have clinical utility for postoperative MRD evaluation in patients with primary advanced HGSOC.<br />
+The present tumor-informed dPCR SV fingerprint ctDNA approach demonstrated feasibility with remarkably high detection rates pre- and postoperatively. Postoperative ctDNA levels differed substantially based on postoperative tumor residuals. These findings suggest that this personalized approach could be used to develop a dPCR SV detection assay and may have clinical utility for postoperative MRD evaluation in patients with primary advanced HGSOC.<br />"
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
