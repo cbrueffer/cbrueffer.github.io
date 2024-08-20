@@ -14,7 +14,7 @@ authors:
 - Gerda Hofstetter
 - Leonhard Muellauer
 - Mirjana Kessler
-- Febian Trillsch
+- Fabian Trillsch
 
 date: 2024-05-29
 doi: "10.1200/JCO.2024.42.16_suppl.5544"
