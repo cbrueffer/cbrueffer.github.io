@@ -31,7 +31,7 @@ featured: false
 
 links:
 - name: "PDF"
-  url: "https://bsdmag.org/download/bsd-2009-archives/"
+  url: "https://archive.org/details/bsdmagazine/BSD_04_2009/"
   icon: "file-pdf"
 - name: "FreeBSD"
   url: "project/freebsd"
