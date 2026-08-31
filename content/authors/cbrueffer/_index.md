@@ -20,7 +20,7 @@ organizations:
   url: "https://portal.research.lu.se/portal/en/persons/christian-brueffer"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Freelance Bioinformatician and Data Scientist with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
+bio: Bioinformatics and Data Consultant with interests including disease biology and diagnostics, particularly in cancer, and open source bioinformatics.
 
 interests:
 - Bioinformatics and Data Science
@@ -91,8 +91,8 @@ user_groups:
 - Visitors
 ---
 
-I am a freelance Bioinformatician and Data Scientist providing [consulting]({{< ref "#consulting" >}}) services to clients in industry and academia to help them make sense of their data.
-Previously, I lead the bioinformatics and data science team at SAGA Diagnostics, a company developing personalized cancer diagnostics based on genomics and liquid biopsy.
+I am a Bioinformatician and Data Scientist providing [consulting]({{< ref "#consulting" >}}) services to clients in industry and academia to help them make sense of their data.
+Previously, I lead the bioinformatics and data science team at [SAGA Diagnostics](https://sagadiagnostics.com) ([now part of Roche / Foundation Medicine](https://www.foundationmedicine.com/press-release/saga-diagnostics-mrd-platform)), developing personalized liquid biopsy MRD cancer diagnostics.
 Additionally, I conduct research in affiliation with [Lund University](https://portal.research.lu.se/portal/en/persons/christian-brueffer) in Sweden.
 
 My main interest is in using computational methods and biological/medical data to improve our understanding and treatment of diseases.
