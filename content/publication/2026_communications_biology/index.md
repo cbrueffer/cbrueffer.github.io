@@ -27,7 +27,7 @@ add_badge: true
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Communications Biology, 2026*"
+publication: "*Communications Biology, 2026. 9, 1304*"
 #publication_short: ""
 
 abstract: "*ESR1* mutations are a driver of endocrine therapy resistance in breast cancer, however their impact on protein signaling pathways and clinical outcomes remains poorly understood. We analyzed the transcriptomic, proteomic, and phosphoproteomic landscape of tumors harboring *ESR1* mutations. Here we show that *ESR1* mutated cancers exhibit a higher mutational burden associated with increased cell proliferation, and display enhanced activation of the mTOR pathway via MTORC1, suggesting an ER-driven amplification of existing oncogenic mechanisms. Analysis of an independent proteomic dataset from breast cancer cell lines further supported a convergence between MTORC1 and ER signaling programs. Integrative multi-omic data analysis incorporating features related to tumor grade, MTORC1 signaling, and *ESR1* mutations, enabled the development of a predictive signature that distinguishes patients with *ESR1* mutation and identified those at high risk of recurrence. This study provides insights into the mechanisms underlying tumor aggressiveness and poor clinical outcome modulated by *ESR1* mutations and highlights the potential of proteogenomic approaches to identify signaling pathways and molecular signatures."
